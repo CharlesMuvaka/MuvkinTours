@@ -27,12 +27,7 @@ public class MealActivity extends AppCompatActivity {
              "Samosa",
              "Samosa",
              "Samosa",
-             "Samosa",
-             "Rice",
-             "Rice",
-             "Rice",
-             "Rice",
-             "Rice"
+             "Samosa"
      };
 
      int[] images = new int[]{
@@ -49,12 +44,7 @@ public class MealActivity extends AppCompatActivity {
              R.drawable.samosa,
              R.drawable.samosa,
              R.drawable.samosa,
-             R.drawable.samosa,
-             R.drawable.rice,
-             R.drawable.rice,
-             R.drawable.rice,
-             R.drawable.rice,
-             R.drawable.rice
+             R.drawable.samosa
 
      };
 
