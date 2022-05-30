@@ -1,0 +1,107 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.muvkintours"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/home/moringa/AndroidStudioProjects/MuvkinTours/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->/home/moringa/AndroidStudioProjects/MuvkinTours/app/src/main/AndroidManifest.xml
+10
+11    <application
+11-->/home/moringa/AndroidStudioProjects/MuvkinTours/app/src/main/AndroidManifest.xml:6:5-43:19
+12        android:allowBackup="true"
+12-->/home/moringa/AndroidStudioProjects/MuvkinTours/app/src/main/AndroidManifest.xml:7:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.7.0] /home/moringa/.gradle/caches/transforms-3/d8338c189490aee58604e111af57865f/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
+14        android:dataExtractionRules="@xml/data_extraction_rules"
+14-->/home/moringa/AndroidStudioProjects/MuvkinTours/app/src/main/AndroidManifest.xml:8:9-65
+15        android:debuggable="true"
+16        android:fullBackupContent="@xml/backup_rules"
+16-->/home/moringa/AndroidStudioProjects/MuvkinTours/app/src/main/AndroidManifest.xml:9:9-54
+17        android:icon="@mipmap/ic_launcher"
+17-->/home/moringa/AndroidStudioProjects/MuvkinTours/app/src/main/AndroidManifest.xml:10:9-43
+18        android:label="@string/app_name"
+18-->/home/moringa/AndroidStudioProjects/MuvkinTours/app/src/main/AndroidManifest.xml:11:9-41
+19        android:roundIcon="@mipmap/ic_launcher_round"
+19-->/home/moringa/AndroidStudioProjects/MuvkinTours/app/src/main/AndroidManifest.xml:12:9-54
+20        android:supportsRtl="true"
+20-->/home/moringa/AndroidStudioProjects/MuvkinTours/app/src/main/AndroidManifest.xml:13:9-35
+21        android:testOnly="true"
+22        android:theme="@style/Theme.MuvkinTours" >
+22-->/home/moringa/AndroidStudioProjects/MuvkinTours/app/src/main/AndroidManifest.xml:14:9-49
+23        <activity
+23-->/home/moringa/AndroidStudioProjects/MuvkinTours/app/src/main/AndroidManifest.xml:16:9-24:20
+24            android:name="com.example.muvkintours.MealActivity"
+24-->/home/moringa/AndroidStudioProjects/MuvkinTours/app/src/main/AndroidManifest.xml:17:13-41
+25            android:exported="false" >
+25-->/home/moringa/AndroidStudioProjects/MuvkinTours/app/src/main/AndroidManifest.xml:18:13-37
+26            <meta-data
+26-->/home/moringa/AndroidStudioProjects/MuvkinTours/app/src/main/AndroidManifest.xml:20:9-23:21
+27                android:name="android.support.PARENT_ACTIVITY"
+27-->/home/moringa/AndroidStudioProjects/MuvkinTours/app/src/main/AndroidManifest.xml:20:20-66
+28                android:value=".MainActivity" >
+28-->/home/moringa/AndroidStudioProjects/MuvkinTours/app/src/main/AndroidManifest.xml:21:13-42
+29            </meta-data>
+30        </activity>
+31        <activity
+31-->/home/moringa/AndroidStudioProjects/MuvkinTours/app/src/main/AndroidManifest.xml:25:9-34:20
+32            android:name="com.example.muvkintours.MainActivity"
+32-->/home/moringa/AndroidStudioProjects/MuvkinTours/app/src/main/AndroidManifest.xml:26:13-41
+33            android:exported="true"
+33-->/home/moringa/AndroidStudioProjects/MuvkinTours/app/src/main/AndroidManifest.xml:27:13-36
+34            android:theme="@style/Theme.Muvkin" >
+34-->/home/moringa/AndroidStudioProjects/MuvkinTours/app/src/main/AndroidManifest.xml:28:13-48
+35            <intent-filter>
+35-->/home/moringa/AndroidStudioProjects/MuvkinTours/app/src/main/AndroidManifest.xml:29:13-33:29
+36                <action android:name="android.intent.action.MAIN" />
+36-->/home/moringa/AndroidStudioProjects/MuvkinTours/app/src/main/AndroidManifest.xml:30:17-69
+36-->/home/moringa/AndroidStudioProjects/MuvkinTours/app/src/main/AndroidManifest.xml:30:25-66
+37
+38                <category android:name="android.intent.category.LAUNCHER" />
+38-->/home/moringa/AndroidStudioProjects/MuvkinTours/app/src/main/AndroidManifest.xml:32:17-77
+38-->/home/moringa/AndroidStudioProjects/MuvkinTours/app/src/main/AndroidManifest.xml:32:27-74
+39            </intent-filter>
+40        </activity>
+41        <activity
+41-->/home/moringa/AndroidStudioProjects/MuvkinTours/app/src/main/AndroidManifest.xml:35:9-38:51
+42            android:name="com.example.muvkintours.SignUpActivity"
+42-->/home/moringa/AndroidStudioProjects/MuvkinTours/app/src/main/AndroidManifest.xml:36:13-43
+43            android:exported="false"
+43-->/home/moringa/AndroidStudioProjects/MuvkinTours/app/src/main/AndroidManifest.xml:37:13-37
+44            android:theme="@style/Theme.Muvkin" />
+44-->/home/moringa/AndroidStudioProjects/MuvkinTours/app/src/main/AndroidManifest.xml:38:13-48
+45
+46        <meta-data
+46-->/home/moringa/AndroidStudioProjects/MuvkinTours/app/src/main/AndroidManifest.xml:40:9-42:57
+47            android:name="preloaded_fonts"
+47-->/home/moringa/AndroidStudioProjects/MuvkinTours/app/src/main/AndroidManifest.xml:41:13-43
+48            android:resource="@array/preloaded_fonts" />
+48-->/home/moringa/AndroidStudioProjects/MuvkinTours/app/src/main/AndroidManifest.xml:42:13-54
+49
+50        <provider
+50-->[androidx.emoji2:emoji2:1.0.0] /home/moringa/.gradle/caches/transforms-3/db233f3ba8947fb0f91cd701b83dfe6a/transformed/emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+51            android:name="androidx.startup.InitializationProvider"
+51-->[androidx.emoji2:emoji2:1.0.0] /home/moringa/.gradle/caches/transforms-3/db233f3ba8947fb0f91cd701b83dfe6a/transformed/emoji2-1.0.0/AndroidManifest.xml:27:13-67
+52            android:authorities="com.example.muvkintours.androidx-startup"
+52-->[androidx.emoji2:emoji2:1.0.0] /home/moringa/.gradle/caches/transforms-3/db233f3ba8947fb0f91cd701b83dfe6a/transformed/emoji2-1.0.0/AndroidManifest.xml:28:13-68
+53            android:exported="false" >
+53-->[androidx.emoji2:emoji2:1.0.0] /home/moringa/.gradle/caches/transforms-3/db233f3ba8947fb0f91cd701b83dfe6a/transformed/emoji2-1.0.0/AndroidManifest.xml:29:13-37
+54            <meta-data
+54-->[androidx.emoji2:emoji2:1.0.0] /home/moringa/.gradle/caches/transforms-3/db233f3ba8947fb0f91cd701b83dfe6a/transformed/emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+55                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+55-->[androidx.emoji2:emoji2:1.0.0] /home/moringa/.gradle/caches/transforms-3/db233f3ba8947fb0f91cd701b83dfe6a/transformed/emoji2-1.0.0/AndroidManifest.xml:32:17-75
+56                android:value="androidx.startup" />
+56-->[androidx.emoji2:emoji2:1.0.0] /home/moringa/.gradle/caches/transforms-3/db233f3ba8947fb0f91cd701b83dfe6a/transformed/emoji2-1.0.0/AndroidManifest.xml:33:17-49
+57            <meta-data
+57-->[androidx.lifecycle:lifecycle-process:2.4.0] /home/moringa/.gradle/caches/transforms-3/45759b04922bc547a81513b82a38ba1e/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+58                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+58-->[androidx.lifecycle:lifecycle-process:2.4.0] /home/moringa/.gradle/caches/transforms-3/45759b04922bc547a81513b82a38ba1e/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+59                android:value="androidx.startup" />
+59-->[androidx.lifecycle:lifecycle-process:2.4.0] /home/moringa/.gradle/caches/transforms-3/45759b04922bc547a81513b82a38ba1e/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+60        </provider>
+61    </application>
+62
+63</manifest>

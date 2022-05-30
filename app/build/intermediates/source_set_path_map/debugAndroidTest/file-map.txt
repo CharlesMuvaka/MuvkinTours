@@ -1,0 +1,7 @@
+com.example.muvkintours.test.app-androidTest-0 /home/moringa/AndroidStudioProjects/MuvkinTours/app/build/generated/res/resValues/androidTest/debug
+com.example.muvkintours.test.app-androidTest-1 /home/moringa/AndroidStudioProjects/MuvkinTours/app/build/generated/res/rs/androidTest/debug
+com.example.muvkintours.test.app-mergeDebugAndroidTestResources-2 /home/moringa/AndroidStudioProjects/MuvkinTours/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/merged.dir
+com.example.muvkintours.test.app-mergeDebugAndroidTestResources-3 /home/moringa/AndroidStudioProjects/MuvkinTours/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/stripped.dir
+com.example.muvkintours.test.app-merged_res-4 /home/moringa/AndroidStudioProjects/MuvkinTours/app/build/intermediates/merged_res/debugAndroidTest
+com.example.muvkintours.test.app-androidTest-5 /home/moringa/AndroidStudioProjects/MuvkinTours/app/src/androidTest/res
+com.example.muvkintours.test.app-androidTestDebug-6 /home/moringa/AndroidStudioProjects/MuvkinTours/app/src/androidTestDebug/res
