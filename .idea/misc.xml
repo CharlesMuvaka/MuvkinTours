@@ -3,6 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.237" />
         <entry key="app/src/main/res/drawable/img.xml" value="0.237" />
         <entry key="app/src/main/res/drawable/layout.xml" value="0.237" />
         <entry key="app/src/main/res/font/baloo.xml" value="0.38645833333333335" />

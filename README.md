@@ -52,7 +52,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 ## Contributing
 
-Please read [CONTRIBUTING.md](https://github.com/CharlesMuvaka12345/muvkinTours/issues) for details on our code of conduct, and the process for submitting pull requests to us.
+Please read [CONTRIBUTING.md](https://github.com/CharlesMuvaka12345/MuvkinTours/issues) for details on our code of conduct, and the process for submitting pull requests to us.
 
 
 ## Authors
