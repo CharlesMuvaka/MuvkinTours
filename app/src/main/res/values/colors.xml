@@ -8,6 +8,8 @@
     <color name="black">#FF000000</color>
     <color name="white1">#C5B1B1</color>
     <color name="white">#FFFFFF</color>
-    <color name="white2">#20FFFF</color>
-    <color name="splash">#FF742835</color>
+    <color name="white2">#C7D1D1</color>
+    <color name="splash">#e09530</color>
+    <color name="splash2">#BC2B21</color>
+    <color name="splash3">#C30D01</color>
 </resources>
