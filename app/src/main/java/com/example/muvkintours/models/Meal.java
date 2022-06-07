@@ -1,13 +1,14 @@
 
-package com.example.retrofit.models;
-
-import java.util.List;
-
+package com.example.muvkintours.models;
 
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
+import org.parceler.Parcel;
 
+import java.util.List;
+
+@Parcel
 public class Meal {
 
     @SerializedName("categories")
