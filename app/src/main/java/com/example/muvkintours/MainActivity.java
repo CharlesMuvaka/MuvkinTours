@@ -8,6 +8,7 @@ import android.view.View;
 import android.widget.Toast;
 
 import com.example.muvkintours.databinding.ActivityMainBinding;
+import com.google.android.material.textfield.TextInputLayout;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
     private ActivityMainBinding mainBind;
@@ -18,22 +19,35 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         mainBind = ActivityMainBinding.inflate(getLayoutInflater());
         setContentView(mainBind.getRoot());
 
-        mainBind.order.setOnClickListener(this);
-        mainBind.img1.setOnClickListener(this);
-        mainBind.foodImg2.setOnClickListener(this);
-        mainBind.foodImg3.setOnClickListener(this);
+        mainBind.btnLogin.setOnClickListener(this);
+        mainBind.btnSign.setOnClickListener(this);
+
+
+
+
     }
 
     @Override
     public void onClick(View v) {
-        if (v == mainBind.order){
-            Intent signIntent = new Intent(MainActivity.this, SignUpActivity.class);
+
+        Validator validator = new Validator();
+        TextInputLayout userName = mainBind.userName;
+        TextInputLayout userPhone = mainBind.userPhone;
+
+        if (v == mainBind.btnLogin ){
+            if(!validator.validateName(userName) || !validator.validatePhone(userPhone)){
+                return;
+            }
+
+            Intent mealIntent = new Intent(MainActivity.this, MealActivity.class );
+            mealIntent.putExtra("userName", userName.getEditText().getText().toString());
+            startActivity(mealIntent);
+
+        }else{
+
+            Intent signIntent = new Intent(MainActivity.this, SignUpActivity.class );
             startActivity(signIntent);
         }
 
-        if (v == mainBind.img1 || v == mainBind.foodImg2 || v == mainBind.foodImg3){
-
-            Toast.makeText(MainActivity.this, "Click on the order button to submit delivery details", Toast.LENGTH_LONG).show();
-        }
     }
 }
