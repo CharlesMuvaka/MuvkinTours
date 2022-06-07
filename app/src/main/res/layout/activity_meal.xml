@@ -8,27 +8,50 @@
 
 
     <TextView
-        android:id="@+id/mealText"
-        android:text=""
-        android:layout_marginTop="20dp"
-        android:layout_marginBottom="19dp"
+        android:visibility="gone"
+        android:id="@+id/meal"
+        android:text="Meal Categories"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
+        android:layout_margin="12dp"
+        android:textSize="20sp"
+        android:fontFamily="@font/baloo"/>
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/mealText"
+        android:text=""
+        android:layout_marginStart="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/meal"
         android:textSize="15sp"
         android:fontFamily="@font/baloo"/>
 
-    <GridView
-        android:layout_below="@+id/mealText"
-        android:id="@+id/grid"
+    <androidx.recyclerview.widget.RecyclerView
+        android:visibility="gone"
+        android:id="@+id/recView"
         android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/mealText"/>
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentBottom="true"
-        android:columnWidth="80sp"
-        android:numColumns="3"
-        android:scrollingCache="false"
-        android:stretchMode="spacingWidthUniform" />
+        android:layout_centerInParent="true"
+        style="?android:attr/progressBarStyle"/>
+
+<!--    <GridView-->
+<!--        android:layout_below="@+id/mealText"-->
+<!--        android:id="@+id/grid"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_alignParentStart="true"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:columnWidth="80sp"-->
+<!--        android:numColumns="3"-->
+<!--        android:scrollingCache="false"-->
+<!--        android:stretchMode="spacingWidthUniform" />-->
 
 </RelativeLayout>
