@@ -1,334 +1,153 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:background="@color/splash"
-    android:layout_height="match_parent">
-    <androidx.constraintlayout.widget.ConstraintLayout
-        android:layout_width="match_parent"
+ <androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:background="@drawable/main"
         android:layout_height="match_parent"
-        tools:context=".MainActivity">
+        tools:context=".MainActivity"
+        android:layout_width="match_parent">
 
-        <com.google.android.material.imageview.ShapeableImageView
-            android:id="@+id/logoImg"
-            android:layout_width="60dp"
-            android:layout_height="30dp"
-            android:adjustViewBounds="true"
-            android:scaleType="centerCrop"
-            android:layout_margin="30dp"
-            android:src="@drawable/logo"
-            app:shapeAppearanceOverlay="@style/radius"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintRight_toLeftOf="@id/logo"
-            app:layout_constraintBottom_toTopOf="@id/slogan"
-            app:layout_constraintStart_toStartOf="parent"/>
-
-        <TextView
-            android:id="@+id/logo"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:fontFamily="@font/baloo"
-            android:textColor="@color/white"
-            android:textStyle="bold"
-            android:textSize="20sp"
-            android:text="MuvKinTours"
-            android:layout_marginStart="8dp"
-            app:layout_constraintStart_toEndOf="@id/logoImg"
-            app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintBottom_toTopOf="@id/slogan"
-            />
-
-        <com.google.android.material.button.MaterialButton
-            android:id="@+id/order"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:backgroundTint="@color/black"
-            android:text="Order"
-            app:layout_constraintLeft_toRightOf="@+id/logo"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintBottom_toTopOf="@+id/slogan"
-            android:layout_marginEnd="28dp"/>
-
-        <TextView
-            android:id="@+id/slogan"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textAlignment="center"
-            android:textColor="@color/white"
-
-            android:text="Click on the order button to get your favourite meal as you cruise throught the kenyan adventure"
-            android:textSize="15sp"
-            android:textStyle="normal"
-            android:layout_marginBottom="20dp"
-            app:layout_constraintBottom_toTopOf="@+id/r1"
-            app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/logoImg" />
-
-        <androidx.constraintlayout.widget.ConstraintLayout
-            android:id="@+id/r1"
-            android:layout_width="100dp"
-            android:layout_height="wrap_content"
-            android:background="@drawable/img"
-            app:layout_constraintRight_toLeftOf="@id/row3"
-            app:layout_constraintLeft_toRightOf="@id/row2"
-            app:layout_constraintTop_toBottomOf="@+id/slogan"
-            app:layout_constraintBottom_toTopOf="@+id/r2">
-
-            <TextView
-                android:id="@+id/fname"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Samosa"
-                android:textSize="15sp"
-                android:textStyle="bold"
-                app:layout_constraintBottom_toTopOf="@id/img1"
-                app:layout_constraintLeft_toLeftOf="parent"
-                app:layout_constraintRight_toRightOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
-
-            <com.google.android.material.imageview.ShapeableImageView
-                android:id="@+id/img1"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="10dp"
-                android:layout_marginRight="10dp"
-                android:adjustViewBounds="true"
-                android:elevation="20dp"
-                android:src="@drawable/samosa"
-                app:layout_constraintBottom_toTopOf="@id/rating"
-                app:layout_constraintLeft_toLeftOf="parent"
-                app:layout_constraintRight_toRightOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/fname"
-                app:shapeAppearanceOverlay="@style/radius" />
-
-
-            <RatingBar
-                android:id="@+id/rating"
-                style="@style/Widget.AppCompat.RatingBar.Small"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="5dp"
-                android:rating="3.5"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintLeft_toLeftOf="parent"
-                app:layout_constraintRight_toRightOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/img1" />
-
-
-        </androidx.constraintlayout.widget.ConstraintLayout>
-        <androidx.constraintlayout.widget.ConstraintLayout
-            android:id="@+id/row2"
-            android:layout_width="100dp"
-            android:layout_height="wrap_content"
-            android:background="@drawable/img"
-            app:layout_constraintHorizontal_chainStyle="spread"
-            app:layout_constraintRight_toLeftOf="@id/r1"
-            app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/slogan"
-            app:layout_constraintBottom_toTopOf="@id/r2">
-
-
-            <TextView
-                android:id="@+id/food2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Pizza"
-                android:textSize="15sp"
-                android:textStyle="bold"
-                app:layout_constraintLeft_toLeftOf="parent"
-                app:layout_constraintRight_toRightOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintBottom_toTopOf="@id/foodImg2"/>
-
-
-
-            <com.google.android.material.imageview.ShapeableImageView
-                android:id="@+id/foodImg2"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="10dp"
-                android:layout_marginRight="10dp"
-                android:adjustViewBounds="true"
-                android:elevation="20dp"
-                android:src="@drawable/piza"
-                app:layout_constraintTop_toBottomOf="@id/food2"
-                app:layout_constraintLeft_toLeftOf="parent"
-                app:layout_constraintRight_toRightOf="parent"
-                app:layout_constraintBottom_toTopOf="@+id/rating2"
-                app:shapeAppearanceOverlay="@style/radius" />
-
-
-            <RatingBar
-                android:id="@+id/rating2"
-                style="@style/Widget.AppCompat.RatingBar.Small"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_margin="5dp"
-                android:rating="3.5"
-                app:layout_constraintLeft_toLeftOf="parent"
-                app:layout_constraintRight_toRightOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/foodImg2"
-                app:layout_constraintBottom_toBottomOf="parent"/>
-
-
-        </androidx.constraintlayout.widget.ConstraintLayout>
-        <androidx.constraintlayout.widget.ConstraintLayout
-            android:id="@+id/row3"
-            android:layout_width="100dp"
-            android:layout_height="wrap_content"
-            android:background="@drawable/img"
-            app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintLeft_toRightOf="@+id/r1"
-            app:layout_constraintTop_toBottomOf="@+id/slogan"
-            app:layout_constraintBottom_toTopOf="@id/r2">
-
-
-            <TextView
-                android:id="@+id/food3"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text=" Burger"
-                android:textSize="15sp"
-                android:textStyle="bold"
-                app:layout_constraintLeft_toLeftOf="parent"
-                app:layout_constraintRight_toRightOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintBottom_toTopOf="@id/foodImg3"/>
-
-
-
-            <com.google.android.material.imageview.ShapeableImageView
-                android:id="@+id/foodImg3"
-                android:layout_width="00dp"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="10dp"
-                android:layout_marginRight="10dp"
-                android:adjustViewBounds="true"
-                android:elevation="20dp"
-                android:src="@drawable/burger"
-                app:layout_constraintTop_toBottomOf="@id/food3"
-                app:layout_constraintLeft_toLeftOf="parent"
-                app:layout_constraintRight_toRightOf="parent"
-                app:layout_constraintBottom_toTopOf="@+id/rating3"
-                app:shapeAppearanceOverlay="@style/radius" />
-
-
-            <RatingBar
-                android:id="@+id/rating3"
-                style="@style/Widget.AppCompat.RatingBar.Small"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_margin="5dp"
-                android:rating="3.5"
-                app:layout_constraintLeft_toLeftOf="parent"
-                app:layout_constraintRight_toRightOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/foodImg3"
-                app:layout_constraintBottom_toBottomOf="parent"/>
-
-
-        </androidx.constraintlayout.widget.ConstraintLayout>
-
-
-        <androidx.constraintlayout.widget.ConstraintLayout
-            android:layout_margin="12dp"
-            android:id="@+id/r2"
+        <ScrollView
             android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:background="@drawable/img"
-            app:layout_constraintTop_toBottomOf="@+id/r1">
+            android:layout_height="match_parent">
 
-            <com.google.android.material.imageview.ShapeableImageView
-                android:id="@+id/img2"
-                android:layout_width="wrap_content"
-                android:layout_height="120dp"
-                android:layout_margin="10dp"
-                android:elevation="20dp"
-                android:adjustViewBounds="true"
-                android:src="@drawable/order"
-                app:shapeAppearanceOverlay="@style/radius"
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="16dp"
+                android:layout_marginLeft="16dp"
+                android:background="@drawable/img"
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintStart_toStartOf="parent"/>
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent">
 
-            <TextView
-                android:id="@+id/fname2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Order Meal"
-                android:textSize="20sp"
-                android:textStyle="bold"
-                app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintLeft_toRightOf="@id/img2"
-                app:layout_constraintRight_toRightOf="parent"
-                app:layout_constraintBottom_toTopOf="@id/fdesc2"/>
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:id="@+id/logImage"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginTop="16dp"
+                    android:src="@drawable/samosa"
+                    app:layout_constraintBottom_toTopOf="@id/logWelcome"
+                    app:shapeAppearanceOverlay="@style/radii"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
 
-            <TextView
-                android:id="@+id/fdesc2"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_margin="10dp"
-                android:text="Swahili chefs waiting for you, dont die of hunger when affordable meals are there for you!!"
-                android:textSize="15sp"
-                android:textStyle="bold"
-                app:layout_constraintTop_toBottomOf="@id/fname2"
-                app:layout_constraintRight_toRightOf="parent"
-                app:layout_constraintLeft_toRightOf="@id/img2" />
+                <TextView
+                    android:id="@+id/logWelcome"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/baloo"
+                    android:textSize="20dp"
+                    android:text="Welcome to muvkinTours"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/logImage" />
 
-        </androidx.constraintlayout.widget.ConstraintLayout>
+                <TextView
+                    android:id="@+id/logSlogan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:text=" Home of Tasty meals, Where they all died of obesity"
+                    android:textStyle="bold"
+                    android:textAlignment="center"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/logWelcome"
+                    app:layout_constraintBottom_toTopOf="@id/userName"/>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/userName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="24dp"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginEnd="24dp"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/logSlogan"
+                    app:layout_constraintBottom_toTopOf="@id/userPhone"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    app:startIconDrawable="@drawable/person">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:hint="Enter your UserName"/>
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/userPhone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginEnd="24dp"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/userName"
+                    app:layout_constraintBottom_toTopOf="@id/userPassword"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    app:startIconDrawable="@drawable/phone">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:inputType="number"
+                        android:hint="Enter your phone number"/>
+                </com.google.android.material.textfield.TextInputLayout>
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/userPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginEnd="24dp"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/userPhone"
+                    app:passwordToggleEnabled="true"
+                    app:layout_constraintBottom_toTopOf="@id/btnLogin"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    app:startIconDrawable="@drawable/ticket">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:inputType="text"
+                        android:hint="Enter your Ticket 'C34'"/>
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btnLogin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="24dp"
+                    android:text="login"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintRight_toLeftOf="@id/btnSign"
+                    app:layout_constraintTop_toBottomOf="@id/userPassword"
+                    app:layout_constraintBottom_toBottomOf="parent"/>
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btnSign"
+                    android:text="SignUp"
+                    android:layout_margin="24dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toRightOf="@id/btnLogin"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/userPassword"
+                    app:layout_constraintBottom_toBottomOf="parent"/>
 
 
-        <androidx.constraintlayout.widget.ConstraintLayout
-            android:layout_margin="12dp"
-            android:id="@+id/r3"
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:background="@drawable/img"
-            app:layout_constraintTop_toBottomOf="@+id/r2">
-
-            <com.google.android.material.imageview.ShapeableImageView
-                android:id="@+id/img3"
-                android:layout_width="wrap_content"
-                android:layout_height="120dp"
-                android:layout_margin="10dp"
-                android:elevation="20dp"
-                android:adjustViewBounds="true"
-                android:src="@drawable/service"
-                app:shapeAppearanceOverlay="@style/radius"
-                app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintStart_toStartOf="parent"/>
-
-            <TextView
-                android:id="@+id/fname3"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Meal Delivery"
-                android:textSize="20sp"
-                android:textStyle="bold"
-                app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintLeft_toRightOf="@id/img3"
-                app:layout_constraintRight_toRightOf="parent"
-                app:layout_constraintBottom_toTopOf="@id/fdesc3"/>
-
-            <TextView
-                android:id="@+id/fdesc3"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_margin="10dp"
-                android:text="Remember to fill in the required details for the meal to be delivered to the right table."
-                android:textSize="15sp"
-                android:textStyle="bold"
-                app:layout_constraintTop_toBottomOf="@id/fname3"
-                app:layout_constraintRight_toRightOf="parent"
-                app:layout_constraintLeft_toRightOf="@id/img3" />
-
-        </androidx.constraintlayout.widget.ConstraintLayout>
-
-
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </ScrollView>
     </androidx.constraintlayout.widget.ConstraintLayout>
-</ScrollView>
+
+
+    
