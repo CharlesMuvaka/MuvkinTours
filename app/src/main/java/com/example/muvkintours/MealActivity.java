@@ -1,52 +1,32 @@
 package com.example.muvkintours;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.AdapterView;
-import android.widget.Toast;
 
-import com.example.muvkintours.Adapters.GridAdapter;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
+import com.example.muvkintours.Adapters.MealRecyclerAdapter;
 import com.example.muvkintours.databinding.ActivityMealBinding;
+import com.example.muvkintours.mealApi.MealAPi;
+import com.example.muvkintours.mealApi.RetrofitClient;
+import com.example.muvkintours.models.Category;
+import com.example.muvkintours.models.Meal;
+
+import java.util.List;
+
+import retrofit2.Call;
+import retrofit2.Callback;
+import retrofit2.Response;
 
 public class MealActivity extends AppCompatActivity {
     ActivityMealBinding mealBind;
-     String[] meals = new String[]{
-             "Pilau",
-             "Rice",
-             "Githeri",
-             "beer",
-             "juice",
-             "Guavas",
-             "Ugali",
-             "Burger",
-             "Samosa",
-             "Samosa",
-             "Samosa",
-             "Samosa",
-             "Samosa",
-             "Samosa"
-     };
+    MealRecyclerAdapter adp;
+    RecyclerView.LayoutManager layoutManager;
+    List<Category> allCats;
 
-     int[] images = new int[]{
-             R.drawable.pilau,
-             R.drawable.rice,
-             R.drawable.githeri,
-             R.drawable.beer,
-             R.drawable.githeri,
-             R.drawable.fruits,
-             R.drawable.ugali,
-             R.drawable.rice,
-             R.drawable.samosa,
-             R.drawable.samosa,
-             R.drawable.samosa,
-             R.drawable.samosa,
-             R.drawable.samosa,
-             R.drawable.samosa
 
-     };
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -54,19 +34,63 @@ public class MealActivity extends AppCompatActivity {
         mealBind = ActivityMealBinding.inflate(getLayoutInflater());
         setContentView(mealBind.getRoot());
 
+        RecyclerView myView = mealBind.recView;
+
         Intent newIntent = getIntent();
-        String name = newIntent.getStringExtra("name");
-        mealBind.mealText.setText("Welcome to the list of our available meals " + name);
+        String name = newIntent.getStringExtra("userName");
+        mealBind.mealText.setText("WELCOME"  + name +", click on the category to read more...");
 
+        MealAPi myClient = RetrofitClient.getClient();
+        Call<Meal> allMeals = myClient.getCategories();
 
-        GridAdapter adp = new GridAdapter(MealActivity.this,meals ,images);
-        mealBind.grid.setAdapter(adp);
-
-        mealBind.grid.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+        allMeals.enqueue(new Callback<Meal>() {
             @Override
-            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                Toast.makeText(MealActivity.this, name + "its not done wait!!", Toast.LENGTH_LONG).show();
+            public void onResponse(Call<Meal> call, Response<Meal> response) {
+
+                if (response.isSuccessful()){
+                    allCats = response.body().getCategories();
+
+                    adp = new MealRecyclerAdapter(allCats, MealActivity.this);
+                    layoutManager = new LinearLayoutManager(MealActivity.this,LinearLayoutManager.VERTICAL, false);
+                    myView.setAdapter(adp);
+                    myView.setLayoutManager(layoutManager);
+                    myView.setHasFixedSize(true);
+
+                    showMeals();
+                }else {
+                    unSuccessful();
+                }
+            }
+
+            @Override
+            public void onFailure(Call<Meal> call, Throwable t) {
+                onReqFailure();
+
             }
         });
+
+
+
+
+    }
+
+    public void showMeals(){
+        mealBind.recView.setVisibility(View.VISIBLE);
+        mealBind.mealText.setVisibility(View.VISIBLE);
+        mealBind.progressBar.setVisibility(View.GONE);
+        mealBind.meal.setVisibility(View.VISIBLE);
+    }
+
+    public void unSuccessful(){
+
+        mealBind.mealText.setText("Please check your internet connection");
+        mealBind.mealText.setVisibility(View.VISIBLE);
+        mealBind.progressBar.setVisibility(View.GONE);
+    }
+
+    public void onReqFailure(){
+        mealBind.mealText.setText("Something happened try again later");
+        mealBind.mealText.setVisibility(View.VISIBLE);
+        mealBind.progressBar.setVisibility(View.GONE);
     }
 }
