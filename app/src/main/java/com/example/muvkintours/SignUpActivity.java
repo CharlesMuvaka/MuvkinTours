@@ -35,9 +35,10 @@ public class SignUpActivity extends AppCompatActivity implements View.OnClickLis
            if (!validate.validateName(userName) || !validate.validatePhone(userPhone)){
                return;
            }else{
+
                String name = userName.getEditText().getText().toString();
                Intent meals = new Intent(SignUpActivity.this, MealActivity.class);
-               meals.putExtra("name", name);
+               meals.putExtra("userName", name);
                Toast.makeText(SignUpActivity.this, "Details received Successfully", Toast.LENGTH_SHORT).show();
                startActivity(meals);
            }
