@@ -4,11 +4,12 @@ package com.example.muvkintours.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.GridView;
+import android.widget.ProgressBar;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.example.muvkintours.R;
@@ -21,16 +22,24 @@ public final class ActivityMealBinding implements ViewBinding {
   private final RelativeLayout rootView;
 
   @NonNull
-  public final GridView grid;
+  public final TextView meal;
 
   @NonNull
   public final TextView mealText;
 
-  private ActivityMealBinding(@NonNull RelativeLayout rootView, @NonNull GridView grid,
-      @NonNull TextView mealText) {
+  @NonNull
+  public final ProgressBar progressBar;
+
+  @NonNull
+  public final RecyclerView recView;
+
+  private ActivityMealBinding(@NonNull RelativeLayout rootView, @NonNull TextView meal,
+      @NonNull TextView mealText, @NonNull ProgressBar progressBar, @NonNull RecyclerView recView) {
     this.rootView = rootView;
-    this.grid = grid;
+    this.meal = meal;
     this.mealText = mealText;
+    this.progressBar = progressBar;
+    this.recView = recView;
   }
 
   @Override
@@ -60,9 +69,9 @@ public final class ActivityMealBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.grid;
-      GridView grid = ViewBindings.findChildViewById(rootView, id);
-      if (grid == null) {
+      id = R.id.meal;
+      TextView meal = ViewBindings.findChildViewById(rootView, id);
+      if (meal == null) {
         break missingId;
       }
 
@@ -72,7 +81,20 @@ public final class ActivityMealBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityMealBinding((RelativeLayout) rootView, grid, mealText);
+      id = R.id.progressBar;
+      ProgressBar progressBar = ViewBindings.findChildViewById(rootView, id);
+      if (progressBar == null) {
+        break missingId;
+      }
+
+      id = R.id.recView;
+      RecyclerView recView = ViewBindings.findChildViewById(rootView, id);
+      if (recView == null) {
+        break missingId;
+      }
+
+      return new ActivityMealBinding((RelativeLayout) rootView, meal, mealText, progressBar,
+          recView);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

@@ -21,20 +21,23 @@
     <color name="purple_200">#FFBB86FC</color>
     <color name="purple_500">#FF6200EE</color>
     <color name="purple_700">#FF3700B3</color>
-    <color name="splash">#FF742835</color>
+    <color name="splash">#e09530</color>
+    <color name="splash2">#BC2B21</color>
+    <color name="splash3">#C30D01</color>
     <color name="teal_200">#FF03DAC5</color>
     <color name="teal_700">#FF018786</color>
     <color name="white">#FFFFFF</color>
     <color name="white1">#C5B1B1</color>
-    <color name="white2">#20FFFF</color>
+    <color name="white2">#C7D1D1</color>
     <string name="app_name">MuvkinTours</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
     <style name="Theme.Muvkin" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <item name="colorPrimary">@color/splash</item>
         <item name="colorPrimaryVariant">@color/splash</item>
         <item name="colorOnPrimary">@color/white</item>
         
-        <item name="colorSecondary">@color/teal_200</item>
-        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorSecondary">@color/splash</item>
+        <item name="colorSecondaryVariant">@color/splash2</item>
         <item name="colorOnSecondary">@color/black</item>
         
         <item name="android:statusBarColor" ns1:targetApi="l">?attr/colorPrimaryVariant</item>
@@ -46,8 +49,8 @@
         <item name="colorPrimaryVariant">@color/splash</item>
         <item name="colorOnPrimary">@color/white</item>
         
-        <item name="colorSecondary">@color/teal_200</item>
-        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorSecondary">@color/splash2</item>
+        <item name="colorSecondaryVariant">@color/splash</item>
         <item name="colorOnSecondary">@color/black</item>
         
         <item name="android:statusBarColor" ns1:targetApi="l">?attr/colorPrimaryVariant</item>

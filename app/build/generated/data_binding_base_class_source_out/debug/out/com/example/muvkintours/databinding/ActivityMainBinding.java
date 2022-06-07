@@ -4,8 +4,6 @@ package com.example.muvkintours.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.RatingBar;
-import android.widget.ScrollView;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -15,126 +13,57 @@ import androidx.viewbinding.ViewBindings;
 import com.example.muvkintours.R;
 import com.google.android.material.button.MaterialButton;
 import com.google.android.material.imageview.ShapeableImageView;
+import com.google.android.material.textfield.TextInputLayout;
 import java.lang.NullPointerException;
 import java.lang.Override;
 import java.lang.String;
 
 public final class ActivityMainBinding implements ViewBinding {
   @NonNull
-  private final ScrollView rootView;
+  private final ConstraintLayout rootView;
 
   @NonNull
-  public final TextView fdesc2;
+  public final MaterialButton btnLogin;
 
   @NonNull
-  public final TextView fdesc3;
+  public final MaterialButton btnSign;
 
   @NonNull
-  public final TextView fname;
+  public final ShapeableImageView logImage;
 
   @NonNull
-  public final TextView fname2;
+  public final TextView logSlogan;
 
   @NonNull
-  public final TextView fname3;
+  public final TextView logWelcome;
 
   @NonNull
-  public final TextView food2;
+  public final TextInputLayout userName;
 
   @NonNull
-  public final TextView food3;
+  public final TextInputLayout userPassword;
 
   @NonNull
-  public final ShapeableImageView foodImg2;
+  public final TextInputLayout userPhone;
 
-  @NonNull
-  public final ShapeableImageView foodImg3;
-
-  @NonNull
-  public final ShapeableImageView img1;
-
-  @NonNull
-  public final ShapeableImageView img2;
-
-  @NonNull
-  public final ShapeableImageView img3;
-
-  @NonNull
-  public final TextView logo;
-
-  @NonNull
-  public final ShapeableImageView logoImg;
-
-  @NonNull
-  public final MaterialButton order;
-
-  @NonNull
-  public final ConstraintLayout r1;
-
-  @NonNull
-  public final ConstraintLayout r2;
-
-  @NonNull
-  public final ConstraintLayout r3;
-
-  @NonNull
-  public final RatingBar rating;
-
-  @NonNull
-  public final RatingBar rating2;
-
-  @NonNull
-  public final RatingBar rating3;
-
-  @NonNull
-  public final ConstraintLayout row2;
-
-  @NonNull
-  public final ConstraintLayout row3;
-
-  @NonNull
-  public final TextView slogan;
-
-  private ActivityMainBinding(@NonNull ScrollView rootView, @NonNull TextView fdesc2,
-      @NonNull TextView fdesc3, @NonNull TextView fname, @NonNull TextView fname2,
-      @NonNull TextView fname3, @NonNull TextView food2, @NonNull TextView food3,
-      @NonNull ShapeableImageView foodImg2, @NonNull ShapeableImageView foodImg3,
-      @NonNull ShapeableImageView img1, @NonNull ShapeableImageView img2,
-      @NonNull ShapeableImageView img3, @NonNull TextView logo, @NonNull ShapeableImageView logoImg,
-      @NonNull MaterialButton order, @NonNull ConstraintLayout r1, @NonNull ConstraintLayout r2,
-      @NonNull ConstraintLayout r3, @NonNull RatingBar rating, @NonNull RatingBar rating2,
-      @NonNull RatingBar rating3, @NonNull ConstraintLayout row2, @NonNull ConstraintLayout row3,
-      @NonNull TextView slogan) {
+  private ActivityMainBinding(@NonNull ConstraintLayout rootView, @NonNull MaterialButton btnLogin,
+      @NonNull MaterialButton btnSign, @NonNull ShapeableImageView logImage,
+      @NonNull TextView logSlogan, @NonNull TextView logWelcome, @NonNull TextInputLayout userName,
+      @NonNull TextInputLayout userPassword, @NonNull TextInputLayout userPhone) {
     this.rootView = rootView;
-    this.fdesc2 = fdesc2;
-    this.fdesc3 = fdesc3;
-    this.fname = fname;
-    this.fname2 = fname2;
-    this.fname3 = fname3;
-    this.food2 = food2;
-    this.food3 = food3;
-    this.foodImg2 = foodImg2;
-    this.foodImg3 = foodImg3;
-    this.img1 = img1;
-    this.img2 = img2;
-    this.img3 = img3;
-    this.logo = logo;
-    this.logoImg = logoImg;
-    this.order = order;
-    this.r1 = r1;
-    this.r2 = r2;
-    this.r3 = r3;
-    this.rating = rating;
-    this.rating2 = rating2;
-    this.rating3 = rating3;
-    this.row2 = row2;
-    this.row3 = row3;
-    this.slogan = slogan;
+    this.btnLogin = btnLogin;
+    this.btnSign = btnSign;
+    this.logImage = logImage;
+    this.logSlogan = logSlogan;
+    this.logWelcome = logWelcome;
+    this.userName = userName;
+    this.userPassword = userPassword;
+    this.userPhone = userPhone;
   }
 
   @Override
   @NonNull
-  public ScrollView getRoot() {
+  public ConstraintLayout getRoot() {
     return rootView;
   }
 
@@ -159,153 +88,56 @@ public final class ActivityMainBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.fdesc2;
-      TextView fdesc2 = ViewBindings.findChildViewById(rootView, id);
-      if (fdesc2 == null) {
+      id = R.id.btnLogin;
+      MaterialButton btnLogin = ViewBindings.findChildViewById(rootView, id);
+      if (btnLogin == null) {
         break missingId;
       }
 
-      id = R.id.fdesc3;
-      TextView fdesc3 = ViewBindings.findChildViewById(rootView, id);
-      if (fdesc3 == null) {
+      id = R.id.btnSign;
+      MaterialButton btnSign = ViewBindings.findChildViewById(rootView, id);
+      if (btnSign == null) {
         break missingId;
       }
 
-      id = R.id.fname;
-      TextView fname = ViewBindings.findChildViewById(rootView, id);
-      if (fname == null) {
+      id = R.id.logImage;
+      ShapeableImageView logImage = ViewBindings.findChildViewById(rootView, id);
+      if (logImage == null) {
         break missingId;
       }
 
-      id = R.id.fname2;
-      TextView fname2 = ViewBindings.findChildViewById(rootView, id);
-      if (fname2 == null) {
+      id = R.id.logSlogan;
+      TextView logSlogan = ViewBindings.findChildViewById(rootView, id);
+      if (logSlogan == null) {
         break missingId;
       }
 
-      id = R.id.fname3;
-      TextView fname3 = ViewBindings.findChildViewById(rootView, id);
-      if (fname3 == null) {
+      id = R.id.logWelcome;
+      TextView logWelcome = ViewBindings.findChildViewById(rootView, id);
+      if (logWelcome == null) {
         break missingId;
       }
 
-      id = R.id.food2;
-      TextView food2 = ViewBindings.findChildViewById(rootView, id);
-      if (food2 == null) {
+      id = R.id.userName;
+      TextInputLayout userName = ViewBindings.findChildViewById(rootView, id);
+      if (userName == null) {
         break missingId;
       }
 
-      id = R.id.food3;
-      TextView food3 = ViewBindings.findChildViewById(rootView, id);
-      if (food3 == null) {
+      id = R.id.userPassword;
+      TextInputLayout userPassword = ViewBindings.findChildViewById(rootView, id);
+      if (userPassword == null) {
         break missingId;
       }
 
-      id = R.id.foodImg2;
-      ShapeableImageView foodImg2 = ViewBindings.findChildViewById(rootView, id);
-      if (foodImg2 == null) {
+      id = R.id.userPhone;
+      TextInputLayout userPhone = ViewBindings.findChildViewById(rootView, id);
+      if (userPhone == null) {
         break missingId;
       }
 
-      id = R.id.foodImg3;
-      ShapeableImageView foodImg3 = ViewBindings.findChildViewById(rootView, id);
-      if (foodImg3 == null) {
-        break missingId;
-      }
-
-      id = R.id.img1;
-      ShapeableImageView img1 = ViewBindings.findChildViewById(rootView, id);
-      if (img1 == null) {
-        break missingId;
-      }
-
-      id = R.id.img2;
-      ShapeableImageView img2 = ViewBindings.findChildViewById(rootView, id);
-      if (img2 == null) {
-        break missingId;
-      }
-
-      id = R.id.img3;
-      ShapeableImageView img3 = ViewBindings.findChildViewById(rootView, id);
-      if (img3 == null) {
-        break missingId;
-      }
-
-      id = R.id.logo;
-      TextView logo = ViewBindings.findChildViewById(rootView, id);
-      if (logo == null) {
-        break missingId;
-      }
-
-      id = R.id.logoImg;
-      ShapeableImageView logoImg = ViewBindings.findChildViewById(rootView, id);
-      if (logoImg == null) {
-        break missingId;
-      }
-
-      id = R.id.order;
-      MaterialButton order = ViewBindings.findChildViewById(rootView, id);
-      if (order == null) {
-        break missingId;
-      }
-
-      id = R.id.r1;
-      ConstraintLayout r1 = ViewBindings.findChildViewById(rootView, id);
-      if (r1 == null) {
-        break missingId;
-      }
-
-      id = R.id.r2;
-      ConstraintLayout r2 = ViewBindings.findChildViewById(rootView, id);
-      if (r2 == null) {
-        break missingId;
-      }
-
-      id = R.id.r3;
-      ConstraintLayout r3 = ViewBindings.findChildViewById(rootView, id);
-      if (r3 == null) {
-        break missingId;
-      }
-
-      id = R.id.rating;
-      RatingBar rating = ViewBindings.findChildViewById(rootView, id);
-      if (rating == null) {
-        break missingId;
-      }
-
-      id = R.id.rating2;
-      RatingBar rating2 = ViewBindings.findChildViewById(rootView, id);
-      if (rating2 == null) {
-        break missingId;
-      }
-
-      id = R.id.rating3;
-      RatingBar rating3 = ViewBindings.findChildViewById(rootView, id);
-      if (rating3 == null) {
-        break missingId;
-      }
-
-      id = R.id.row2;
-      ConstraintLayout row2 = ViewBindings.findChildViewById(rootView, id);
-      if (row2 == null) {
-        break missingId;
-      }
-
-      id = R.id.row3;
-      ConstraintLayout row3 = ViewBindings.findChildViewById(rootView, id);
-      if (row3 == null) {
-        break missingId;
-      }
-
-      id = R.id.slogan;
-      TextView slogan = ViewBindings.findChildViewById(rootView, id);
-      if (slogan == null) {
-        break missingId;
-      }
-
-      return new ActivityMainBinding((ScrollView) rootView, fdesc2, fdesc3, fname, fname2, fname3,
-          food2, food3, foodImg2, foodImg3, img1, img2, img3, logo, logoImg, order, r1, r2, r3,
-          rating, rating2, rating3, row2, row3, slogan);
+      return new ActivityMainBinding((ConstraintLayout) rootView, btnLogin, btnSign, logImage,
+          logSlogan, logWelcome, userName, userPassword, userPhone);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

@@ -1,0 +1,338 @@
+06-07 14:17:40.720 27673 27688 I TestRunner: started: clickRecyclerViewItem(com.example.muvkintours.MealActivityInstrumentedTest)
+06-07 14:17:40.740 27673 27688 W Settings: Setting always_finish_activities has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+06-07 14:17:40.750 27673 27688 I Timeline: Timeline: Activity_launch_request id:com.example.muvkintours.test time:309238010
+06-07 14:17:40.750   716  1502 D ActivityTrigger: ActivityTrigger activityPauseTrigger
+06-07 14:17:40.760  1349  1349 D Launcher: onPause, Launcher: 164206169
+06-07 14:17:40.760  1349  1349 D Launcher.HomeView: onPause
+06-07 14:17:40.760  1349  1349 D Launcher.Workspace: exitWidgetResizeMode. isClearResizeFrame is false
+06-07 14:17:40.760   716  1502 D InputDispatcher: Focused application set to: xxxx
+06-07 14:17:40.760   716  1502 D InputDispatcher: Focus left window: 1349
+06-07 14:17:40.760   716   902 D ViewRootImpl: #1 mView = com.android.internal.policy.PhoneWindow$DecorView{58d635a V.E...... R.....ID 0,0-0,0}
+06-07 14:17:40.760   716   902 D PointerIcon: setMouseIconStyle1 pointerType: 1001 iconType:101 flag:0 pid:716 uid:1000
+06-07 14:17:40.760   716   902 D PointerIcon: setMouseCustomIcon IconType is same.101
+06-07 14:17:40.770   238   238 I BufferQueue: [unnamed-238-2822](this:0xb31e9800,id:2822,api:0,p:-1,c:-1) BufferQueue core=(238:/system/bin/surfaceflinger)
+06-07 14:17:40.770   238   238 I BufferQueueConsumer: [unnamed-238-2822](this:0xb31e9800,id:2822,api:0,p:-1,c:238) connect(C): consumer=(238:/system/bin/surfaceflinger) controlledByApp=false
+06-07 14:17:40.770   238   238 I BufferQueueConsumer: [unnamed-238-2822](this:0xb31e9800,id:2822,api:0,p:-1,c:238) setConsumerName: unnamed-238-2822
+06-07 14:17:40.770   238   238 I BufferQueueConsumer: [Starting com.example.muvkintours.test](this:0xb31e9800,id:2822,api:0,p:-1,c:238) setConsumerName: Starting com.example.muvkintours.test
+06-07 14:17:40.770   238   238 I BufferQueueConsumer: [Starting com.example.muvkintours.test](this:0xb31e9800,id:2822,api:0,p:-1,c:238) setDefaultBufferSize: width=1 height=1
+06-07 14:17:40.770   238   238 I SurfaceFlinger: id=2822 createSurf (1x1),1 flag=404, uest
+06-07 14:17:40.770 27690 27690 E Zygote  : v2
+06-07 14:17:40.770 27690 27690 W SELinux : Function: selinux_compare_spd_ram, index[1], priority [2], priority version is VE=SEPF_SECMOBILE_6.0.1_0035
+06-07 14:17:40.770 27690 27690 E Zygote  : accessInfo : 0
+06-07 14:17:40.770 27690 27690 W SELinux : SELinux: seapp_context_lookup: seinfo=default, level=s0:c512,c768, pkgname=com.example.muvkintours.test
+06-07 14:17:40.770 27690 27690 I art     : Late-enabling -Xcheck:jni
+06-07 14:17:40.800   238   238 I BufferQueueConsumer: [Starting com.example.muvkintours.test](this:0xb31e9800,id:2822,api:0,p:-1,c:238) setDefaultBufferSize: width=540 height=960
+06-07 14:17:40.800 27690 27690 D TimaKeyStoreProvider: TimaSignature is unavailable
+06-07 14:17:40.800 27690 27690 D ActivityThread: Added TimaKeyStore provider
+06-07 14:17:40.800 27673 27681 I art     : Ignoring second debugger -- accepting and dropping
+06-07 14:17:40.800   716   902 D ViewRootImpl: MSG_RESIZED_REPORT: ci=Rect(0, 36 - 0, 0) vi=Rect(0, 36 - 0, 0) or=1
+06-07 14:17:40.820   716   902 D Surface : Surface::connect(this=0x85f4e400,api=2)
+06-07 14:17:40.820 27690 27696 I art     : Ignoring second debugger -- accepting and dropping
+06-07 14:17:40.820   238   257 I BufferQueueProducer: [Starting com.example.muvkintours.test](this:0xb31e9800,id:2822,api:2,p:716,c:238) connect(P): api=2 producer=(716:system_server) producerControlledByApp=false
+06-07 14:17:40.820   238   946 I BufferQueueProducer: [com.sec.android.app.launcher/com.sec.android.app.launcher.activities.LauncherActivity](this:0xb36d3400,id:2821,api:1,p:1349,c:238) queueBuffer: fps=0.44 dur=4588.14 max=4579.33 min=8.82
+06-07 14:17:40.820   238   259 I BufferQueueProducer: [Starting com.example.muvkintours.test](this:0xb31e9800,id:2822,api:2,p:716,c:238) new GraphicBuffer needed
+06-07 14:17:40.820   238   259 I [MALI][Gralloc]: [+]hnd(0xb59e7aa0), client(30), share_fd(62), hnd->flags:4
+06-07 14:17:40.820   238   259 D GraphicBuffer: alloc, handle(0xb59e7aa0) (w:540 h:960 s:544 f:0x1 u:0x000933) err(0)
+06-07 14:17:40.830   716   902 I [MALI][Gralloc]: [+]r_hnd(0xae563be0), client(274), share_fd(397)
+06-07 14:17:40.830   716   902 D GraphicBuffer: register, handle(0xae563be0) (w:540 h:960 s:544 f:0x1 u:0x000933)
+06-07 14:17:40.830   716   902 V WindowStateAnimator: Finishing drawing window Window{b91fa68 u0 d0 p716 Starting com.example.muvkintours.test}: mDrawState=DRAW_PENDING
+06-07 14:17:40.850  1349  1585 D Surface : Surface::disconnect(this=0x9b8c3500,api=1)
+06-07 14:17:40.850  1349  1585 D GraphicBuffer: unregister, handle(0x9a319920) (w:540 h:960 s:544 f:0x1 u:0x000b00)
+06-07 14:17:40.850  1349  1585 I [MALI][Gralloc]: [-]r_hnd(0x9a319920), client(43), share_fd(40)
+06-07 14:17:40.850  1349  1585 D GraphicBuffer: unregister, handle(0x9a318980) (w:540 h:960 s:544 f:0x1 u:0x000b00)
+06-07 14:17:40.850 27690 27690 W System  : ClassLoader referenced unknown path: /data/app/com.example.muvkintours.test-2/lib/arm
+06-07 14:17:40.850  1349  1585 I [MALI][Gralloc]: [-]r_hnd(0x9a318980), client(43), share_fd(52)
+06-07 14:17:40.850  1349  1585 D GraphicBuffer: unregister, handle(0x9a3196a0) (w:540 h:960 s:544 f:0x1 u:0x000b00)
+06-07 14:17:40.850  1349  1585 I [MALI][Gralloc]: [-]r_hnd(0x9a3196a0), client(43), share_fd(48)
+06-07 14:17:40.850  1349  1585 D GraphicBuffer: unregister, handle(0x9a319600) (w:540 h:960 s:544 f:0x1 u:0x000b00)
+06-07 14:17:40.850  1349  1585 I [MALI][Gralloc]: [-]r_hnd(0x9a319600), client(43), share_fd(44)
+06-07 14:17:40.850   238   257 I BufferQueueProducer: [com.sec.android.app.launcher/com.sec.android.app.launcher.activities.LauncherActivity](this:0xb36d3400,id:2821,api:1,p:-1,c:238) disconnect(P): api 1
+06-07 14:17:40.850   238   257 I BufferQueueConsumer: [com.sec.android.app.launcher/com.sec.android.app.launcher.activities.LauncherActivity](this:0xb36d3400,id:2821,api:1,p:-1,c:238) getReleasedBuffers: returning mask 0xffffffffffffffff
+06-07 14:17:40.850   238   257 D GraphicBuffer: free, handle(0xb59a1400) (w:540 h:960 s:544 f:0x1 u:0x000b00)
+06-07 14:17:40.850   238   257 I [MALI][Gralloc]: [-]hnd(0xb59a1400), client(30), share_fd(34)
+06-07 14:17:40.850   238   257 D GraphicBuffer: free, handle(0xb59a1b80) (w:540 h:960 s:544 f:0x1 u:0x000b00)
+06-07 14:17:40.850   238   257 I [MALI][Gralloc]: [-]hnd(0xb59a1b80), client(30), share_fd(85)
+06-07 14:17:40.850   238   257 D GraphicBuffer: free, handle(0xb59a2760) (w:540 h:960 s:544 f:0x1 u:0x000b00)
+06-07 14:17:40.850   238   257 I [MALI][Gralloc]: [-]hnd(0xb59a2760), client(30), share_fd(90)
+06-07 14:17:40.860  1128  1128 D PhoneStatusBar: setSystemUiVisibility vis=0 mask=ffffffff oldVal=8600 newVal=0 diff=8600
+06-07 14:17:40.880   238   238 I BufferQueueProducer: [FrameBufferSurface_0](this:0xb3216000,id:0,api:1,p:238,c:238) queueBuffer: fps=0.00 dur=350391.19 max=350391.19 min=350391.19
+06-07 14:17:40.890   238  1996 I SurfaceFlinger: id=2821 Removed MauncherAct (2/8)
+06-07 14:17:40.890   238   946 I SurfaceFlinger: id=2821 Removed MauncherAct (-2/8)
+06-07 14:17:40.890  1128  1128 D ImageWallpaper: onVisibilityChanged:false
+06-07 14:17:40.890  1128  1128 D ImageWallpaper: drawFrame:false rotation:0 mLastRotation:0
+06-07 14:17:40.890  1128  1128 D ImageWallpaper: drawFrame:[frame.width()]540[frame.height()]960
+06-07 14:17:40.890  1128  1128 D ImageWallpaper: Suppressed drawFrame since redraw is not needed and offsets have not changed.
+06-07 14:17:40.900   238   238 I BufferQueueConsumer: [com.sec.android.app.launcher/com.sec.android.app.launcher.activities.LauncherActivity](this:0xb36d3400,id:2821,api:1,p:-1,c:-1) disconnect(C)
+06-07 14:17:40.900   238   238 D GraphicBuffer: free, handle(0xb59a24e0) (w:540 h:960 s:544 f:0x1 u:0x000b00)
+06-07 14:17:40.900   238   238 I [MALI][Gralloc]: [-]hnd(0xb59a24e0), client(30), share_fd(87)
+06-07 14:17:40.900   238   238 I BufferQueue: [com.sec.android.app.launcher/com.sec.android.app.launcher.activities.LauncherActivity](this:0xb36d3400,id:2821,api:1,p:-1,c:-1) ~BufferQueueCore
+06-07 14:17:40.910   716  3439 D ActivityTrigger: ActivityTrigger activityPauseTrigger
+06-07 14:17:40.910   716  3439 D InputDispatcher: Focused application set to: xxxx
+06-07 14:17:40.910   716  3438 D ActivityManager: post active user change for 0 fullscreen true isFloatingActivity() false isHomeActivity() false
+06-07 14:17:40.910   716  3438 D KnoxTimeoutHandler: postActiveUserChange [MsgParam] userId: 0 fullscreen is true showWhenlocked is false
+06-07 14:17:40.910   716   716 D KnoxTimeoutHandler: handleActiveUserChange [MsgParam] userId: 0 fullscreen is true showWhenlocked is false
+06-07 14:17:40.910   716   716 I KnoxTimeoutHandler: Shared devices show user statefalse
+06-07 14:17:40.940 27690 27690 I Timeline: Timeline: Activity_idle id: android.os.BinderProxy@7956522 time:309238203
+06-07 14:17:40.960 27673 27673 D LifecycleMonitor: Lifecycle status change: com.example.muvkintours.MealActivity@5f5722a in: PRE_ON_CREATE
+06-07 14:17:40.960 27673 27673 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was PRE_ON_CREATE
+06-07 14:17:40.970 27673 27673 W art     : Before Android 4.1, method android.graphics.PorterDuffColorFilter androidx.vectordrawable.graphics.drawable.VectorDrawableCompat.updateTintFilter(android.graphics.PorterDuffColorFilter, android.content.res.ColorStateList, android.graphics.PorterDuff$Mode) would have incorrectly overridden the package-private method in android.graphics.drawable.Drawable
+06-07 14:17:41.040 27673 27673 D TextView: setTypeface with style : 0
+06-07 14:17:41.040 27673 27673 D TextView: setTypeface with style : 0
+06-07 14:17:41.040 19219 20081 I FontLog : Received query Baloo, URI content://com.google.android.gms.fonts [CONTEXT service_id=132 ]
+06-07 14:17:41.040 19219 20081 I FontLog : Query [Baloo] resolved to {Baloo, wdth 100.0, wght 400, ital 0.0, bestEffort false} [CONTEXT service_id=132 ]
+06-07 14:17:41.050 19219 20081 I FontLog : Fetch {Baloo, wdth 100.0, wght 400, ital 0.0, bestEffort false} end status Status{statusCode=SUCCESS, resolution=null} [CONTEXT service_id=132 ]
+06-07 14:17:41.060 19219 22690 I FontLog : Pulling font file for id = 111, cache size = 4 [CONTEXT service_id=132 ]
+06-07 14:17:41.100 27673 27673 D TextView: setTypeface with style : 0
+06-07 14:17:41.110 27673 27673 D TextView: setTypeface with style : 0
+06-07 14:17:41.170 27673 27673 D LifecycleMonitor: Lifecycle status change: com.example.muvkintours.MealActivity@5f5722a in: CREATED
+06-07 14:17:41.170 27673 27673 V ActivityScenario: Update currentActivityStage to CREATED, currentActivity=com.example.muvkintours.MealActivity@5f5722a
+06-07 14:17:41.170 27673 27673 D LifecycleMonitor: Lifecycle status change: com.example.muvkintours.MealActivity@5f5722a in: STARTED
+06-07 14:17:41.170 27673 27673 V ActivityScenario: Update currentActivityStage to STARTED, currentActivity=com.example.muvkintours.MealActivity@5f5722a
+06-07 14:17:41.170 27673 27673 D LifecycleMonitor: Lifecycle status change: com.example.muvkintours.MealActivity@5f5722a in: RESUMED
+06-07 14:17:41.170 27673 27673 V ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=com.example.muvkintours.MealActivity@5f5722a
+06-07 14:17:41.170 27673 27707 D libc-netbsd: [getaddrinfo]: netid=0; mark=0
+06-07 14:17:41.170 27673 27707 D libc-netbsd: [getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+06-07 14:17:41.170 27673 27707 D libc-netbsd: [getaddrinfo]: netid=0; mark=0
+06-07 14:17:41.170 27673 27707 D libc-netbsd: [getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=1024; ai_family=0
+06-07 14:17:41.170   330   966 D EnterpriseController: netId is 0
+06-07 14:17:41.170   330   966 D Netd    : getNetworkForDns: using netid 534 for uid 10124
+06-07 14:17:41.180   330 27708 D libc-netbsd: [getaddrinfo]: netid=534; mark=534
+06-07 14:17:41.180   330 27708 D libc-netbsd: [getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=1024; ai_family=2
+06-07 14:17:41.180   330 27708 D libc-netbsd: getaddrinfo: get result from proxy gai_error = 11
+06-07 14:17:41.180   330 27708 D libc-netbsd: res_queryN class = 1, type = 1
+06-07 14:17:41.180   330 27708 D libc-netbsd: netid=534, dns0:192.168.1.1
+06-07 14:17:41.180   238   259 I SurfaceFlinger: EventThread Client Pid (27673) created
+06-07 14:17:41.180 27673 27673 D ViewRootImpl: #1 mView = com.android.internal.policy.PhoneWindow$DecorView{d06a5af I.E...... R.....ID 0,0-0,0}
+06-07 14:17:41.190   238   259 I SurfaceFlinger: EventThread Client Pid (27673) created
+06-07 14:17:41.190 27673 27709 D OpenGLRenderer: Use EGL_SWAP_BEHAVIOR_PRESERVED: false
+06-07 14:17:41.190 27673 27688 D EventInjectionStrategy: Creating injection strategy with input manager.
+06-07 14:17:41.190   238  5141 I SurfaceFlinger: [SF client] NEW(0xb07aab90) for (716:system_server)
+06-07 14:17:41.190   716   731 D ActivityManager: post active user change for 0 fullscreen true isFloatingActivity() false isHomeActivity() false
+06-07 14:17:41.190   716   731 D KnoxTimeoutHandler: postActiveUserChange [MsgParam] userId: 0 fullscreen is true showWhenlocked is false
+06-07 14:17:41.190   716   716 D KnoxTimeoutHandler: handleActiveUserChange [MsgParam] userId: 0 fullscreen is true showWhenlocked is false
+06-07 14:17:41.190   716   716 I KnoxTimeoutHandler: Shared devices show user statefalse
+06-07 14:17:41.210   238   238 I BufferQueue: [unnamed-238-2823](this:0xb36d3400,id:2823,api:0,p:-1,c:-1) BufferQueue core=(238:/system/bin/surfaceflinger)
+06-07 14:17:41.210   238   238 I BufferQueueConsumer: [unnamed-238-2823](this:0xb36d3400,id:2823,api:0,p:-1,c:238) connect(C): consumer=(238:/system/bin/surfaceflinger) controlledByApp=false
+06-07 14:17:41.210   238   238 I BufferQueueConsumer: [unnamed-238-2823](this:0xb36d3400,id:2823,api:0,p:-1,c:238) setConsumerName: unnamed-238-2823
+06-07 14:17:41.210   238   238 I BufferQueueConsumer: [com.example.muvkintours/com.example.muvkintours.MealActivity](this:0xb36d3400,id:2823,api:0,p:-1,c:238) setConsumerName: com.example.muvkintours/com.example.muvkintours.MealActivity
+06-07 14:17:41.210   238   238 I BufferQueueConsumer: [com.example.muvkintours/com.example.muvkintours.MealActivity](this:0xb36d3400,id:2823,api:0,p:-1,c:238) setDefaultBufferSize: width=1 height=1
+06-07 14:17:41.210   238   238 I SurfaceFlinger: id=2823 createSurf (1x1),1 flag=404, NealActivit
+06-07 14:17:41.210  1128  1128 D PhoneStatusBar: setSystemUiVisibility vis=600 mask=ffffffff oldVal=0 newVal=600 diff=600
+06-07 14:17:41.210   238   238 I BufferQueueConsumer: [com.example.muvkintours/com.example.muvkintours.MealActivity](this:0xb36d3400,id:2823,api:0,p:-1,c:238) setDefaultBufferSize: width=540 height=960
+06-07 14:17:41.210   716  4661 D InputDispatcher: Focus entered window: 27673
+06-07 14:17:41.220   716   902 D PointerIcon: setMouseIconStyle1 pointerType: 1001 iconType:101 flag:0 pid:716 uid:1000
+06-07 14:17:41.220   716   902 D PointerIcon: setMouseCustomIcon IconType is same.101
+06-07 14:17:41.220 27673 27709 I OpenGLRenderer: Initialized EGL, version 1.4
+06-07 14:17:41.230 27673 27709 D Surface : Surface::connect(this=0xae278900,api=1)
+06-07 14:17:41.230   238   257 I BufferQueueProducer: [com.example.muvkintours/com.example.muvkintours.MealActivity](this:0xb36d3400,id:2823,api:1,p:27673,c:238) connect(P): api=1 producer=(27673:com.example.muvkintours) producerControlledByApp=true
+06-07 14:17:41.230 27673 27709 D mali_winsys: new_window_surface returns 0x3000
+06-07 14:17:41.230 27673 27673 D Surface : Surface::allocateBuffers(this=0xae278900)
+06-07 14:17:41.230   238   257 D BufferQueueProducer: [com.example.muvkintours/com.example.muvkintours.MealActivity](this:0xb36d3400,id:2823,api:1,p:27673,c:238) allocateBuffers: allocating from 0 buffers up to 4 buffers
+06-07 14:17:41.230   238   257 I [MALI][Gralloc]: [+]hnd(0xb59a2760), client(30), share_fd(58), hnd->flags:4
+06-07 14:17:41.230   238   257 D GraphicBuffer: alloc, handle(0xb59a2760) (w:540 h:960 s:544 f:0x1 u:0x000b00) err(0)
+06-07 14:17:41.230  1128  1542 D NetworkController.MobileSignalController(0/7): onSignalStrengthsChanged signalStrength=SignalStrength: 7 99 -7 -200 -7 -200 -1 99 2147483647 2147483647 2147483647 2147483647 2147483647 0x3 gsm|lte level=3
+06-07 14:17:41.230  1128  1542 D NetworkController.MobileSignalController(0/7): getMobileIconGroup(): 9
+06-07 14:17:41.230   238   257 I [MALI][Gralloc]: [+]hnd(0xb59a1b80), client(30), share_fd(65), hnd->flags:4
+06-07 14:17:41.230   238   257 D GraphicBuffer: alloc, handle(0xb59a1b80) (w:540 h:960 s:544 f:0x1 u:0x000b00) err(0)
+06-07 14:17:41.230   238   257 I [MALI][Gralloc]: [+]hnd(0xb59e73c0), client(30), share_fd(77), hnd->flags:4
+06-07 14:17:41.230   238   257 D GraphicBuffer: alloc, handle(0xb59e73c0) (w:540 h:960 s:544 f:0x1 u:0x000b00) err(0)
+06-07 14:17:41.230   238   257 I [MALI][Gralloc]: [+]hnd(0xb59e70a0), client(30), share_fd(80), hnd->flags:4
+06-07 14:17:41.230   238   257 D GraphicBuffer: alloc, handle(0xb59e70a0) (w:540 h:960 s:544 f:0x1 u:0x000b00) err(0)
+06-07 14:17:41.230   238   257 D BufferQueueProducer: [com.example.muvkintours/com.example.muvkintours.MealActivity](this:0xb36d3400,id:2823,api:1,p:27673,c:238) allocateBuffers: allocating from 4 buffers up to 4 buffers
+06-07 14:17:41.250 27673 27673 D ViewRootImpl: MSG_RESIZED_REPORT: ci=Rect(0, 36 - 0, 0) vi=Rect(0, 36 - 0, 0) or=1
+06-07 14:17:41.250   716  3438 D InputMethodManagerService: windowGainedFocus mCurrentFocusedUserId - 0 and mSecureKeypadEnabled-false
+06-07 14:17:41.260  4761  4761 D SamsungIME: onFinishInput
+06-07 14:17:41.260  4761  4761 D SamsungIME: IMPL finishInput
+06-07 14:17:41.260  4761  4761 I SamsungIME: [IMI] onStartInput - caller packageName : com.example.muvkintours
+06-07 14:17:41.260  4761  4761 D SamsungIME: onStartInput: No inputType, No imeOption, isInputViewShown = false, isExtractViewShown = false, isShowInputRequested = false, isConfigChanged = false, mIsFirstStartInput = false
+06-07 14:17:41.260 27673 27709 D libGLESv1: DTS_GLAPI : DTS is not allowed for Package : com.example.muvkintours
+06-07 14:17:41.270 27673 27709 I [MALI][Gralloc]: [+]r_hnd(0xb371b640), client(44), share_fd(43)
+06-07 14:17:41.270 27673 27709 D GraphicBuffer: register, handle(0xb371b640) (w:540 h:960 s:544 f:0x1 u:0x000b00)
+06-07 14:17:41.290   716  1118 V WindowStateAnimator: Finishing drawing window Window{18809f1 u0 d0 p27673 com.example.muvkintours/com.example.muvkintours.MealActivity}: mDrawState=DRAW_PENDING
+06-07 14:17:41.290 27673 27673 D TextView: setTypeface with style : 0
+06-07 14:17:41.290 27673 27673 D TextView: setTypeface with style : 0
+06-07 14:17:41.290 27673 27709 I [MALI][Gralloc]: [+]r_hnd(0xb371b780), client(44), share_fd(46)
+06-07 14:17:41.290 27673 27709 D GraphicBuffer: register, handle(0xb371b780) (w:540 h:960 s:544 f:0x1 u:0x000b00)
+06-07 14:17:41.290   716   902 D KnoxTimeoutHandler: notifyActivityDrawn [MsgParam] userId: 0 fullscreen is true showWhenlocked is false
+06-07 14:17:41.290   716   902 I ActivityManager: Displayed com.example.muvkintours/.MealActivity: +362ms (total +5m47s809ms)
+06-07 14:17:41.290   716   716 D KnoxTimeoutHandler: activityDrawn [MsgParam] userId: 0 fullscreen is true showWhenlocked is false
+06-07 14:17:41.290   716   902 I Timeline: Timeline: Activity_windows_visible id: ActivityRecord{5007cb9 u0 com.example.muvkintours/.MealActivity t15640} time:309238558
+06-07 14:17:41.290   716   902 D ViewRootImpl: #3 mView = null
+06-07 14:17:41.290   716   716 I KnoxTimeoutHandler: SD activityfalse
+06-07 14:17:41.290   716   716 I KnoxTimeoutHandler: Fullscreen and mCurrent is not KNOX user. Hence hide keyguard
+06-07 14:17:41.300  1128  1128 D PhoneStatusBar: setSystemUiVisibility vis=8600 mask=ffffffff oldVal=600 newVal=8600 diff=8000
+06-07 14:17:41.300 27673 27709 I [MALI][Gralloc]: [+]r_hnd(0xb371b8c0), client(44), share_fd(45)
+06-07 14:17:41.300 27673 27709 D GraphicBuffer: register, handle(0xb371b8c0) (w:540 h:960 s:544 f:0x1 u:0x000b00)
+06-07 14:17:41.310   238  5141 I SurfaceFlinger: id=2822 Removed uest (5/8)
+06-07 14:17:41.310   716   902 D Surface : Surface::disconnect(this=0x85f4e400,api=2)
+06-07 14:17:41.310   238   259 I SurfaceFlinger: id=2822 Removed uest (-2/8)
+06-07 14:17:41.310   238   946 I BufferQueueProducer: [Starting com.example.muvkintours.test](this:0xb31e9800,id:2822,api:2,p:-1,c:238) disconnect(P): api 2
+06-07 14:17:41.320   238   946 I BufferQueueConsumer: [Starting com.example.muvkintours.test](this:0xb31e9800,id:2822,api:2,p:-1,c:238) getReleasedBuffers: returning mask 0xffffffffffffffff
+06-07 14:17:41.320   716   902 D GraphicBuffer: unregister, handle(0xae563be0) (w:540 h:960 s:544 f:0x1 u:0x000933)
+06-07 14:17:41.320 27673 27709 I [MALI][Gralloc]: [+]r_hnd(0xb371ba00), client(44), share_fd(47)
+06-07 14:17:41.320 27673 27709 D GraphicBuffer: register, handle(0xb371ba00) (w:540 h:960 s:544 f:0x1 u:0x000b00)
+06-07 14:17:41.320   716   902 I [MALI][Gralloc]: [-]r_hnd(0xae563be0), client(274), share_fd(397)
+06-07 14:17:41.330   330 27708 D libc-netbsd: res_queryN succeed
+06-07 14:17:41.330 27673 27707 D libc-netbsd: getaddrinfo: get result from proxy gai_error = 0
+06-07 14:17:41.330   238   238 I BufferQueueConsumer: [Starting com.example.muvkintours.test](this:0xb31e9800,id:2822,api:2,p:-1,c:-1) disconnect(C)
+06-07 14:17:41.330   238   238 D GraphicBuffer: free, handle(0xb59e7aa0) (w:540 h:960 s:544 f:0x1 u:0x000933)
+06-07 14:17:41.330   238   238 I [MALI][Gralloc]: [-]hnd(0xb59e7aa0), client(30), share_fd(62)
+06-07 14:17:41.330   238   238 I BufferQueue: [Starting com.example.muvkintours.test](this:0xb31e9800,id:2822,api:2,p:-1,c:-1) ~BufferQueueCore
+06-07 14:17:41.630   238   946 I BufferQueueProducer: [StatusBar](this:0xb36d2800,id:6,api:1,p:1128,c:238) queueBuffer: fps=39.00 dur=1000.02 max=233.04 min=10.75
+06-07 14:17:41.650   238   238 I SurfaceFlinger: [Built-in Screen (type:0)] fps:46.933155,dur:1001.42,max:133.79,min:12.59
+06-07 14:17:41.690 19219 20081 I FontLog : Received query Noto Color Emoji Compat, URI content://com.google.android.gms.fonts [CONTEXT service_id=132 ]
+06-07 14:17:41.690 19219 20081 I FontLog : Query [emojicompat-emoji-font] resolved to {Noto Color Emoji Compat, wdth 100.0, wght 400, ital 0.0, bestEffort false} [CONTEXT service_id=132 ]
+06-07 14:17:41.690 19219 20081 I FontLog : Fetch {Noto Color Emoji Compat, wdth 100.0, wght 400, ital 0.0, bestEffort false} end status Status{statusCode=SUCCESS, resolution=null} [CONTEXT service_id=132 ]
+06-07 14:17:41.700 19219 22690 I FontLog : Pulling font file for id = 112, cache size = 4 [CONTEXT service_id=132 ]
+06-07 14:17:41.710 19219 19230 I FontLog : Pulling font file for id = 112, cache size = 4 [CONTEXT service_id=132 ]
+06-07 14:17:42.120 27673 27707 D libc-netbsd: [getaddrinfo]: netid=0; mark=0
+06-07 14:17:42.120 27673 27707 D libc-netbsd: [getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+06-07 14:17:42.250  1128  1542 D NetworkController.MobileSignalController(0/7): onSignalStrengthsChanged signalStrength=SignalStrength: 7 99 -7 -200 -7 -200 -1 99 2147483647 2147483647 2147483647 2147483647 2147483647 0x3 gsm|lte level=3
+06-07 14:17:42.250  1128  1542 D NetworkController.MobileSignalController(0/7): getMobileIconGroup(): 9
+06-07 14:17:42.290   238   259 I BufferQueueProducer: [com.example.muvkintours/com.example.muvkintours.MealActivity](this:0xb36d3400,id:2823,api:1,p:27673,c:238) queueBuffer: fps=59.88 dur=1001.98 max=29.95 min=6.63
+06-07 14:17:42.430 27673 27707 D libc-netbsd: [getaddrinfo]: netid=0; mark=0
+06-07 14:17:42.430 27673 27707 D libc-netbsd: [getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+06-07 14:17:42.440  1128  1542 D NetworkController.MobileSignalController(0/7): onCellLocationChanged
+06-07 14:17:42.560   716  1019 D SensorService: [SO] -0.134 0.077 9.538
+06-07 14:17:42.650   238   238 I SurfaceFlinger: [Built-in Screen (type:0)] fps:59.734062,dur:1004.45,max:23.53,min:11.09
+06-07 14:17:42.870 15883 15883 I dhcpcd  : wlan0: Router Advertisement from fe80::f0c7:95ff:feec:d14e
+06-07 14:17:42.870 15883 15883 D dhcpcd  : wlan0: executing `/system/etc/dhcpcd/dhcpcd-run-hooks', reason ROUTERADVERT
+06-07 14:17:43.000 15883 15883 I dhcpcd  : wlan0: fe80::f0c7:95ff:feec:d14e: expired Router Advertisement
+06-07 14:17:43.000 15883 15883 D dhcpcd  : wlan0: executing `/system/etc/dhcpcd/dhcpcd-run-hooks', reason ROUTERADVERT
+06-07 14:17:43.010 18824 18824 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+06-07 14:17:43.010 18824 18824 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=49
+06-07 14:17:43.290   238   946 I BufferQueueProducer: [com.example.muvkintours/com.example.muvkintours.MealActivity](this:0xb36d3400,id:2823,api:1,p:27673,c:238) queueBuffer: fps=59.71 dur=1004.81 max=24.52 min=8.86
+06-07 14:17:43.660   238   238 I SurfaceFlinger: [Built-in Screen (type:0)] fps:59.767441,dur:1003.89,max:20.45,min:13.53
+06-07 14:17:43.760   716  1103 W System.err: remove failed: ENOENT (No such file or directory) : /data/system/recent_tasks/15640_task.xml.bak
+06-07 14:17:44.300   238  1996 I BufferQueueProducer: [com.example.muvkintours/com.example.muvkintours.MealActivity](this:0xb36d3400,id:2823,api:1,p:27673,c:238) queueBuffer: fps=59.39 dur=1010.35 max=24.32 min=11.26
+06-07 14:17:44.630 27673 27673 D skia    : jpeg_decoder mode 1, colorType 4, w 225, h 225, sample 1, bsLength 22b7!!
+06-07 14:17:44.630 27673 27673 D skia    : jpeg_decoder finish successfully, L:1917!!!
+06-07 14:17:44.650 27673 27673 D TextView: setTypeface with style : 0
+06-07 14:17:44.650 27673 27673 D TextView: setTypeface with style : 0
+06-07 14:17:44.700 27673 27746 W System.err: remove failed: ENOENT (No such file or directory) : /data/user/0/com.example.muvkintours/cache/picasso-cache/journal.tmp
+06-07 14:17:44.730 27673 27673 D TextView: setTypeface with style : 0
+06-07 14:17:44.730 27673 27673 D TextView: setTypeface with style : 0
+06-07 14:17:44.760 27673 27673 D TextView: setTypeface with style : 0
+06-07 14:17:44.760 27673 27673 D TextView: setTypeface with style : 0
+06-07 14:17:44.780 27673 27748 D libc-netbsd: [getaddrinfo]: netid=0; mark=0
+06-07 14:17:44.780 27673 27748 D libc-netbsd: [getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=0
+06-07 14:17:44.780 27673 27748 D libc-netbsd: [getaddrinfo]: netid=0; mark=0
+06-07 14:17:44.780 27673 27748 D libc-netbsd: [getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=1024; ai_family=0
+06-07 14:17:44.780   330   966 D EnterpriseController: netId is 0
+06-07 14:17:44.780   330   966 D Netd    : getNetworkForDns: using netid 534 for uid 10124
+06-07 14:17:44.780   330 27749 D libc-netbsd: [getaddrinfo]: netid=534; mark=534
+06-07 14:17:44.780   330 27749 D libc-netbsd: [getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=1024; ai_family=2
+06-07 14:17:44.780   330 27749 D libc-netbsd: getaddrinfo: get result from proxy gai_error = 11
+06-07 14:17:44.780   330 27749 D libc-netbsd: res_queryN class = 1, type = 1
+06-07 14:17:44.780   330 27749 D libc-netbsd: res_queryN succeed
+06-07 14:17:44.780 27673 27748 D libc-netbsd: getaddrinfo: get result from proxy gai_error = 0
+06-07 14:17:44.830 27673 27673 I Timeline: Timeline: Activity_idle id: android.os.BinderProxy@bfee753 time:309242090
+06-07 14:17:44.830   716  4659 D ActivityTrigger: ActivityTrigger activityStopTrigger
+06-07 14:17:44.830   716  4659 D ActivityTrigger: ActivityTrigger activityStopTrigger
+06-07 14:17:44.830   238   238 I SurfaceFlinger: [Built-in Screen (type:0)] fps:48.604916,dur:1172.72,max:235.84,min:12.49
+06-07 14:17:44.840  1349  1349 D Launcher.HomeView: onStop
+06-07 14:17:44.840 27673 27688 I Timeline: Timeline: Activity_launch_request id:com.example.muvkintours.test time:309242100
+06-07 14:17:44.840  1349  1349 D capture : ----destroy
+06-07 14:17:44.840  1349  1349 D Launcher: onTrimMemory. Level: 20
+06-07 14:17:44.850   716  1118 D ActivityTrigger: ActivityTrigger activityPauseTrigger
+06-07 14:17:44.850 27673 27673 D LifecycleMonitor: Lifecycle status change: com.example.muvkintours.MealActivity@5f5722a in: PAUSED
+06-07 14:17:44.850 27673 27673 V ActivityScenario: Update currentActivityStage to PAUSED, currentActivity=com.example.muvkintours.MealActivity@5f5722a
+06-07 14:17:44.850   716  1118 D InputDispatcher: Focused application set to: xxxx
+06-07 14:17:44.850   716  1118 D InputDispatcher: Focus left window: 27673
+06-07 14:17:44.850   716   902 D PointerIcon: setMouseIconStyle1 pointerType: 1001 iconType:101 flag:0 pid:716 uid:1000
+06-07 14:17:44.850   716   902 D PointerIcon: setMouseCustomIcon IconType is same.101
+06-07 14:17:44.870   238   257 I SurfaceFlinger: EventThread Client Pid (27690) created
+06-07 14:17:44.880 27690 27690 D ViewRootImpl: #1 mView = com.android.internal.policy.PhoneWindow$DecorView{c55ad2 I.E...... R.....ID 0,0-0,0}
+06-07 14:17:44.880   238  1996 I SurfaceFlinger: EventThread Client Pid (27690) created
+06-07 14:17:44.880 27690 27750 D OpenGLRenderer: Use EGL_SWAP_BEHAVIOR_PRESERVED: false
+06-07 14:17:44.880 27673 27673 D LifecycleMonitor: Lifecycle status change: com.example.muvkintours.MealActivity@5f5722a in: STOPPED
+06-07 14:17:44.880 27673 27673 V ActivityScenario: Update currentActivityStage to STOPPED, currentActivity=com.example.muvkintours.MealActivity@5f5722a
+06-07 14:17:44.880 27673 27673 D LifecycleMonitor: Lifecycle status change: com.example.muvkintours.MealActivity@5f5722a in: DESTROYED
+06-07 14:17:44.880 27673 27673 V ActivityScenario: Update currentActivityStage to DESTROYED, currentActivity=null
+06-07 14:17:44.890 27673 27688 I Timeline: Timeline: Activity_launch_request id:com.example.muvkintours.test time:309242151
+06-07 14:17:44.890   238  1996 I SurfaceFlinger: [SF client] NEW(0xb59d61e0) for (716:system_server)
+06-07 14:17:44.890 27673 27709 D Surface : Surface::disconnect(this=0xae278900,api=1)
+06-07 14:17:44.890 27673 27709 D GraphicBuffer: unregister, handle(0xb371ba00) (w:540 h:960 s:544 f:0x1 u:0x000b00)
+06-07 14:17:44.890 27673 27709 I [MALI][Gralloc]: [-]r_hnd(0xb371ba00), client(44), share_fd(47)
+06-07 14:17:44.890 27673 27709 D GraphicBuffer: unregister, handle(0xb371b8c0) (w:540 h:960 s:544 f:0x1 u:0x000b00)
+06-07 14:17:44.890 27673 27709 I [MALI][Gralloc]: [-]r_hnd(0xb371b8c0), client(44), share_fd(45)
+06-07 14:17:44.890 27673 27709 D GraphicBuffer: unregister, handle(0xb371b780) (w:540 h:960 s:544 f:0x1 u:0x000b00)
+06-07 14:17:44.890 27673 27709 I [MALI][Gralloc]: [-]r_hnd(0xb371b780), client(44), share_fd(46)
+06-07 14:17:44.890 27673 27709 D GraphicBuffer: unregister, handle(0xb371b640) (w:540 h:960 s:544 f:0x1 u:0x000b00)
+06-07 14:17:44.890 27673 27709 I [MALI][Gralloc]: [-]r_hnd(0xb371b640), client(44), share_fd(43)
+06-07 14:17:44.890   238   259 I BufferQueueProducer: [com.example.muvkintours/com.example.muvkintours.MealActivity](this:0xb36d3400,id:2823,api:1,p:-1,c:238) disconnect(P): api 1
+06-07 14:17:44.890   238   259 I BufferQueueConsumer: [com.example.muvkintours/com.example.muvkintours.MealActivity](this:0xb36d3400,id:2823,api:1,p:-1,c:238) getReleasedBuffers: returning mask 0xfffffffffffffffe
+06-07 14:17:44.890   238   259 D GraphicBuffer: free, handle(0xb59e73c0) (w:540 h:960 s:544 f:0x1 u:0x000b00)
+06-07 14:17:44.890   238   259 I [MALI][Gralloc]: [-]hnd(0xb59e73c0), client(30), share_fd(77)
+06-07 14:17:44.890   238   259 D GraphicBuffer: free, handle(0xb59e70a0) (w:540 h:960 s:544 f:0x1 u:0x000b00)
+06-07 14:17:44.890   238   259 I [MALI][Gralloc]: [-]hnd(0xb59e70a0), client(30), share_fd(80)
+06-07 14:17:44.890 27673 27673 D ViewRootImpl: #3 mView = null
+06-07 14:17:44.890   238   238 D GraphicBuffer: free, handle(0xb59a1b80) (w:540 h:960 s:544 f:0x1 u:0x000b00)
+06-07 14:17:44.890   238   238 I [MALI][Gralloc]: [-]hnd(0xb59a1b80), client(30), share_fd(65)
+06-07 14:17:44.900   716  1118 D ActivityTrigger: ActivityTrigger activityPauseTrigger
+06-07 14:17:44.910   716  1118 D InputDispatcher: Focused application set to: xxxx
+06-07 14:17:44.910   716  4661 D ActivityManager: post active user change for 0 fullscreen true isFloatingActivity() false isHomeActivity() false
+06-07 14:17:44.910   716  4661 D KnoxTimeoutHandler: postActiveUserChange [MsgParam] userId: 0 fullscreen is true showWhenlocked is false
+06-07 14:17:44.910   716   716 D KnoxTimeoutHandler: handleActiveUserChange [MsgParam] userId: 0 fullscreen is true showWhenlocked is false
+06-07 14:17:44.910   716   716 I KnoxTimeoutHandler: Shared devices show user statefalse
+06-07 14:17:44.910   238   238 I BufferQueue: [unnamed-238-2824](this:0xb31e9800,id:2824,api:0,p:-1,c:-1) BufferQueue core=(238:/system/bin/surfaceflinger)
+06-07 14:17:44.910   238   238 I BufferQueueConsumer: [unnamed-238-2824](this:0xb31e9800,id:2824,api:0,p:-1,c:238) connect(C): consumer=(238:/system/bin/surfaceflinger) controlledByApp=false
+06-07 14:17:44.910   238   238 I BufferQueueConsumer: [unnamed-238-2824](this:0xb31e9800,id:2824,api:0,p:-1,c:238) setConsumerName: unnamed-238-2824
+06-07 14:17:44.910   238   238 I BufferQueueConsumer: [com.example.muvkintours.test/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity](this:0xb31e9800,id:2824,api:0,p:-1,c:238) setConsumerName: com.example.muvkintours.test/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity
+06-07 14:17:44.910   238   238 I BufferQueueConsumer: [com.example.muvkintours.test/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity](this:0xb31e9800,id:2824,api:0,p:-1,c:238) setDefaultBufferSize: width=540 height=960
+06-07 14:17:44.910   238   238 I SurfaceFlinger: id=2824 createSurf (540x960),1 flag=404, Jnstrumenta
+06-07 14:17:44.920 27690 27750 I OpenGLRenderer: Initialized EGL, version 1.4
+06-07 14:17:44.930 27690 27750 D Surface : Surface::connect(this=0xae277b00,api=1)
+06-07 14:17:44.930   238  1996 I BufferQueueProducer: [com.example.muvkintours.test/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity](this:0xb31e9800,id:2824,api:1,p:27690,c:238) connect(P): api=1 producer=(27690:com.example.muvkintours.test) producerControlledByApp=true
+06-07 14:17:44.930 27690 27750 D mali_winsys: new_window_surface returns 0x3000
+06-07 14:17:44.930 27690 27690 D Surface : Surface::allocateBuffers(this=0xae277b00)
+06-07 14:17:44.930   238  5141 D BufferQueueProducer: [com.example.muvkintours.test/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity](this:0xb31e9800,id:2824,api:1,p:27690,c:238) allocateBuffers: allocating from 0 buffers up to 4 buffers
+06-07 14:17:44.930   238  5141 I [MALI][Gralloc]: [+]hnd(0xb59a1680), client(30), share_fd(65), hnd->flags:4
+06-07 14:17:44.930   238  5141 D GraphicBuffer: alloc, handle(0xb59a1680) (w:540 h:960 s:544 f:0x1 u:0x000b00) err(0)
+06-07 14:17:44.930   238  5141 I [MALI][Gralloc]: [+]hnd(0xb59a1c20), client(30), share_fd(77), hnd->flags:4
+06-07 14:17:44.930   238  5141 D GraphicBuffer: alloc, handle(0xb59a1c20) (w:540 h:960 s:544 f:0x1 u:0x000b00) err(0)
+06-07 14:17:44.930   238  5141 I [MALI][Gralloc]: [+]hnd(0xb59a0be0), client(30), share_fd(80), hnd->flags:4
+06-07 14:17:44.930   238  5141 D GraphicBuffer: alloc, handle(0xb59a0be0) (w:540 h:960 s:544 f:0x1 u:0x000b00) err(0)
+06-07 14:17:44.930   238  5141 I [MALI][Gralloc]: [+]hnd(0xb59a12c0), client(30), share_fd(84), hnd->flags:4
+06-07 14:17:44.930   238  5141 D GraphicBuffer: alloc, handle(0xb59a12c0) (w:540 h:960 s:544 f:0x1 u:0x000b00) err(0)
+06-07 14:17:44.930   238  5141 D BufferQueueProducer: [com.example.muvkintours.test/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity](this:0xb31e9800,id:2824,api:1,p:27690,c:238) allocateBuffers: allocating from 4 buffers up to 4 buffers
+06-07 14:17:44.940 27690 27690 D ViewRootImpl: MSG_RESIZED_REPORT: ci=Rect(0, 36 - 0, 0) vi=Rect(0, 36 - 0, 0) or=1
+06-07 14:17:44.950 27690 27750 D libGLESv1: DTS_GLAPI : DTS is not allowed for Package : com.example.muvkintours.test
+06-07 14:17:44.960 27690 27750 I [MALI][Gralloc]: [+]r_hnd(0xae58c140), client(38), share_fd(37)
+06-07 14:17:44.960 27690 27750 D GraphicBuffer: register, handle(0xae58c140) (w:540 h:960 s:544 f:0x1 u:0x000b00)
+06-07 14:17:44.970 27690 27750 V RenderScript: 0x9dcdd000 Launching thread(s), CPUs 4
+06-07 14:17:44.980   716  1162 V WindowStateAnimator: Finishing drawing window Window{f603ae3 u0 d0 p27690 com.example.muvkintours.test/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity}: mDrawState=DRAW_PENDING
+06-07 14:17:44.990   716   902 D KnoxTimeoutHandler: notifyActivityDrawn [MsgParam] userId: 0 fullscreen is true showWhenlocked is false
+06-07 14:17:44.990   716   716 D KnoxTimeoutHandler: activityDrawn [MsgParam] userId: 0 fullscreen is true showWhenlocked is false
+06-07 14:17:44.990   716   716 I KnoxTimeoutHandler: SD activityfalse
+06-07 14:17:44.990   716   716 I KnoxTimeoutHandler: Fullscreen and mCurrent is not KNOX user. Hence hide keyguard
+06-07 14:17:44.990 27673 27688 E TestRunner: failed: clickRecyclerViewItem(com.example.muvkintours.MealActivityInstrumentedTest)
+06-07 14:17:44.990 27673 27688 E TestRunner: ----- begin exception -----
+06-07 14:17:45.000 27690 27690 D ViewRootImpl: #1 mView = com.android.internal.policy.PhoneWindow$DecorView{87a521e I.E...... R.....ID 0,0-0,0}
+06-07 14:17:45.000 27673 27688 E TestRunner: androidx.test.espresso.AmbiguousViewMatcherException: '(is descendant of a view matching view.getId() is <2131362160/com.example.muvkintours:id/recView> and view.getId() is <2131362007/com.example.muvkintours:id/gridLayout>)' matches multiple views in the hierarchy.
+06-07 14:17:45.000 27673 27688 E TestRunner: Problem views are marked with '****MATCHES****' below.
+06-07 14:17:45.000 27673 27688 E TestRunner:
+06-07 14:17:45.000 27673 27688 E TestRunner: View Hierarchy:
+06-07 14:17:45.000 27673 27688 E TestRunner: +>DecorView{id=-1, visibility=VISIBLE, width=540, height=960, has-focus=false, has-focusable=true, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params=WM.LayoutParams{(0,0)(fillxfill) ty=1 fl=#81810100 wanim=0x103045b needsMenuKey=2}, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=0.0, child-count=2}
+06-07 14:17:45.000 27673 27688 E TestRunner: |
+06-07 14:17:45.000 27673 27688 E TestRunner: +->LinearLayout{id=-1, visibility=VISIBLE, width=540, height=960, has-focus=false, has-focusable=true, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params=android.widget.FrameLayout$LayoutParams@147e615, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=0.0, child-count=2}
+06-07 14:17:45.000 27673 27688 E TestRunner: |
+06-07 14:17:45.000 27673 27688 E TestRunner: +-->ViewStub{id=16909432, res-name=action_mode_bar_stub, visibility=GONE, width=0, height=0, has-focus=false, has-focusable=false, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=true, is-selected=false, layout-params=android.widget.LinearLayout$LayoutParams@cf58d2a, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=0.0}
+06-07 14:17:45.000 27673 27688 E TestRunner: |
+06-07 14:17:45.000 27673 27688 E TestRunner: +-->FrameLayout{id=-1, visibility=VISIBLE, width=540, height=924, has-focus=false, has-focusable=true, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params=android.widget.LinearLayout$LayoutParams@41240b8, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=36.0, child-count=1}
+06-07 14:17:45.000 27673 27688 E TestRunner: |
+06-07 14:17:45.000 27673 27688 E TestRunner: +--->ActionBarOverlayLayout{id=2131361941, res-name=decor_content_parent, visibility=VISIBLE, width=540, height=924, has-focus=false, has-focusable=true, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params=android.widget.FrameLayout$LayoutParams@94b09f7, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=0.0, child-count=2}
+06-07 14:17:45.000 27673 27688 E TestRunner: |
+06-07 14:17:45.000 27673 27688 E TestRunner: +---->ContentFrameLayout{id=16908290, res-name=content, visibility=VISIBLE, width=540, height=840, has-focus=false, has-focusable=true, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params=androidx.appcompat.widget.ActionBarOverlayLayout$LayoutParams@3efc2cd, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=84.0, child-count=1}
+06-07 14:17:45.000 27673 27688 E TestRunner: |
+06-07 14:17:45.000 27673 27688 E TestRunner: +----->RelativeLayout{id=-1, visibility=VISIBLE, width=540, height=840, has-focus=false, has-focusable=true, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params=android.widget.FrameLayout$LayoutParams@1c2bec9, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=0.0, child-count=4}
+06-07 14:17:45.000 27673 27688 E TestRunner: |
+06-07 14:17:45.000 27673 27688 E TestRunner: +------>MaterialTextView{id=2131362074, res-name=meal, visibility=VISIBLE, width=199, height=44, has-focus=false, has-focusable=false, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params=android.widget.RelativeLayout$LayoutParams@e82a9ce, tag=null, root-is-layout-requested=false, has-input-connection=false, x=170.0, y=18.0, text=Meal Categories, input-type=0, ime-target=false, has-links=false}
+06-07 14:17:45.000 27673 27688 E TestRunner: |
+06-07 14:17:45.000 27673 27688 E TestRunner: +------>MaterialTextView{id=2131362078, res-name=mealText, visibility=VISIBLE, width=463, height=32, has-focus=false, has-focusable=false, has-window-focus=true, is-clickable=
+06-07 14:17:45.000 27673 27688 E TestRunner: ----- end exception -----
+06-07 14:17:45.000   716  1605 D ActivityManager: post active user change for 0 fullscreen true isFloatingActivity() false isHomeActivity() false
+06-07 14:17:45.000   716  1605 D KnoxTimeoutHandler: postActiveUserChange [MsgParam] userId: 0 fullscreen is true showWhenlocked is false
+06-07 14:17:45.000   716   716 D KnoxTimeoutHandler: handleActiveUserChange [MsgParam] userId: 0 fullscreen is true showWhenlocked is false
+06-07 14:17:45.000   716   716 I KnoxTimeoutHandler: Shared devices show user statefalse
+06-07 14:17:45.000 27673 27688 I TestRunner: finished: clickRecyclerViewItem(com.example.muvkintours.MealActivityInstrumentedTest)

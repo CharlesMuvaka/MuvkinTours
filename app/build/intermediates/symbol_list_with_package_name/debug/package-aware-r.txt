@@ -1766,6 +1766,8 @@ color secondary_text_default_material_light
 color secondary_text_disabled_material_dark
 color secondary_text_disabled_material_light
 color splash
+color splash2
+color splash3
 color switch_thumb_disabled_material_dark
 color switch_thumb_disabled_material_light
 color switch_thumb_material_dark
@@ -2494,6 +2496,7 @@ drawable m3_tabs_background
 drawable m3_tabs_line_indicator
 drawable m3_tabs_rounded_line_indicator
 drawable m3_tabs_transparent_background
+drawable main
 drawable mango
 drawable material_cursor_drawable
 drawable material_ic_calendar_black_24dp
@@ -2642,12 +2645,15 @@ id bounce
 id bounceBoth
 id bounceEnd
 id bounceStart
+id btnLogin
+id btnSign
 id btnSubmit
 id buttonPanel
 id cache_measures
 id callMeasure
 id cancel_button
 id carryVelocity
+id category
 id center
 id centerCrop
 id centerInside
@@ -2674,6 +2680,7 @@ id collapseActionView
 id compress
 id confirm_button
 id constraint
+id cont1
 id container
 id content
 id contentPanel
@@ -2693,6 +2700,7 @@ id decor_content_parent
 id default_activity_button
 id deltaRelative
 id dependency_ordering
+id desc
 id design_bottom_sheet
 id design_menu_item_action_area
 id design_menu_item_action_area_stub
@@ -2733,8 +2741,6 @@ id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
 id fade
-id fdesc2
-id fdesc3
 id fill
 id fill_horizontal
 id fill_vertical
@@ -2747,13 +2753,6 @@ id fitXY
 id fixed
 id flip
 id floating
-id fname
-id fname2
-id fname3
-id food2
-id food3
-id foodImg2
-id foodImg3
 id forever
 id fragment_container_view_tag
 id frost
@@ -2763,7 +2762,6 @@ id ghost_view_holder
 id gone
 id graph
 id graph_wrap
-id grid
 id gridLayout
 id group_divider
 id grouping
@@ -2781,12 +2779,10 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
-id img1
-id img2
-id img3
 id immediateStop
 id included
 id info
+id ingNum
 id invisible
 id inward
 id italic
@@ -2807,8 +2803,9 @@ id line3
 id linear
 id listMode
 id list_item
-id logo
-id logoImg
+id logImage
+id logSlogan
+id logWelcome
 id masked
 id match_constraint
 id match_parent
@@ -2832,6 +2829,7 @@ id material_timepicker_ok_button
 id material_timepicker_view
 id material_value_index
 id matrix
+id meal
 id mealImage
 id mealName
 id mealPrice
@@ -2870,6 +2868,7 @@ id mtrl_picker_text_input_range_start
 id mtrl_picker_title_text
 id mtrl_view_tag_bottom_padding
 id multiply
+id name
 id navigation_bar_item_active_indicator_view
 id navigation_bar_item_icon_container
 id navigation_bar_item_icon_view
@@ -2891,7 +2890,6 @@ id notification_main_column_container
 id off
 id on
 id onInterceptTouchReturnSwipe
-id order
 id outline
 id outward
 id overshoot
@@ -2909,16 +2907,15 @@ id percent
 id pin
 id position
 id postLayout
+id price
+id progressBar
 id progress_circular
 id progress_horizontal
-id r1
-id r2
-id r3
 id radio
+id rate
 id rating
-id rating2
-id rating3
 id ratio
+id recView
 id rectangles
 id reverseSawtooth
 id right
@@ -2926,8 +2923,6 @@ id rightToLeft
 id right_icon
 id right_side
 id rounded
-id row2
-id row3
 id row_index_key
 id save_non_transition_alpha
 id save_overlay_view
@@ -2963,7 +2958,6 @@ id sin
 id skipCollapsed
 id skipped
 id slide
-id slogan
 id snackbar_action
 id snackbar_text
 id snap
@@ -3049,10 +3043,12 @@ id up
 id useLogo
 id userCoach
 id userName
+id userPassword
 id userPhone
 id userSeat
 id userTicket
 id vertical_only
+id viewPager
 id view_offset_helper
 id view_transition
 id view_tree_lifecycle_owner
@@ -3164,6 +3160,7 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_main
 layout activity_meal
+layout activity_meal_detail
 layout activity_sign_up
 layout custom_dialog
 layout design_bottom_navigation_item
@@ -3181,6 +3178,7 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
+layout fragment_meal
 layout grid_layout
 layout m3_alert_dialog
 layout m3_alert_dialog_actions
@@ -3302,6 +3300,7 @@ string error_icon_content_description
 string exposed_dropdown_menu_content_description
 string fab_transformation_scrim_behavior
 string fab_transformation_sheet_behavior
+string hello_blank_fragment
 string hide_bottom_view_on_scroll_behavior
 string icon_content_description
 string item_view_role_description

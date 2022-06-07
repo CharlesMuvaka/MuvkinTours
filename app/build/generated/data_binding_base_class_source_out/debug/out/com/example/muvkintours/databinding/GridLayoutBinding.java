@@ -4,6 +4,7 @@ package com.example.muvkintours.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.RatingBar;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -32,14 +33,23 @@ public final class GridLayoutBinding implements ViewBinding {
   @NonNull
   public final TextView mealPrice;
 
+  @NonNull
+  public final TextView price;
+
+  @NonNull
+  public final RatingBar rating;
+
   private GridLayoutBinding(@NonNull ConstraintLayout rootView,
       @NonNull ConstraintLayout gridLayout, @NonNull ShapeableImageView mealImage,
-      @NonNull TextView mealName, @NonNull TextView mealPrice) {
+      @NonNull TextView mealName, @NonNull TextView mealPrice, @NonNull TextView price,
+      @NonNull RatingBar rating) {
     this.rootView = rootView;
     this.gridLayout = gridLayout;
     this.mealImage = mealImage;
     this.mealName = mealName;
     this.mealPrice = mealPrice;
+    this.price = price;
+    this.rating = rating;
   }
 
   @Override
@@ -89,8 +99,20 @@ public final class GridLayoutBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.price;
+      TextView price = ViewBindings.findChildViewById(rootView, id);
+      if (price == null) {
+        break missingId;
+      }
+
+      id = R.id.rating;
+      RatingBar rating = ViewBindings.findChildViewById(rootView, id);
+      if (rating == null) {
+        break missingId;
+      }
+
       return new GridLayoutBinding((ConstraintLayout) rootView, gridLayout, mealImage, mealName,
-          mealPrice);
+          mealPrice, price, rating);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

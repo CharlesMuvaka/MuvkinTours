@@ -8,15 +8,27 @@
         "source": "/home/moringa/.gradle/daemon/7.3.3/com.example.muvkintours.app-main-27:/layout/activity_meal.xml"
     },
     {
+        "merged": "com.example.muvkintours.app-mergeDebugResources-24:/layout/activity_main.xml",
+        "source": "com.example.muvkintours.app-main-27:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.muvkintours.app-mergeDebugResources-24:/layout/fragment_meal.xml",
+        "source": "com.example.muvkintours.app-main-27:/layout/fragment_meal.xml"
+    },
+    {
+        "merged": "/home/moringa/.gradle/daemon/7.3.3/com.example.muvkintours.app-mergeDebugResources-24:/layout/activity_meal_detail.xml",
+        "source": "/home/moringa/.gradle/daemon/7.3.3/com.example.muvkintours.app-main-27:/layout/activity_meal_detail.xml"
+    },
+    {
         "merged": "/home/moringa/.gradle/daemon/7.3.3/com.example.muvkintours.app-mergeDebugResources-24:/layout/grid_layout.xml",
         "source": "/home/moringa/.gradle/daemon/7.3.3/com.example.muvkintours.app-main-27:/layout/grid_layout.xml"
     },
     {
-        "merged": "/home/moringa/.gradle/daemon/7.3.3/com.example.muvkintours.app-mergeDebugResources-24:/layout/activity_sign_up.xml",
-        "source": "/home/moringa/.gradle/daemon/7.3.3/com.example.muvkintours.app-main-27:/layout/activity_sign_up.xml"
+        "merged": "/home/moringa/.gradle/daemon/7.3.3/com.example.muvkintours.app-mergeDebugResources-24:/layout/fragment_meal.xml",
+        "source": "/home/moringa/.gradle/daemon/7.3.3/com.example.muvkintours.app-main-27:/layout/fragment_meal.xml"
     },
     {
-        "merged": "com.example.muvkintours.app-mergeDebugResources-24:/layout/activity_meal.xml",
-        "source": "com.example.muvkintours.app-main-27:/layout/activity_meal.xml"
+        "merged": "/home/moringa/.gradle/daemon/7.3.3/com.example.muvkintours.app-mergeDebugResources-24:/layout/activity_sign_up.xml",
+        "source": "/home/moringa/.gradle/daemon/7.3.3/com.example.muvkintours.app-main-27:/layout/activity_sign_up.xml"
     }
 ]
