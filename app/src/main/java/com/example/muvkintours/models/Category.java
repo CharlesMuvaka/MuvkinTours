@@ -1,10 +1,12 @@
-package com.example.retrofit.models;
+package com.example.muvkintours.models;
 
 
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
+import org.parceler.Parcel;
 
+@Parcel
 public class Category {
 
     @SerializedName("idCategory")
