@@ -1,5 +1,8 @@
 package com.example.muvkintours.models;
 
+import org.parceler.Parcel;
+
+@Parcel
 public class User {
 
     private String username;
@@ -7,6 +10,10 @@ public class User {
     private String ticket;
     private String seat;
     private String coach;
+
+    public User(){
+
+    }
 
     public User(String username, String phone, String ticket, String seat, String coach) {
         this.username = username;
