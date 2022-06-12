@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "925698189305",
+    "project_id": "muvkintours-d7d9c",
+    "storage_bucket": "muvkintours-d7d9c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:925698189305:android:d5d1a5de2d26686810bf28",
+        "android_client_info": {
+          "package_name": "com.example.muvkintours"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "925698189305-eor6m8v920934ana5r3nih6vfrc1b3a8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDYES8wjNnJWgcjBreTLv7UZ7UgN5ps4L8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "925698189305-eor6m8v920934ana5r3nih6vfrc1b3a8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

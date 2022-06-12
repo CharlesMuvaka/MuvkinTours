@@ -1,0 +1,144 @@
+06-09 08:56:23.316 11207 11238 I TestRunner: started: typeEditTextInputs(com.example.muvkintours.MainActivityInstrumentedTest)
+06-09 08:56:23.326  1798  1883 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 9850880
+06-09 08:56:23.328  4934  4986 W SessionLifecycleManager: Handover failed. Creating new session controller.
+06-09 08:56:23.330  1798  1883 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 9850880
+06-09 08:56:23.334  1798  1883 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 9850880
+06-09 08:56:23.327 11207 11238 W Settings: Setting always_finish_activities has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+06-09 08:56:23.340  2777  3623 D EGL_emulation: eglMakeCurrent: 0xd6c1a4e0: ver 3 0 (tinfo 0xd6c0fa00)
+06-09 08:56:23.356  2098  2125 W InputReader: Device has associated, but no associated display id.
+06-09 08:56:23.356  2098  2125 I chatty  : uid=1000(system) android.anim identical 8 lines
+06-09 08:56:23.356  2098  2125 W InputReader: Device has associated, but no associated display id.
+06-09 08:56:23.359  1798  1883 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 6307840
+06-09 08:56:23.394  2098  3576 W InputReader: Device has associated, but no associated display id.
+06-09 08:56:23.399  2098  3576 I chatty  : uid=1000(system) Binder:2098_10 identical 38 lines
+06-09 08:56:23.399  2098  3576 W InputReader: Device has associated, but no associated display id.
+06-09 08:56:23.409  2686  2847 D EGL_emulation: eglMakeCurrent: 0xdec85ba0: ver 3 0 (tinfo 0xbea71de0)
+06-09 08:56:23.417  2686  2847 D EGL_emulation: eglMakeCurrent: 0xdec85ba0: ver 3 0 (tinfo 0xbea71de0)
+06-09 08:56:23.431 11240 11267 D EGL_emulation: eglMakeCurrent: 0xd6c1a120: ver 3 0 (tinfo 0xd6c0f4e0)
+06-09 08:56:23.436 11240 11240 W ActivityThread: handleWindowVisibility: no activity for token android.os.BinderProxy@490eaea
+06-09 08:56:23.437  1825  1825 E Layer   : [Surface(name=AppWindowToken{c39e7fd token=Token{31a6c54 ActivityRecord{8097fa7 u0 com.example.muvkintours.test/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity t26}}})/@0xbefdd87 - animation-leash#0] No local sync point found
+06-09 08:56:23.437  1825  1825 E Layer   : [Surface(name=AppWindowToken{1a23584 token=Token{cfaef97 ActivityRecord{b86ca16 u0 com.google.android.apps.nexuslauncher/.NexusLauncherActivity t5}}})/@0x3c83a6 - animation-leash#0] No local sync point found
+06-09 08:56:23.438  1798  1883 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 9850880
+06-09 08:56:23.478  4934  4986 I MicroDetectionWorker: #startMicroDetector [speakerMode: 0]
+06-09 08:56:23.480  4934  4986 W ErrorReporter: reportError [type: 211, code: 393244, bug: 0]: errorCode: 393244, engine: 0
+06-09 08:56:23.482  4934  4986 I MicroDetector: Keeping mic open: false
+06-09 08:56:23.482  4934  4986 I MicroDetectionWorker: #onError(false)
+06-09 08:56:23.516  2098  2459 W InputReader: Device has associated, but no associated display id.
+06-09 08:56:23.518  2098  2459 I chatty  : uid=1000(system) Binder:2098_6 identical 48 lines
+06-09 08:56:23.518  2098  2459 W InputReader: Device has associated, but no associated display id.
+06-09 08:56:23.519 11207 11207 W ActivityThread: handleWindowVisibility: no activity for token android.os.BinderProxy@d2f4740
+06-09 08:56:23.541 11207 11207 D LifecycleMonitor: Lifecycle status change: com.example.muvkintours.MainActivity@661976c in: PRE_ON_CREATE
+06-09 08:56:23.542 11207 11207 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was PRE_ON_CREATE
+06-09 08:56:23.571  2686  2696 I ndroid.systemu: NativeAlloc concurrent copying GC freed 1070(148KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 5771KB/11MB, paused 122us total 147.546ms
+06-09 08:56:23.575  2098  2125 W InputReader: Device has associated, but no associated display id.
+06-09 08:56:23.575  2098  2125 I chatty  : uid=1000(system) android.anim identical 8 lines
+06-09 08:56:23.575  2098  2125 W InputReader: Device has associated, but no associated display id.
+06-09 08:56:23.583  1798  1883 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 9850880
+06-09 08:56:23.603  2686  2847 D EGL_emulation: eglMakeCurrent: 0xdec85ba0: ver 3 0 (tinfo 0xbea71de0)
+06-09 08:56:23.606  2777  3623 D EGL_emulation: eglMakeCurrent: 0xd6c1a4e0: ver 3 0 (tinfo 0xd6c0fa00)
+06-09 08:56:23.606  4934  6625 D EGL_emulation: eglMakeCurrent: 0xdec85300: ver 3 0 (tinfo 0xbad07370)
+06-09 08:56:23.640  2686  2847 D EGL_emulation: eglMakeCurrent: 0xdec85ba0: ver 3 0 (tinfo 0xbea71de0)
+06-09 08:56:23.670  2777  2800 I s.nexuslaunche: NativeAlloc concurrent copying GC freed 2997(255KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 2892KB/5784KB, paused 91us total 243.881ms
+06-09 08:56:23.674  2777  2802 W System  : A resource failed to call release.
+06-09 08:56:23.674  2777  2802 W System  : A resource failed to call release.
+06-09 08:56:23.681  2098  6572 D HostConnection: HostConnection::get() New Host Connection established 0xd36ba2b0, tid 6572
+06-09 08:56:23.690  2098  6572 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_native_sync_v3 ANDROID_EMU_native_sync_v4 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV420_888_to_NV21 ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_sync_buffer_data GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_0
+06-09 08:56:23.692  2098  6572 W OpenGLRenderer: Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+06-09 08:56:23.693  2098  6572 D eglCodecCommon: setVertexArrayObject: set vao to 0 (0) 0 0
+06-09 08:56:23.693  2098  6572 D EGL_emulation: eglCreateContext: 0xb5092bc0: maj 3 min 0 rcv 3
+06-09 08:56:23.695  2098  6572 D EGL_emulation: eglMakeCurrent: 0xb5092bc0: ver 3 0 (tinfo 0xbade1c30)
+06-09 08:56:23.730  2098  6572 D eglCodecCommon: setVertexArrayObject: set vao to 0 (0) 1 0
+06-09 08:56:23.766 11207 11213 I ple.muvkintour: JIT allocated 70KB for compiled code of void android.view.View.<init>(android.content.Context, android.util.AttributeSet, int, int)
+06-09 08:56:23.816 11207 11207 D LifecycleMonitor: Lifecycle status change: com.example.muvkintours.MainActivity@661976c in: CREATED
+06-09 08:56:23.817 11207 11207 V ActivityScenario: Update currentActivityStage to CREATED, currentActivity=com.example.muvkintours.MainActivity@661976c
+06-09 08:56:23.822 11207 11207 D LifecycleMonitor: Lifecycle status change: com.example.muvkintours.MainActivity@661976c in: STARTED
+06-09 08:56:23.823 11207 11207 V ActivityScenario: Update currentActivityStage to STARTED, currentActivity=com.example.muvkintours.MainActivity@661976c
+06-09 08:56:23.824 11207 11207 D LifecycleMonitor: Lifecycle status change: com.example.muvkintours.MainActivity@661976c in: RESUMED
+06-09 08:56:23.825 11207 11207 V ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=com.example.muvkintours.MainActivity@661976c
+06-09 08:56:23.828 11207 11238 W ple.muvkintour: Accessing hidden method Lsun/misc/Unsafe;->compareAndSwapObject(Ljava/lang/Object;JLjava/lang/Object;Ljava/lang/Object;)Z (greylist, linking, allowed)
+06-09 08:56:23.896  1798  1883 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 9850880
+06-09 08:56:23.898  1798  1883 I chatty  : uid=1000(system) HwBinder:1798_1 identical 1 line
+06-09 08:56:23.899  1798  1883 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 9850880
+06-09 08:56:23.920  2098  2110 I system_server: NativeAlloc concurrent copying GC freed 42648(2634KB) AllocSpace objects, 14(344KB) LOS objects, 32% free, 12MB/18MB, paused 466us total 149.477ms
+06-09 08:56:23.931 11207 11276 D EGL_emulation: eglMakeCurrent: 0xd6c1a120: ver 3 0 (tinfo 0xd6c0f780)
+06-09 08:56:23.968  2098  2129 I ActivityTaskManager: Displayed com.example.muvkintours/.MainActivity: +460ms
+06-09 08:56:23.998 11207 11207 I ViewInteraction: Performing 'type text(Charles Muvaka)' action on view (is descendant of a view matching view.getId() is <2131362287/com.example.muvkintours:id/userName> and view.getClass().getName() matches: a string ending with "TextInputEditText")
+06-09 08:56:24.040  4934  9632 I PBSessionCacheImpl: Deleted sessionId[153986491707] from persistence.
+06-09 08:56:24.066  4934  4986 W SearchServiceCore: Abort, client detached.
+06-09 08:56:24.098 11207 11207 I AssistStructure: Flattened final assist data: 3088 bytes, containing 1 windows, 19 views
+06-09 08:56:24.203  1797  2588 E GnssHAL_GnssInterface: gnssSvStatusCb: a: input svInfo.flags is 8
+06-09 08:56:24.203  1797  2588 E GnssHAL_GnssInterface: gnssSvStatusCb: b: input svInfo.flags is 8
+06-09 08:56:24.233  2867  2867 I KeyboardViewUtil: systemKeyboardHeightRatio:1.000000; userKeyboardHeightRatio:1.000000.
+06-09 08:56:24.250  2867  2867 I AndroidIME: LatinIme.onActivate() : EditorInfo = Package = com.example.muvkintours : Type = Text : Learning = Enable : Suggestion = Show : AutoCorrection = Enable : Microphone = Show : NoPersonalizedLearning = Disable
+06-09 08:56:24.338 11207 11207 D UiControllerImpl: Injecting string: "Charles Muvaka"
+06-09 08:56:24.633  2867  2867 I Conv2QueryExtension: Current locale: en_US, config allows these locales: de,en,es,fr,it,ms,pt,ta
+06-09 08:56:24.633  2867  2867 I Conv2QueryExtension: Conv2Query not enabled due to current app [com.example.muvkintours] not in whitelist
+06-09 08:56:24.633  2867  2867 I Conv2QueryExtension: onActivate() : Disabled by unsupported host app
+06-09 08:56:24.677  2867  2867 I Choreographer: Skipped 31 frames!  The application may be doing too much work on its main thread.
+06-09 08:56:24.702  1798  1883 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 9113600
+06-09 08:56:24.713  1798  1883 I chatty  : uid=1000(system) HwBinder:1798_1 identical 1 line
+06-09 08:56:24.716  1798  1883 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 9113600
+06-09 08:56:24.774  2867  4557 D EGL_emulation: eglMakeCurrent: 0xbc417880: ver 3 0 (tinfo 0xbbe22200)
+06-09 08:56:25.058  2867  4080 I native  : input-context-store.cc:172 Ignoring stale client request for FetchSuggestions
+06-09 08:56:25.204  1797  2588 E GnssHAL_GnssInterface: gnssSvStatusCb: a: input svInfo.flags is 8
+06-09 08:56:25.204  1797  2588 E GnssHAL_GnssInterface: gnssSvStatusCb: b: input svInfo.flags is 8
+06-09 08:56:25.414 11207 11207 I ViewInteraction: Performing 'type text(0768761611)' action on view (is descendant of a view matching view.getId() is <2131362289/com.example.muvkintours:id/userPhone> and view.getClass().getName() matches: a string ending with "TextInputEditText")
+06-09 08:56:25.692  1788  5884 W audio_hw_generic: Not supplying enough data to HAL, expected position 5607803 , only wrote 5377896
+06-09 08:56:25.781  2867  2867 I PhenotypeExpConfig: refreshConfiguration() : Force = false : UpdateAvailable = false : Age = 35 minutes : MaxAge = 720 minutes
+06-09 08:56:25.791  2867  2867 I AndroidIME: LatinIme.onDeactivate()
+06-09 08:56:25.838  2867  2867 I KeyboardViewUtil: systemKeyboardHeightRatio:1.000000; userKeyboardHeightRatio:1.000000.
+06-09 08:56:25.839  2867  2867 I AndroidIME: DummyIme.onActivate() : EditorInfo = Package = com.example.muvkintours : Type = Number : Learning = Disable : Suggestion = Hide : AutoCorrection = Disable : Microphone = Hide : NoPersonalizedLearning = Disable
+06-09 08:56:25.870  2867  2867 I Conv2QueryExtension: Current locale: en_US, config allows these locales: de,en,es,fr,it,ms,pt,ta
+06-09 08:56:25.870  2867  2867 I Conv2QueryExtension: Conv2Query not enabled due to current app [com.example.muvkintours] not in whitelist
+06-09 08:56:25.870  2867  2867 I Conv2QueryExtension: onActivate() : Disabled by unsupported host app
+06-09 08:56:25.872  2867  2867 I CurrentMicStatusHolder: Current Mic status = {MicIconHidden-PasswordOrNumberOrDateInputType,}
+06-09 08:56:26.052 11207 11207 D UiControllerImpl: Injecting string: "0768761611"
+06-09 08:56:26.214  1797  2588 E GnssHAL_GnssInterface: gnssSvStatusCb: a: input svInfo.flags is 8
+06-09 08:56:26.214  1797  2588 E GnssHAL_GnssInterface: gnssSvStatusCb: b: input svInfo.flags is 8
+06-09 08:56:26.545 11207 11207 D LifecycleMonitor: Lifecycle status change: com.example.muvkintours.MainActivity@661976c in: PAUSED
+06-09 08:56:26.550 11207 11207 V ActivityScenario: Update currentActivityStage to PAUSED, currentActivity=com.example.muvkintours.MainActivity@661976c
+06-09 08:56:26.554  2098  3576 W InputReader: Device has associated, but no associated display id.
+06-09 08:56:26.592  2098  3576 I chatty  : uid=1000(system) Binder:2098_10 identical 38 lines
+06-09 08:56:26.592  2098  3576 W InputReader: Device has associated, but no associated display id.
+06-09 08:56:26.604 11240 11240 W ActivityThread: handleWindowVisibility: no activity for token android.os.BinderProxy@60acbb6
+06-09 08:56:26.604  2098  3576 W InputReader: Device has associated, but no associated display id.
+06-09 08:56:26.604  2098  3576 I chatty  : uid=1000(system) Binder:2098_10 identical 8 lines
+06-09 08:56:26.604  2098  3576 W InputReader: Device has associated, but no associated display id.
+06-09 08:56:26.691  1798  1883 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 9850880
+06-09 08:56:26.709  1798  1883 I chatty  : uid=1000(system) HwBinder:1798_1 identical 1 line
+06-09 08:56:26.725  1798  1883 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 9850880
+06-09 08:56:26.742 11240 11267 D EGL_emulation: eglMakeCurrent: 0xd6c1a120: ver 3 0 (tinfo 0xd6c0f4e0)
+06-09 08:56:26.775  2098  7732 W InputReader: Device has associated, but no associated display id.
+06-09 08:56:26.778  2098  7732 I chatty  : uid=1000(system) Binder:2098_20 identical 48 lines
+06-09 08:56:26.778  2098  7732 W InputReader: Device has associated, but no associated display id.
+06-09 08:56:26.797 11240 11240 W ActivityThread: handleWindowVisibility: no activity for token android.os.BinderProxy@6fe5153
+06-09 08:56:26.855  1798  1883 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 9850880
+06-09 08:56:26.865  1798  1883 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 9850880
+06-09 08:56:26.902 11240 11267 D EGL_emulation: eglMakeCurrent: 0xd6c1a120: ver 3 0 (tinfo 0xd6c0f4e0)
+06-09 08:56:26.906  1798  1972 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 9850880
+06-09 08:56:26.937  2098  2125 W InputReader: Device has associated, but no associated display id.
+06-09 08:56:26.938  2098  2125 I chatty  : uid=1000(system) android.anim identical 18 lines
+06-09 08:56:26.938  2098  2125 W InputReader: Device has associated, but no associated display id.
+06-09 08:56:26.953  2098  2129 I ActivityTaskManager: Displayed com.example.muvkintours.test/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity: +273ms
+06-09 08:56:26.964  2098  2459 W InputReader: Device has associated, but no associated display id.
+06-09 08:56:26.964  2098  2459 I chatty  : uid=1000(system) Binder:2098_6 identical 8 lines
+06-09 08:56:26.964  2098  2459 W InputReader: Device has associated, but no associated display id.
+06-09 08:56:26.991 11207 11276 D EGL_emulation: eglMakeCurrent: 0xd6c1a120: ver 3 0 (tinfo 0xd6c0f780)
+06-09 08:56:27.006  2867  2867 I PhenotypeExpConfig: refreshConfiguration() : Force = false : UpdateAvailable = false : Age = 35 minutes : MaxAge = 720 minutes
+06-09 08:56:27.019  2867  2867 I AndroidIME: DummyIme.onDeactivate()
+06-09 08:56:27.032  2098  3576 W InputReader: Device has associated, but no associated display id.
+06-09 08:56:27.033  2098  3576 I chatty  : uid=1000(system) Binder:2098_10 identical 8 lines
+06-09 08:56:27.033  2098  3576 W InputReader: Device has associated, but no associated display id.
+06-09 08:56:27.071  2867  4557 D EGL_emulation: eglMakeCurrent: 0xbc417880: ver 3 0 (tinfo 0xbbe22200)
+06-09 08:56:27.075 11207 11207 D LifecycleMonitor: Lifecycle status change: com.example.muvkintours.MainActivity@661976c in: STOPPED
+06-09 08:56:27.076  1798  1972 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 9850880
+06-09 08:56:27.077 11207 11207 V ActivityScenario: Update currentActivityStage to STOPPED, currentActivity=com.example.muvkintours.MainActivity@661976c
+06-09 08:56:27.090  1798  1972 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 9850880
+06-09 08:56:27.091  4934  6625 D EGL_emulation: eglMakeCurrent: 0xdec85300: ver 3 0 (tinfo 0xbad07370)
+06-09 08:56:27.092  1798  1972 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 9850880
+06-09 08:56:27.100 11207 11207 D LifecycleMonitor: Lifecycle status change: com.example.muvkintours.MainActivity@661976c in: DESTROYED
+06-09 08:56:27.100  1798  1972 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 9850880
+06-09 08:56:27.101 11207 11207 V ActivityScenario: Update currentActivityStage to DESTROYED, currentActivity=null
+06-09 08:56:27.106  1798  1972 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 9850880
+06-09 08:56:27.108  1798  1883 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 9850880
+06-09 08:56:27.109 11207 11238 I TestRunner: finished: typeEditTextInputs(com.example.muvkintours.MainActivityInstrumentedTest)

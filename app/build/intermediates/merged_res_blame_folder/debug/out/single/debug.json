@@ -1,198 +1,190 @@
 [
     {
-        "merged": "/home/moringa/.gradle/daemon/7.3.3/com.example.muvkintours.app-merged_res-25:/drawable_ticket.xml.flat",
-        "source": "/home/moringa/.gradle/daemon/7.3.3/com.example.muvkintours.app-main-27:/drawable/ticket.xml"
+        "merged": "com.example.muvkintours.app-merged_res-29:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.muvkintours.app-main-31:/mipmap-mdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "/home/moringa/.gradle/daemon/7.3.3/com.example.muvkintours.app-merged_res-25:/drawable_ic_launcher_background.xml.flat",
-        "source": "/home/moringa/.gradle/daemon/7.3.3/com.example.muvkintours.app-main-27:/drawable/ic_launcher_background.xml"
+        "merged": "com.example.muvkintours.app-merged_res-29:/drawable_person.xml.flat",
+        "source": "com.example.muvkintours.app-main-31:/drawable/person.xml"
     },
     {
-        "merged": "/home/moringa/.gradle/daemon/7.3.3/com.example.muvkintours.app-merged_res-25:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "/home/moringa/.gradle/daemon/7.3.3/com.example.muvkintours.app-main-27:/mipmap-anydpi-v26/ic_launcher_round.xml"
+        "merged": "com.example.muvkintours.app-merged_res-29:/drawable_layout.xml.flat",
+        "source": "com.example.muvkintours.app-main-31:/drawable/layout.xml"
     },
     {
-        "merged": "/home/moringa/.gradle/daemon/7.3.3/com.example.muvkintours.app-merged_res-25:/drawable_img.xml.flat",
-        "source": "/home/moringa/.gradle/daemon/7.3.3/com.example.muvkintours.app-main-27:/drawable/img.xml"
+        "merged": "com.example.muvkintours.app-merged_res-29:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.muvkintours.app-main-31:/mipmap-xhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "/home/moringa/.gradle/daemon/7.3.3/com.example.muvkintours.app-merged_res-25:/mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "/home/moringa/.gradle/daemon/7.3.3/com.example.muvkintours.app-main-27:/mipmap-mdpi/ic_launcher_round.webp"
+        "merged": "com.example.muvkintours.app-merged_res-29:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.example.muvkintours.app-main-31:/mipmap-xhdpi/ic_launcher.webp"
     },
     {
-        "merged": "/home/moringa/.gradle/daemon/7.3.3/com.example.muvkintours.app-merged_res-25:/layout_activity_sign_up.xml.flat",
-        "source": "/home/moringa/.gradle/daemon/7.3.3/com.example.muvkintours.app-main-27:/layout/activity_sign_up.xml"
+        "merged": "com.example.muvkintours.app-merged_res-29:/font_baloo.xml.flat",
+        "source": "com.example.muvkintours.app-main-31:/font/baloo.xml"
     },
     {
-        "merged": "/home/moringa/.gradle/daemon/7.3.3/com.example.muvkintours.app-merged_res-25:/mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "/home/moringa/.gradle/daemon/7.3.3/com.example.muvkintours.app-main-27:/mipmap-xxxhdpi/ic_launcher.webp"
+        "merged": "com.example.muvkintours.app-merged_res-29:/drawable_rice.jpeg.flat",
+        "source": "com.example.muvkintours.app-main-31:/drawable/rice.jpeg"
     },
     {
-        "merged": "/home/moringa/.gradle/daemon/7.3.3/com.example.muvkintours.app-merged_res-25:/layout_activity_meal_detail.xml.flat",
-        "source": "/home/moringa/.gradle/daemon/7.3.3/com.example.muvkintours.app-main-27:/layout/activity_meal_detail.xml"
+        "merged": "com.example.muvkintours.app-merged_res-29:/drawable_burger.jpg.flat",
+        "source": "com.example.muvkintours.app-main-31:/drawable/burger.jpg"
     },
     {
-        "merged": "/home/moringa/.gradle/daemon/7.3.3/com.example.muvkintours.app-merged_res-25:/drawable_service.jpeg.flat",
-        "source": "/home/moringa/.gradle/daemon/7.3.3/com.example.muvkintours.app-main-27:/drawable/service.jpeg"
+        "merged": "com.example.muvkintours.app-merged_res-29:/drawable_mango.jpeg.flat",
+        "source": "com.example.muvkintours.app-main-31:/drawable/mango.jpeg"
     },
     {
-        "merged": "/home/moringa/.gradle/daemon/7.3.3/com.example.muvkintours.app-merged_res-25:/mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "/home/moringa/.gradle/daemon/7.3.3/com.example.muvkintours.app-main-27:/mipmap-mdpi/ic_launcher.webp"
+        "merged": "com.example.muvkintours.app-merged_res-29:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "com.example.muvkintours.app-pngs-24:/drawable-anydpi-v24/ic_launcher_foreground.xml"
     },
     {
-        "merged": "/home/moringa/.gradle/daemon/7.3.3/com.example.muvkintours.app-merged_res-25:/drawable_main.xml.flat",
-        "source": "/home/moringa/.gradle/daemon/7.3.3/com.example.muvkintours.app-main-27:/drawable/main.xml"
+        "merged": "com.example.muvkintours.app-merged_res-29:/drawable_order.jpeg.flat",
+        "source": "com.example.muvkintours.app-main-31:/drawable/order.jpeg"
     },
     {
-        "merged": "/home/moringa/.gradle/daemon/7.3.3/com.example.muvkintours.app-merged_res-25:/drawable_order.jpeg.flat",
-        "source": "/home/moringa/.gradle/daemon/7.3.3/com.example.muvkintours.app-main-27:/drawable/order.jpeg"
+        "merged": "com.example.muvkintours.app-merged_res-29:/drawable_phone.xml.flat",
+        "source": "com.example.muvkintours.app-main-31:/drawable/phone.xml"
     },
     {
-        "merged": "/home/moringa/.gradle/daemon/7.3.3/com.example.muvkintours.app-merged_res-25:/font_akronim.ttf.flat",
-        "source": "/home/moringa/.gradle/daemon/7.3.3/com.example.muvkintours.app-main-27:/font/akronim.ttf"
+        "merged": "com.example.muvkintours.app-merged_res-29:/drawable_piza.jpeg.flat",
+        "source": "com.example.muvkintours.app-main-31:/drawable/piza.jpeg"
     },
     {
-        "merged": "/home/moringa/.gradle/daemon/7.3.3/com.example.muvkintours.app-merged_res-25:/drawable_ugali.jpeg.flat",
-        "source": "/home/moringa/.gradle/daemon/7.3.3/com.example.muvkintours.app-main-27:/drawable/ugali.jpeg"
+        "merged": "com.example.muvkintours.app-merged_res-29:/drawable_logos.jpeg.flat",
+        "source": "com.example.muvkintours.app-main-31:/drawable/logos.jpeg"
     },
     {
-        "merged": "/home/moringa/.gradle/daemon/7.3.3/com.example.muvkintours.app-merged_res-25:/mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "/home/moringa/.gradle/daemon/7.3.3/com.example.muvkintours.app-main-27:/mipmap-hdpi/ic_launcher_round.webp"
+        "merged": "com.example.muvkintours.app-merged_res-29:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.example.muvkintours.app-main-31:/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
-        "merged": "/home/moringa/.gradle/daemon/7.3.3/com.example.muvkintours.app-merged_res-25:/drawable_rice.jpeg.flat",
-        "source": "/home/moringa/.gradle/daemon/7.3.3/com.example.muvkintours.app-main-27:/drawable/rice.jpeg"
+        "merged": "com.example.muvkintours.app-merged_res-29:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.example.muvkintours.app-main-31:/mipmap-hdpi/ic_launcher.webp"
     },
     {
-        "merged": "/home/moringa/.gradle/daemon/7.3.3/com.example.muvkintours.app-merged_res-25:/drawable_mango.jpeg.flat",
-        "source": "/home/moringa/.gradle/daemon/7.3.3/com.example.muvkintours.app-main-27:/drawable/mango.jpeg"
+        "merged": "com.example.muvkintours.app-merged_res-29:/layout_fragment_meal.xml.flat",
+        "source": "com.example.muvkintours.app-main-31:/layout/fragment_meal.xml"
     },
     {
-        "merged": "/home/moringa/.gradle/daemon/7.3.3/com.example.muvkintours.app-merged_res-25:/drawable_logo.jpeg.flat",
-        "source": "/home/moringa/.gradle/daemon/7.3.3/com.example.muvkintours.app-main-27:/drawable/logo.jpeg"
+        "merged": "com.example.muvkintours.app-merged_res-29:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.example.muvkintours.app-main-31:/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
-        "merged": "/home/moringa/.gradle/daemon/7.3.3/com.example.muvkintours.app-merged_res-25:/drawable_piza.jpeg.flat",
-        "source": "/home/moringa/.gradle/daemon/7.3.3/com.example.muvkintours.app-main-27:/drawable/piza.jpeg"
+        "merged": "com.example.muvkintours.app-merged_res-29:/drawable_main.xml.flat",
+        "source": "com.example.muvkintours.app-main-31:/drawable/main.xml"
     },
     {
-        "merged": "/home/moringa/.gradle/daemon/7.3.3/com.example.muvkintours.app-merged_res-25:/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "/home/moringa/.gradle/daemon/7.3.3/com.example.muvkintours.app-main-27:/mipmap-anydpi-v26/ic_launcher.xml"
+        "merged": "com.example.muvkintours.app-merged_res-29:/drawable_pilau.jpeg.flat",
+        "source": "com.example.muvkintours.app-main-31:/drawable/pilau.jpeg"
     },
     {
-        "merged": "/home/moringa/.gradle/daemon/7.3.3/com.example.muvkintours.app-merged_res-25:/drawable_phone.xml.flat",
-        "source": "/home/moringa/.gradle/daemon/7.3.3/com.example.muvkintours.app-main-27:/drawable/phone.xml"
+        "merged": "com.example.muvkintours.app-merged_res-29:/drawable_ugali.jpeg.flat",
+        "source": "com.example.muvkintours.app-main-31:/drawable/ugali.jpeg"
     },
     {
-        "merged": "/home/moringa/.gradle/daemon/7.3.3/com.example.muvkintours.app-merged_res-25:/drawable_pilau.jpeg.flat",
-        "source": "/home/moringa/.gradle/daemon/7.3.3/com.example.muvkintours.app-main-27:/drawable/pilau.jpeg"
+        "merged": "com.example.muvkintours.app-merged_res-29:/drawable_coach.xml.flat",
+        "source": "com.example.muvkintours.app-main-31:/drawable/coach.xml"
     },
     {
-        "merged": "/home/moringa/.gradle/daemon/7.3.3/com.example.muvkintours.app-merged_res-25:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "/home/moringa/.gradle/daemon/7.3.3/com.example.muvkintours.app-main-27:/mipmap-xxxhdpi/ic_launcher_round.webp"
+        "merged": "com.example.muvkintours.app-merged_res-29:/drawable_ticket.xml.flat",
+        "source": "com.example.muvkintours.app-main-31:/drawable/ticket.xml"
     },
     {
-        "merged": "/home/moringa/.gradle/daemon/7.3.3/com.example.muvkintours.app-merged_res-25:/layout_activity_meal.xml.flat",
-        "source": "/home/moringa/.gradle/daemon/7.3.3/com.example.muvkintours.app-main-27:/layout/activity_meal.xml"
+        "merged": "com.example.muvkintours.app-merged_res-29:/drawable_logo.jpeg.flat",
+        "source": "com.example.muvkintours.app-main-31:/drawable/logo.jpeg"
     },
     {
-        "merged": "/home/moringa/.gradle/daemon/7.3.3/com.example.muvkintours.app-merged_res-25:/font_baloo.xml.flat",
-        "source": "/home/moringa/.gradle/daemon/7.3.3/com.example.muvkintours.app-main-27:/font/baloo.xml"
+        "merged": "com.example.muvkintours.app-merged_res-29:/xml_backup_rules.xml.flat",
+        "source": "com.example.muvkintours.app-main-31:/xml/backup_rules.xml"
     },
     {
-        "merged": "/home/moringa/.gradle/daemon/7.3.3/com.example.muvkintours.app-merged_res-25:/mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "/home/moringa/.gradle/daemon/7.3.3/com.example.muvkintours.app-main-27:/mipmap-xhdpi/ic_launcher.webp"
+        "merged": "com.example.muvkintours.app-merged_res-29:/layout_activity_sign_up.xml.flat",
+        "source": "com.example.muvkintours.app-main-31:/layout/activity_sign_up.xml"
     },
     {
-        "merged": "/home/moringa/.gradle/daemon/7.3.3/com.example.muvkintours.app-merged_res-25:/drawable_ic_baseline_airline_seat_recline_normal_24.xml.flat",
-        "source": "/home/moringa/.gradle/daemon/7.3.3/com.example.muvkintours.app-main-27:/drawable/ic_baseline_airline_seat_recline_normal_24.xml"
+        "merged": "com.example.muvkintours.app-merged_res-29:/xml_data_extraction_rules.xml.flat",
+        "source": "com.example.muvkintours.app-main-31:/xml/data_extraction_rules.xml"
     },
     {
-        "merged": "/home/moringa/.gradle/daemon/7.3.3/com.example.muvkintours.app-merged_res-25:/layout_activity_main.xml.flat",
-        "source": "/home/moringa/.gradle/daemon/7.3.3/com.example.muvkintours.app-main-27:/layout/activity_main.xml"
+        "merged": "com.example.muvkintours.app-merged_res-29:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.muvkintours.app-main-31:/mipmap-xxxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "/home/moringa/.gradle/daemon/7.3.3/com.example.muvkintours.app-merged_res-25:/drawable_coach.xml.flat",
-        "source": "/home/moringa/.gradle/daemon/7.3.3/com.example.muvkintours.app-main-27:/drawable/coach.xml"
+        "merged": "com.example.muvkintours.app-merged_res-29:/drawable_beer.jpeg.flat",
+        "source": "com.example.muvkintours.app-main-31:/drawable/beer.jpeg"
     },
     {
-        "merged": "/home/moringa/.gradle/daemon/7.3.3/com.example.muvkintours.app-merged_res-25:/drawable_burger.jpg.flat",
-        "source": "/home/moringa/.gradle/daemon/7.3.3/com.example.muvkintours.app-main-27:/drawable/burger.jpg"
+        "merged": "com.example.muvkintours.app-merged_res-29:/drawable_samosa.jpeg.flat",
+        "source": "com.example.muvkintours.app-main-31:/drawable/samosa.jpeg"
     },
     {
-        "merged": "/home/moringa/.gradle/daemon/7.3.3/com.example.muvkintours.app-merged_res-25:/drawable_logos.jpeg.flat",
-        "source": "/home/moringa/.gradle/daemon/7.3.3/com.example.muvkintours.app-main-27:/drawable/logos.jpeg"
+        "merged": "com.example.muvkintours.app-merged_res-29:/layout_activity_meal.xml.flat",
+        "source": "com.example.muvkintours.app-main-31:/layout/activity_meal.xml"
     },
     {
-        "merged": "/home/moringa/.gradle/daemon/7.3.3/com.example.muvkintours.app-merged_res-25:/layout_fragment_meal.xml.flat",
-        "source": "/home/moringa/.gradle/daemon/7.3.3/com.example.muvkintours.app-main-27:/layout/fragment_meal.xml"
+        "merged": "com.example.muvkintours.app-merged_res-29:/layout_activity_main.xml.flat",
+        "source": "com.example.muvkintours.app-main-31:/layout/activity_main.xml"
     },
     {
-        "merged": "/home/moringa/.gradle/daemon/7.3.3/com.example.muvkintours.app-merged_res-25:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "/home/moringa/.gradle/daemon/7.3.3/com.example.muvkintours.app-main-27:/mipmap-xxhdpi/ic_launcher_round.webp"
+        "merged": "com.example.muvkintours.app-merged_res-29:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.muvkintours.app-main-31:/mipmap-hdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "/home/moringa/.gradle/daemon/7.3.3/com.example.muvkintours.app-merged_res-25:/drawable_githeri.jpeg.flat",
-        "source": "/home/moringa/.gradle/daemon/7.3.3/com.example.muvkintours.app-main-27:/drawable/githeri.jpeg"
+        "merged": "com.example.muvkintours.app-merged_res-29:/font_akronim.ttf.flat",
+        "source": "com.example.muvkintours.app-main-31:/font/akronim.ttf"
     },
     {
-        "merged": "/home/moringa/.gradle/daemon/7.3.3/com.example.muvkintours.app-merged_res-25:/layout_grid_layout.xml.flat",
-        "source": "/home/moringa/.gradle/daemon/7.3.3/com.example.muvkintours.app-main-27:/layout/grid_layout.xml"
+        "merged": "com.example.muvkintours.app-merged_res-29:/drawable_fruits.jpeg.flat",
+        "source": "com.example.muvkintours.app-main-31:/drawable/fruits.jpeg"
     },
     {
-        "merged": "/home/moringa/.gradle/daemon/7.3.3/com.example.muvkintours.app-merged_res-25:/mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "/home/moringa/.gradle/daemon/7.3.3/com.example.muvkintours.app-main-27:/mipmap-xxhdpi/ic_launcher.webp"
+        "merged": "com.example.muvkintours.app-merged_res-29:/drawable_service.jpeg.flat",
+        "source": "com.example.muvkintours.app-main-31:/drawable/service.jpeg"
     },
     {
-        "merged": "/home/moringa/.gradle/daemon/7.3.3/com.example.muvkintours.app-merged_res-25:/drawable_samosa.jpeg.flat",
-        "source": "/home/moringa/.gradle/daemon/7.3.3/com.example.muvkintours.app-main-27:/drawable/samosa.jpeg"
+        "merged": "com.example.muvkintours.app-merged_res-29:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.muvkintours.app-main-31:/mipmap-xxxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "/home/moringa/.gradle/daemon/7.3.3/com.example.muvkintours.app-merged_res-25:/drawable_person.xml.flat",
-        "source": "/home/moringa/.gradle/daemon/7.3.3/com.example.muvkintours.app-main-27:/drawable/person.xml"
+        "merged": "com.example.muvkintours.app-merged_res-29:/layout_grid_layout.xml.flat",
+        "source": "com.example.muvkintours.app-main-31:/layout/grid_layout.xml"
     },
     {
-        "merged": "/home/moringa/.gradle/daemon/7.3.3/com.example.muvkintours.app-merged_res-25:/drawable_beer.jpeg.flat",
-        "source": "/home/moringa/.gradle/daemon/7.3.3/com.example.muvkintours.app-main-27:/drawable/beer.jpeg"
+        "merged": "com.example.muvkintours.app-merged_res-29:/drawable_githeri.jpeg.flat",
+        "source": "com.example.muvkintours.app-main-31:/drawable/githeri.jpeg"
     },
     {
-        "merged": "com.example.muvkintours.app-merged_res-25:/layout_activity_main.xml.flat",
-        "source": "com.example.muvkintours.app-main-27:/layout/activity_main.xml"
+        "merged": "com.example.muvkintours.app-merged_res-29:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.muvkintours.app-main-31:/mipmap-xxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "/home/moringa/.gradle/daemon/7.3.3/com.example.muvkintours.app-merged_res-25:/drawable_layout.xml.flat",
-        "source": "/home/moringa/.gradle/daemon/7.3.3/com.example.muvkintours.app-main-27:/drawable/layout.xml"
+        "merged": "com.example.muvkintours.app-merged_res-29:/drawable_img.xml.flat",
+        "source": "com.example.muvkintours.app-main-31:/drawable/img.xml"
     },
     {
-        "merged": "/home/moringa/.gradle/daemon/7.3.3/com.example.muvkintours.app-merged_res-25:/mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "/home/moringa/.gradle/daemon/7.3.3/com.example.muvkintours.app-main-27:/mipmap-xhdpi/ic_launcher_round.webp"
+        "merged": "com.example.muvkintours.app-merged_res-29:/drawable_back.jpeg.flat",
+        "source": "com.example.muvkintours.app-main-31:/drawable/back.jpeg"
     },
     {
-        "merged": "/home/moringa/.gradle/daemon/7.3.3/com.example.muvkintours.app-merged_res-25:/drawable_fruits.jpeg.flat",
-        "source": "/home/moringa/.gradle/daemon/7.3.3/com.example.muvkintours.app-main-27:/drawable/fruits.jpeg"
+        "merged": "com.example.muvkintours.app-merged_res-29:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.muvkintours.app-main-31:/drawable/ic_launcher_background.xml"
     },
     {
-        "merged": "/home/moringa/.gradle/daemon/7.3.3/com.example.muvkintours.app-merged_res-25:/xml_data_extraction_rules.xml.flat",
-        "source": "/home/moringa/.gradle/daemon/7.3.3/com.example.muvkintours.app-main-27:/xml/data_extraction_rules.xml"
+        "merged": "com.example.muvkintours.app-merged_res-29:/drawable_ic_baseline_airline_seat_recline_normal_24.xml.flat",
+        "source": "com.example.muvkintours.app-main-31:/drawable/ic_baseline_airline_seat_recline_normal_24.xml"
     },
     {
-        "merged": "com.example.muvkintours.app-merged_res-25:/layout_fragment_meal.xml.flat",
-        "source": "com.example.muvkintours.app-main-27:/layout/fragment_meal.xml"
+        "merged": "com.example.muvkintours.app-merged_res-29:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.example.muvkintours.app-main-31:/mipmap-mdpi/ic_launcher.webp"
     },
     {
-        "merged": "/home/moringa/.gradle/daemon/7.3.3/com.example.muvkintours.app-merged_res-25:/mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "/home/moringa/.gradle/daemon/7.3.3/com.example.muvkintours.app-main-27:/mipmap-hdpi/ic_launcher.webp"
+        "merged": "com.example.muvkintours.app-merged_res-29:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.muvkintours.app-main-31:/mipmap-xxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "/home/moringa/.gradle/daemon/7.3.3/com.example.muvkintours.app-merged_res-25:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
-        "source": "/home/moringa/.gradle/daemon/7.3.3/com.example.muvkintours.app-pngs-20:/drawable-anydpi-v24/ic_launcher_foreground.xml"
-    },
-    {
-        "merged": "/home/moringa/.gradle/daemon/7.3.3/com.example.muvkintours.app-merged_res-25:/xml_backup_rules.xml.flat",
-        "source": "/home/moringa/.gradle/daemon/7.3.3/com.example.muvkintours.app-main-27:/xml/backup_rules.xml"
-    },
-    {
-        "merged": "/home/moringa/.gradle/daemon/7.3.3/com.example.muvkintours.app-merged_res-25:/drawable_back.jpeg.flat",
-        "source": "/home/moringa/.gradle/daemon/7.3.3/com.example.muvkintours.app-main-27:/drawable/back.jpeg"
+        "merged": "com.example.muvkintours.app-merged_res-29:/layout_activity_meal_detail.xml.flat",
+        "source": "com.example.muvkintours.app-main-31:/layout/activity_meal_detail.xml"
     }
 ]

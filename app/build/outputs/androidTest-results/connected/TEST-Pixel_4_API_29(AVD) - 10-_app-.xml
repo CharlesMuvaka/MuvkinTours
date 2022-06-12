@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<testsuite name="com.example.muvkintours.MainActivityInstrumentedTest" tests="3" failures="0" errors="0" skipped="0" time="10.057" timestamp="2022-06-09T05:56:30" hostname="localhost">
+  <properties>
+    <property name="device" value="Pixel_4_API_29(AVD) - 10" />
+    <property name="flavor" value="" />
+    <property name="project" value=":app" />
+  </properties>
+  <testcase name="clickSinUpButton" classname="com.example.muvkintours.MainActivityInstrumentedTest" time="2.56" />
+  <testcase name="clickLoginButton" classname="com.example.muvkintours.MainActivityInstrumentedTest" time="1.459" />
+  <testcase name="typeEditTextInputs" classname="com.example.muvkintours.MainActivityInstrumentedTest" time="3.803" />
+</testsuite>

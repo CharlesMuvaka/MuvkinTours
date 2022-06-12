@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.example.muvkintours.MainActivityTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2022-06-07T11:49:25" hostname="moringa-HP-EliteBook-840-G5" time="10.87">
+<testsuite name="com.example.muvkintours.MainActivityTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2022-06-09T05:50:00" hostname="moringa-HP-EliteBook-840-G5" time="6.831">
   <properties/>
-  <testcase name="getUserNameEditTextHint_ReturnsString" classname="com.example.muvkintours.MainActivityTest" time="8.933"/>
-  <testcase name="getUserPhoneEditTextHint_ReturnsString" classname="com.example.muvkintours.MainActivityTest" time="0.466"/>
-  <testcase name="getText_ReturnsString" classname="com.example.muvkintours.MainActivityTest" time="0.329"/>
-  <testcase name="checkAppLogo_returnsAppLogo" classname="com.example.muvkintours.MainActivityTest" time="0.307"/>
-  <testcase name="getLoginButtonText_ReturnsString" classname="com.example.muvkintours.MainActivityTest" time="0.449"/>
-  <testcase name="getSignUpButtonText_ReturnsString" classname="com.example.muvkintours.MainActivityTest" time="0.384"/>
+  <testcase name="getUserNameEditTextHint_ReturnsString" classname="com.example.muvkintours.MainActivityTest" time="5.615"/>
+  <testcase name="getUserPhoneEditTextHint_ReturnsString" classname="com.example.muvkintours.MainActivityTest" time="0.324"/>
+  <testcase name="getText_ReturnsString" classname="com.example.muvkintours.MainActivityTest" time="0.216"/>
+  <testcase name="checkAppLogo_returnsAppLogo" classname="com.example.muvkintours.MainActivityTest" time="0.221"/>
+  <testcase name="getLoginButtonText_ReturnsString" classname="com.example.muvkintours.MainActivityTest" time="0.225"/>
+  <testcase name="getSignUpButtonText_ReturnsString" classname="com.example.muvkintours.MainActivityTest" time="0.23"/>
   <system-out><![CDATA[resources.arsc in APK '/home/moringa/.m2/repository/org/robolectric/android-all-instrumented/12.1-robolectric-8229987-i4/android-all-instrumented-12.1-robolectric-8229987-i4.jar' is compressed.
 ]]></system-out>
   <system-err><![CDATA[[WARN] Unknown chunk type '200'.
