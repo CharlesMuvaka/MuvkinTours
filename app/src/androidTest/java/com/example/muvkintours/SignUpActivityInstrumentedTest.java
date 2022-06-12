@@ -23,7 +23,7 @@ public class SignUpActivityInstrumentedTest {
     public ActivityScenarioRule<SignUpActivity> signRule = new ActivityScenarioRule<SignUpActivity>(SignUpActivity.class);
 
     @Test
-    public void clickSubmitButton(){
+    public void addTextsToUserInputs() {
 
 
         onView(allOf(
@@ -38,10 +38,14 @@ public class SignUpActivityInstrumentedTest {
 
         try {
             Thread.sleep(1000);
-        } catch (InterruptedException e){
+        } catch (InterruptedException e) {
             System.out.println("got interrupted!");
         }
+    }
 
+    @Test
+    public void clickSubmitButton(){
         onView(withId(R.id.btnSubmit)).perform(click());
     }
 }
+
