@@ -7,16 +7,14 @@ import android.os.Bundle;
 
 import com.example.muvkintours.Adapters.MealPagerAdapter;
 import com.example.muvkintours.databinding.ActivityMealDetailBinding;
-import com.example.muvkintours.models.Category;
-
-import org.parceler.Parcels;
+import com.example.muvkintours.models.Meals;
 
 import java.util.List;
 
 public class MealDetailActivity extends AppCompatActivity {
     ActivityMealDetailBinding detBind;
     MealPagerAdapter adp;
-    List<Category> allCats;
+    List<Meals> allCats;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,7 +23,7 @@ public class MealDetailActivity extends AppCompatActivity {
         setContentView(detBind.getRoot());
 
         int position = getIntent().getIntExtra("position", 0);
-        allCats = Parcels.unwrap(getIntent().getParcelableExtra("cats"));
+        allCats = (List<Meals>) getIntent().getSerializableExtra("cats");
         adp = new MealPagerAdapter(getSupportFragmentManager(), FragmentPagerAdapter.BEHAVIOR_RESUME_ONLY_CURRENT_FRAGMENT, allCats );
         detBind.viewPager.setAdapter(adp);
         detBind.viewPager.setCurrentItem(position);
