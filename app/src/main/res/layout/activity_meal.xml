@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".MealActivity">
 
 
@@ -18,6 +19,7 @@
         android:layout_margin="12dp"
         android:textSize="20sp"
         android:fontFamily="@font/baloo"/>
+
     <TextView
         android:visibility="gone"
         android:id="@+id/mealText"
@@ -41,6 +43,18 @@
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
         style="?android:attr/progressBarStyle"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/showSavedMeals"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:text="Show saved Meals"
+        app:backgroundTint="@color/splash2" />
 
 <!--    <GridView-->
 <!--        android:layout_below="@+id/mealText"-->
