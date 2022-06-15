@@ -7,15 +7,15 @@ import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentPagerAdapter;
 
 import com.example.muvkintours.fragments.MealFragment;
-import com.example.muvkintours.models.Category;
+import com.example.muvkintours.models.Meals;
 
 import java.util.List;
 
 public class MealPagerAdapter extends FragmentPagerAdapter {
 
-    private List<Category> allCats;
+    private List<Meals> allCats;
 
-    public MealPagerAdapter(@NonNull FragmentManager fm, int behavior, List<Category> cats ) {
+    public MealPagerAdapter(@NonNull FragmentManager fm, int behavior, List<Meals> cats ) {
         super(fm, behavior);
 
         this.allCats = cats;
@@ -38,6 +38,6 @@ public class MealPagerAdapter extends FragmentPagerAdapter {
     @Nullable
     @Override
     public CharSequence getPageTitle(int position) {
-        return allCats.get(position).getStrCategory();
+        return allCats.get(position).getStrMeal();
     }
 }
