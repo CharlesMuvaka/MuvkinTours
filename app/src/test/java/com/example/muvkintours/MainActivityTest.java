@@ -1,12 +1,14 @@
 package com.example.muvkintours;
 
 
+import android.content.Context;
 import android.widget.Button;
 import android.widget.TextView;
 
 import static org.junit.Assert.*;
 
 import com.google.android.material.textfield.TextInputLayout;
+import com.google.firebase.FirebaseApp;
 
 import org.junit.Before;
 import org.junit.Test;
@@ -21,6 +23,7 @@ public class MainActivityTest {
     @Before
     public void setUp() {
         activity = Robolectric.buildActivity(MainActivity.class).create().start().resume().get();
+
 
     }
 
@@ -63,25 +66,18 @@ public class MainActivityTest {
     @Test
     public void getUserNameEditTextHint_ReturnsString(){
 
-        TextInputLayout userName = activity.findViewById(R.id.userName);
-        String text = "Enter your UserName";
-
-        assertEquals(text, userName.getEditText().getHint());
-    }
-
-    @Test
-    public void getUserPhoneEditTextHint_ReturnsString(){
-
-        TextInputLayout userPhone = activity.findViewById(R.id.userPhone);
-        String text = "Enter your phone number";
+        TextInputLayout userPhone = activity.findViewById(R.id.userName);
+        String text = "Enter your Email Address";
 
         assertEquals(text, userPhone.getEditText().getHint());
     }
 
+
+
     public void getPasswordTextHint_ReturnsString(){
 
-        TextInputLayout userPhone = activity.findViewById(R.id.userPassword);
-        String text = "Enter your Ticket 'C34'";
+        TextInputLayout userPhone = activity.findViewById(R.id.userPhone);
+        String text = "Enter your password";
 
         assertEquals(text, userPhone.getEditText().getHint());
     }
