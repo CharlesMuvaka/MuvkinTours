@@ -6,26 +6,30 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.muvkintours.MealDetailActivity;
 import com.example.muvkintours.R;
-import com.example.muvkintours.models.Category;
+import com.example.muvkintours.mealApi.Constants;
+import com.example.muvkintours.models.Meals;
+import com.google.android.material.button.MaterialButton;
 import com.google.android.material.imageview.ShapeableImageView;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
 import com.squareup.picasso.Picasso;
 
-import org.parceler.Parcels;
-
+import java.io.Serializable;
 import java.util.List;
 
 public class MealRecyclerAdapter extends RecyclerView.Adapter<MealRecyclerAdapter.myHolder> {
 
-    List<Category> allCats;
+    List<Meals> allCats;
     Context context;
 
-    public MealRecyclerAdapter(List<Category> allCats, Context context) {
+    public MealRecyclerAdapter(List<Meals> allCats, Context context) {
         this.allCats = allCats;
         this.context = context;
     }
@@ -50,10 +54,11 @@ public class MealRecyclerAdapter extends RecyclerView.Adapter<MealRecyclerAdapte
     }
 
     public class myHolder extends RecyclerView.ViewHolder implements  View.OnClickListener{
-        TextView mealName;
-        TextView mealDesc;
+        TextView mealName, mealDesc;
         ShapeableImageView mealImage;
+        MaterialButton save, readMore;
         Context cont;
+        Meals meal;
 
 
         public myHolder(@NonNull View itemView, Context context) {
@@ -62,26 +67,44 @@ public class MealRecyclerAdapter extends RecyclerView.Adapter<MealRecyclerAdapte
             mealName = itemView.findViewById(R.id.mealName);
             mealDesc = itemView.findViewById(R.id.mealPrice);
             mealImage = itemView.findViewById(R.id.mealImage);
+            save = itemView.findViewById(R.id.save);
+            readMore = itemView.findViewById(R.id.readMore);
             this.cont = context;
 
             itemView.setOnClickListener(this);
+            save.setOnClickListener(this);
+            readMore.setOnClickListener(this);
 
         }
 
-        public void setData(Category cat){
-            mealName.setText(cat.getStrCategory());
-            mealDesc.setText(cat.getStrCategoryDescription() + "....");
-            Picasso.get().load(cat.getStrCategoryThumb()).into(mealImage);
+        public void setData(Meals cat){
+            mealName.setText(cat.getStrMeal());
+            mealDesc.setText(cat.getStrInstructions()+ "....");
+            Picasso.get().load(cat.getStrMealThumb()).into(mealImage);
+
+            meal = cat;
+
         }
 
         @Override
         public void onClick(View v) {
 
-            int position = getLayoutPosition();
-            Intent detail = new Intent(cont, MealDetailActivity.class);
-            detail.putExtra("position", position);
-            detail.putExtra("cats", Parcels.wrap(allCats));
-            cont.startActivity(detail);
+            if (v == itemView || v == readMore){
+
+                int position = getLayoutPosition();
+                Intent detail = new Intent(cont, MealDetailActivity.class);
+                detail.putExtra("position", position);
+                detail.putExtra("cats", (Serializable) allCats);
+                cont.startActivity(detail);
+          }
+            else if (v == save){
+
+                DatabaseReference ref = FirebaseDatabase.getInstance().getReference().child(Constants.CATEGORIES);
+
+                ref.child(meal.getIdMeal()).setValue(meal);
+
+                Toast.makeText(cont, "Successfully submitted", Toast.LENGTH_SHORT).show();
+            }
 
         }
     }
