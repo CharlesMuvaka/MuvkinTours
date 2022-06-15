@@ -13,6 +13,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.example.muvkintours.R;
+import com.google.android.material.button.MaterialButton;
 import java.lang.NullPointerException;
 import java.lang.Override;
 import java.lang.String;
@@ -33,13 +34,18 @@ public final class ActivityMealBinding implements ViewBinding {
   @NonNull
   public final RecyclerView recView;
 
+  @NonNull
+  public final MaterialButton showSavedMeals;
+
   private ActivityMealBinding(@NonNull RelativeLayout rootView, @NonNull TextView meal,
-      @NonNull TextView mealText, @NonNull ProgressBar progressBar, @NonNull RecyclerView recView) {
+      @NonNull TextView mealText, @NonNull ProgressBar progressBar, @NonNull RecyclerView recView,
+      @NonNull MaterialButton showSavedMeals) {
     this.rootView = rootView;
     this.meal = meal;
     this.mealText = mealText;
     this.progressBar = progressBar;
     this.recView = recView;
+    this.showSavedMeals = showSavedMeals;
   }
 
   @Override
@@ -93,8 +99,14 @@ public final class ActivityMealBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.showSavedMeals;
+      MaterialButton showSavedMeals = ViewBindings.findChildViewById(rootView, id);
+      if (showSavedMeals == null) {
+        break missingId;
+      }
+
       return new ActivityMealBinding((RelativeLayout) rootView, meal, mealText, progressBar,
-          recView);
+          recView, showSavedMeals);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.muvkintours.app-mergeDebugResources-27:/values-night-v8/values-night-v8.xml",
+            "outputFile": "com.example.muvkintours.app-mergeDebugResources-29:/values-night-v8/values-night-v8.xml",
             "map": [
                 {
                     "source": "/home/moringa/AndroidStudioProjects/MuvkinTours/app/src/main/res/values-night/themes.xml",

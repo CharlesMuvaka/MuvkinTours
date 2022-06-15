@@ -1,0 +1,20 @@
+
+¶
+f
+MainActivityInstrumentedTestcom.example.muvkintourstypeEditTextInputs2¸ˆ¶ïÄã÷m:ˇˆ¶ï¿¬Äø"‹
+
+logcatandroid∆
+√/home/moringa/AndroidStudioProjects/MuvkinTours/app/build/outputs/androidTest-results/connected/SM-G532F - 6.0.1/logcat-com.example.muvkintours.MainActivityInstrumentedTest-typeEditTextInputs.txt"ú
+
+device-infoandroidÅ
+/home/moringa/AndroidStudioProjects/MuvkinTours/app/build/outputs/androidTest-results/connected/SM-G532F - 6.0.1/device-info.pb"ú
+
+device-info.meminfoandroidz
+x/home/moringa/AndroidStudioProjects/MuvkinTours/app/build/outputs/androidTest-results/connected/SM-G532F - 6.0.1/meminfo"ú
+
+device-info.cpuinfoandroidz
+x/home/moringa/AndroidStudioProjects/MuvkinTours/app/build/outputs/androidTest-results/connected/SM-G532F - 6.0.1/cpuinfo*Ç
+c
+test-results.logOcom.google.testing.platform.runtime.android.driver.AndroidInstrumentationDriverå
+â/home/moringa/AndroidStudioProjects/MuvkinTours/app/build/outputs/androidTest-results/connected/SM-G532F - 6.0.1/testlog/test-results.log 2
+text/plain

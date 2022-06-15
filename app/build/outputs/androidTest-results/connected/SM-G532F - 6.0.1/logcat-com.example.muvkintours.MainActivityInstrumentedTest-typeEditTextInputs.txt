@@ -1,0 +1,1033 @@
+06-15 13:59:08.520 17661 17691 I TestRunner: started: typeEditTextInputs(com.example.muvkintours.MainActivityInstrumentedTest)
+06-15 13:59:08.530 15981 17694 V FA-SVC  : Saving default event parameters, appId, data size: com.example.muvkintours, 2
+06-15 13:59:08.540 17661 17691 W Settings: Setting always_finish_activities has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+06-15 13:59:08.550 17661 17691 I Timeline: Timeline: Activity_launch_request id:com.example.muvkintours.test time:18675792
+06-15 13:59:08.560   700  1504 D ActivityTrigger: ActivityTrigger activityPauseTrigger
+06-15 13:59:08.560  1354  1354 D Launcher: onPause, Launcher: 185744371
+06-15 13:59:08.560  1354  1354 D Launcher.HomeView: onPause
+06-15 13:59:08.560  1354  1354 D Launcher.Workspace: exitWidgetResizeMode. isClearResizeFrame is false
+06-15 13:59:08.570   700  1504 D InputDispatcher: Focused application set to: xxxx
+06-15 13:59:08.570   700  1504 D InputDispatcher: Focus left window: 1354
+06-15 13:59:08.580   700   812 D ViewRootImpl: #1 mView = com.android.internal.policy.PhoneWindow$DecorView{8c792a7 V.E...... R.....ID 0,0-0,0}
+06-15 13:59:08.580 17699 17699 E Zygote  : v2
+06-15 13:59:08.580 17699 17699 W SELinux : Function: selinux_compare_spd_ram, index[1], priority [2], priority version is VE=SEPF_SECMOBILE_6.0.1_0035
+06-15 13:59:08.590 17699 17699 E Zygote  : accessInfo : 0
+06-15 13:59:08.590 17699 17699 W SELinux : SELinux: seapp_context_lookup: seinfo=default, level=s0:c512,c768, pkgname=com.example.muvkintours.test
+06-15 13:59:08.590 17699 17699 I art     : Late-enabling -Xcheck:jni
+06-15 13:59:08.590   700   812 D PointerIcon: setMouseIconStyle1 pointerType: 1001 iconType:101 flag:0 pid:700 uid:1000
+06-15 13:59:08.590   700   812 D PointerIcon: setMouseCustomIcon IconType is same.101
+06-15 13:59:08.590   238   238 I BufferQueue: [unnamed-238-722](this:0xb31ea000,id:722,api:0,p:-1,c:-1) BufferQueue core=(238:/system/bin/surfaceflinger)
+06-15 13:59:08.590   238   238 I BufferQueueConsumer: [unnamed-238-722](this:0xb31ea000,id:722,api:0,p:-1,c:238) connect(C): consumer=(238:/system/bin/surfaceflinger) controlledByApp=false
+06-15 13:59:08.590   238   238 I BufferQueueConsumer: [unnamed-238-722](this:0xb31ea000,id:722,api:0,p:-1,c:238) setConsumerName: unnamed-238-722
+06-15 13:59:08.590   238   238 I BufferQueueConsumer: [Starting com.example.muvkintours.test](this:0xb31ea000,id:722,api:0,p:-1,c:238) setConsumerName: Starting com.example.muvkintours.test
+06-15 13:59:08.590   238   238 I BufferQueueConsumer: [Starting com.example.muvkintours.test](this:0xb31ea000,id:722,api:0,p:-1,c:238) setDefaultBufferSize: width=1 height=1
+06-15 13:59:08.590   238   238 I SurfaceFlinger: id=722 createSurf (1x1),1 flag=404, uest
+06-15 13:59:08.610 17699 17705 I art     : Ignoring second debugger -- accepting and dropping
+06-15 13:59:08.610   238  1043 I BufferQueueProducer: [com.sec.android.app.launcher/com.sec.android.app.launcher.activities.LauncherActivity](this:0xb31eac00,id:721,api:1,p:1354,c:238) queueBuffer: fps=0.43 dur=4686.86 max=4681.48 min=5.38
+06-15 13:59:08.620 17699 17699 D TimaKeyStoreProvider: TimaSignature is unavailable
+06-15 13:59:08.620 17699 17699 D ActivityThread: Added TimaKeyStore provider
+06-15 13:59:08.620   238   238 I BufferQueueConsumer: [Starting com.example.muvkintours.test](this:0xb31ea000,id:722,api:0,p:-1,c:238) setDefaultBufferSize: width=540 height=960
+06-15 13:59:08.620   700   812 D ViewRootImpl: MSG_RESIZED_REPORT: ci=Rect(0, 36 - 0, 0) vi=Rect(0, 36 - 0, 0) or=1
+06-15 13:59:08.630 17661 17668 I art     : Ignoring second debugger -- accepting and dropping
+06-15 13:59:08.630   700   710 I art     : Background sticky concurrent mark sweep GC freed 57014(2MB) AllocSpace objects, 9(180KB) LOS objects, 8% free, 36MB/39MB, paused 11.143ms total 79.925ms
+06-15 13:59:08.650   700   812 D Surface : Surface::connect(this=0x91521100,api=2)
+06-15 13:59:08.650   238  1808 I BufferQueueProducer: [Starting com.example.muvkintours.test](this:0xb31ea000,id:722,api:2,p:700,c:238) connect(P): api=2 producer=(700:system_server) producerControlledByApp=false
+06-15 13:59:08.650   238   257 I BufferQueueProducer: [Starting com.example.muvkintours.test](this:0xb31ea000,id:722,api:2,p:700,c:238) new GraphicBuffer needed
+06-15 13:59:08.650   238   257 I [MALI][Gralloc]: [+]hnd(0xb59ecb40), client(30), share_fd(47), hnd->flags:4
+06-15 13:59:08.650   238   257 D GraphicBuffer: alloc, handle(0xb59ecb40) (w:540 h:960 s:544 f:0x1 u:0x000933) err(0)
+06-15 13:59:08.650 17699 17699 W System  : ClassLoader referenced unknown path: /data/app/com.example.muvkintours.test-2/lib/arm
+06-15 13:59:08.660   700   812 I [MALI][Gralloc]: [+]r_hnd(0x8bf1e780), client(315), share_fd(324)
+06-15 13:59:08.660   700   812 D GraphicBuffer: register, handle(0x8bf1e780) (w:540 h:960 s:544 f:0x1 u:0x000933)
+06-15 13:59:08.660 11709 11709 I dhcpcd  : wlan0: fe80::e4f7:ddff:fe24:201: expired Router Advertisement
+06-15 13:59:08.660 11709 11709 D dhcpcd  : wlan0: executing `/system/etc/dhcpcd/dhcpcd-run-hooks', reason ROUTERADVERT
+06-15 13:59:08.670   238  1808 I BufferQueueProducer: [StatusBar](this:0xb36d2800,id:6,api:1,p:1133,c:238) queueBuffer: fps=1.00 dur=1003.08 max=1003.08 min=1003.08
+06-15 13:59:08.670   700   812 V WindowStateAnimator: Finishing drawing window Window{79db2fd u0 d0 p700 Starting com.example.muvkintours.test}: mDrawState=DRAW_PENDING
+06-15 13:59:08.680   238   238 I SurfaceFlinger: [Built-in Screen (type:0)] fps:3.985475,dur:1003.64,max:921.22,min:17.46
+06-15 13:59:08.690  1133  1133 D PhoneStatusBar: setSystemUiVisibility vis=0 mask=ffffffff oldVal=8600 newVal=0 diff=8600
+06-15 13:59:08.700  1354  1581 D Surface : Surface::disconnect(this=0x9ada0600,api=1)
+06-15 13:59:08.700  1354  1581 D GraphicBuffer: unregister, handle(0x99183e00) (w:540 h:960 s:544 f:0x1 u:0x000b00)
+06-15 13:59:08.700   238   238 I BufferQueueProducer: [FrameBufferSurface_0](this:0xb3216000,id:0,api:1,p:238,c:238) queueBuffer: fps=0.29 dur=69656.34 max=69339.41 min=13.59
+06-15 13:59:08.700  1354  1581 I [MALI][Gralloc]: [-]r_hnd(0x99183e00), client(43), share_fd(41)
+06-15 13:59:08.700  1354  1581 D GraphicBuffer: unregister, handle(0x99183a40) (w:540 h:960 s:544 f:0x1 u:0x000b00)
+06-15 13:59:08.700  1354  1581 I [MALI][Gralloc]: [-]r_hnd(0x99183a40), client(43), share_fd(46)
+06-15 13:59:08.700  1354  1581 D GraphicBuffer: unregister, handle(0x99183040) (w:540 h:960 s:544 f:0x1 u:0x000b00)
+06-15 13:59:08.700  1354  1581 I [MALI][Gralloc]: [-]r_hnd(0x99183040), client(43), share_fd(45)
+06-15 13:59:08.700  1354  1581 D GraphicBuffer: unregister, handle(0x99183c20) (w:540 h:960 s:544 f:0x1 u:0x000b00)
+06-15 13:59:08.700  1354  1581 I [MALI][Gralloc]: [-]r_hnd(0x99183c20), client(43), share_fd(44)
+06-15 13:59:08.700   238 15804 I BufferQueueProducer: [com.sec.android.app.launcher/com.sec.android.app.launcher.activities.LauncherActivity](this:0xb31eac00,id:721,api:1,p:-1,c:238) disconnect(P): api 1
+06-15 13:59:08.710   238 15804 I BufferQueueConsumer: [com.sec.android.app.launcher/com.sec.android.app.launcher.activities.LauncherActivity](this:0xb31eac00,id:721,api:1,p:-1,c:238) getReleasedBuffers: returning mask 0xffffffffffffffff
+06-15 13:59:08.710   238 15804 D GraphicBuffer: free, handle(0xb59ecfa0) (w:540 h:960 s:544 f:0x1 u:0x000b00)
+06-15 13:59:08.710   238 15804 I [MALI][Gralloc]: [-]hnd(0xb59ecfa0), client(30), share_fd(31)
+06-15 13:59:08.710   238 15804 D GraphicBuffer: free, handle(0xb59ed680) (w:540 h:960 s:544 f:0x1 u:0x000b00)
+06-15 13:59:08.710   238 15804 I [MALI][Gralloc]: [-]hnd(0xb59ed680), client(30), share_fd(32)
+06-15 13:59:08.710   238 15804 D GraphicBuffer: free, handle(0xb58a1400) (w:540 h:960 s:544 f:0x1 u:0x000b00)
+06-15 13:59:08.710   238 15804 I [MALI][Gralloc]: [-]hnd(0xb58a1400), client(30), share_fd(67)
+06-15 13:59:08.710  1133  1133 D ImageWallpaper: onVisibilityChanged:false
+06-15 13:59:08.710  1133  1133 D ImageWallpaper: drawFrame:false rotation:0 mLastRotation:0
+06-15 13:59:08.710  1133  1133 D ImageWallpaper: drawFrame:[frame.width()]540[frame.height()]960
+06-15 13:59:08.710  1133  1133 D ImageWallpaper: Suppressed drawFrame since redraw is not needed and offsets have not changed.
+06-15 13:59:08.710   238   259 I SurfaceFlinger: id=721 Removed MauncherAct (4/9)
+06-15 13:59:08.710   238  1043 I SurfaceFlinger: id=721 Removed MauncherAct (-2/9)
+06-15 13:59:08.720   238   238 I BufferQueueConsumer: [com.sec.android.app.launcher/com.sec.android.app.launcher.activities.LauncherActivity](this:0xb31eac00,id:721,api:1,p:-1,c:-1) disconnect(C)
+06-15 13:59:08.720   238 15804 I BufferQueue: [com.sec.android.app.launcher/com.sec.android.app.launcher.activities.LauncherActivity](this:0xb31eac00,id:721,api:1,p:-1,c:-1) ~BufferQueueCore
+06-15 13:59:08.720   238   238 D GraphicBuffer: free, handle(0xb59ed900) (w:540 h:960 s:544 f:0x1 u:0x000b00)
+06-15 13:59:08.720   238   238 I [MALI][Gralloc]: [-]hnd(0xb59ed900), client(30), share_fd(60)
+06-15 13:59:08.730   700  1547 D ActivityTrigger: ActivityTrigger activityPauseTrigger
+06-15 13:59:08.730   700  1547 D InputDispatcher: Focused application set to: xxxx
+06-15 13:59:08.730   700  6629 D ActivityManager: post active user change for 0 fullscreen true isFloatingActivity() false isHomeActivity() false
+06-15 13:59:08.730   700  6629 D KnoxTimeoutHandler: postActiveUserChange [MsgParam] userId: 0 fullscreen is true showWhenlocked is false
+06-15 13:59:08.740   700   700 D KnoxTimeoutHandler: handleActiveUserChange [MsgParam] userId: 0 fullscreen is true showWhenlocked is false
+06-15 13:59:08.740   700   700 I KnoxTimeoutHandler: Shared devices show user statefalse
+06-15 13:59:08.780 17699 17699 I Timeline: Timeline: Activity_idle id: android.os.BinderProxy@3078e14 time:18676020
+06-15 13:59:08.800 17661 17661 D LifecycleMonitor: Lifecycle status change: com.example.muvkintours.MainActivity@fa69100 in: PRE_ON_CREATE
+06-15 13:59:08.800 17661 17661 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was PRE_ON_CREATE
+06-15 13:59:08.810 17661 17661 W art     : Before Android 4.1, method android.graphics.PorterDuffColorFilter androidx.vectordrawable.graphics.drawable.VectorDrawableCompat.updateTintFilter(android.graphics.PorterDuffColorFilter, android.content.res.ColorStateList, android.graphics.PorterDuff$Mode) would have incorrectly overridden the package-private method in android.graphics.drawable.Drawable
+06-15 13:59:08.820 17661 17680 V FA      : onActivityCreated
+06-15 13:59:08.850 17661 17661 D skia    : jpeg_decoder mode 1, colorType 4, w 225, h 225, sample 1, bsLength 22b7!!
+06-15 13:59:08.850 17661 17661 D skia    : jpeg_decoder finish successfully, L:1917!!!
+06-15 13:59:08.910 17661 17661 D TextView: setTypeface with style : 0
+06-15 13:59:08.920 10009 10393 I FontLog : Received query Baloo, URI content://com.google.android.gms.fonts [CONTEXT service_id=132 ]
+06-15 13:59:08.920 10009 10393 I FontLog : Query [Baloo] resolved to {Baloo, wdth 100.0, wght 400, ital 0.0, bestEffort false} [CONTEXT service_id=132 ]
+06-15 13:59:08.930 10009 10393 I FontLog : Fetch {Baloo, wdth 100.0, wght 400, ital 0.0, bestEffort false} end status Status{statusCode=SUCCESS, resolution=null} [CONTEXT service_id=132 ]
+06-15 13:59:08.950 10009 10490 I FontLog : Pulling font file for id = 99, cache size = 8 [CONTEXT service_id=132 ]
+06-15 13:59:08.980 17661 17661 D TextView: setTypeface with style : 0
+06-15 13:59:08.990 17661 17661 D TextView: setTypeface with style : 0
+06-15 13:59:09.000 17661 17661 D TextView: setTypeface with style : 0
+06-15 13:59:09.010 17661 17661 D TextView: setTypeface with style : 0
+06-15 13:59:09.010 17661 17661 D TextView: setTypeface with style : 0
+06-15 13:59:09.010 17661 17661 D TextView: setTypeface with style : 0
+06-15 13:59:09.010 17661 17661 D TextView: setTypeface with style : 0
+06-15 13:59:09.040 17661 17661 D TextView: setTypeface with style : 0
+06-15 13:59:09.050 17661 17661 D TextView: setTypeface with style : 0
+06-15 13:59:09.060 17661 17661 D TextView: setTypeface with style : 0
+06-15 13:59:09.060 17661 17661 D TextView: setTypeface with style : 0
+06-15 13:59:09.090 17661 17661 D TextView: setTypeface with style : 0
+06-15 13:59:09.090 17661 17661 D TextView: setTypeface with style : 0
+06-15 13:59:09.090 17661 17661 D TextView: setTypeface with style : 0
+06-15 13:59:09.090 17661 17661 D TextView: setTypeface with style : 0
+06-15 13:59:09.090 17661 17661 D TextView: setTypeface with style : 0
+06-15 13:59:09.190 17661 17661 D TextView: setTypeface with style : 0
+06-15 13:59:09.210 17661 17661 D TextView: setTypeface with style : 0
+06-15 13:59:09.220 17661 17661 D TextView: setTypeface with style : 0
+06-15 13:59:09.220 17661 17661 D TextView: setTypeface with style : 0
+06-15 13:59:09.240 17661 17661 D LifecycleMonitor: Lifecycle status change: com.example.muvkintours.MainActivity@fa69100 in: CREATED
+06-15 13:59:09.240 17661 17661 V ActivityScenario: Update currentActivityStage to CREATED, currentActivity=com.example.muvkintours.MainActivity@fa69100
+06-15 13:59:09.250 17661 17661 D LifecycleMonitor: Lifecycle status change: com.example.muvkintours.MainActivity@fa69100 in: STARTED
+06-15 13:59:09.250 17661 17661 V ActivityScenario: Update currentActivityStage to STARTED, currentActivity=com.example.muvkintours.MainActivity@fa69100
+06-15 13:59:09.250 17661 17661 D LifecycleMonitor: Lifecycle status change: com.example.muvkintours.MainActivity@fa69100 in: RESUMED
+06-15 13:59:09.250 17661 17661 V ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=com.example.muvkintours.MainActivity@fa69100
+06-15 13:59:09.250 17661 17682 V FA      : Activity resumed, time: 26098981
+06-15 13:59:09.250 17661 17682 I FA      : Tag Manager is not found and thus will not be used
+06-15 13:59:09.260   238  1043 I SurfaceFlinger: EventThread Client Pid (17661) created
+06-15 13:59:09.270 17661 17661 D ViewRootImpl: #1 mView = com.android.internal.policy.PhoneWindow$DecorView{4a33f66 I.E...... R.....ID 0,0-0,0}
+06-15 13:59:09.270   238  1808 I SurfaceFlinger: EventThread Client Pid (17661) created
+06-15 13:59:09.270 17661 17726 D OpenGLRenderer: Use EGL_SWAP_BEHAVIOR_PRESERVED: false
+06-15 13:59:09.270 17661 17691 D EventInjectionStrategy: Creating injection strategy with input manager.
+06-15 13:59:09.280   238   257 I SurfaceFlinger: [SF client] NEW(0xb59d6280) for (700:system_server)
+06-15 13:59:09.280   700  9986 D ActivityManager: post active user change for 0 fullscreen true isFloatingActivity() false isHomeActivity() false
+06-15 13:59:09.280   700  9986 D KnoxTimeoutHandler: postActiveUserChange [MsgParam] userId: 0 fullscreen is true showWhenlocked is false
+06-15 13:59:09.280   700   700 D KnoxTimeoutHandler: handleActiveUserChange [MsgParam] userId: 0 fullscreen is true showWhenlocked is false
+06-15 13:59:09.280   700   700 I KnoxTimeoutHandler: Shared devices show user statefalse
+06-15 13:59:09.290 15981 17694 V FA-SVC  : Logging event: origin=auto,name=screen_view(_vs),params=Bundle[{ga_event_origin(_o)=auto, ga_screen_class(_sc)=MainActivity, ga_screen_id(_si)=-907750571717166455}]
+06-15 13:59:09.310 15981 17694 V FA-SVC  : Upload scheduled in approximately ms: 2831433
+06-15 13:59:09.310 15981 17694 V FA-SVC  : Unscheduling upload
+06-15 13:59:09.310 15981 17694 V FA-SVC  : Scheduling upload, millis: 2831433
+06-15 13:59:09.310 15981 17694 V FA-SVC  : Background event processing time, ms: 25
+06-15 13:59:09.330   238   238 I BufferQueue: [unnamed-238-723](this:0xb321a800,id:723,api:0,p:-1,c:-1) BufferQueue core=(238:/system/bin/surfaceflinger)
+06-15 13:59:09.330   238   238 I BufferQueueConsumer: [unnamed-238-723](this:0xb321a800,id:723,api:0,p:-1,c:238) connect(C): consumer=(238:/system/bin/surfaceflinger) controlledByApp=false
+06-15 13:59:09.330   238   238 I BufferQueueConsumer: [unnamed-238-723](this:0xb321a800,id:723,api:0,p:-1,c:238) setConsumerName: unnamed-238-723
+06-15 13:59:09.330   238   238 I BufferQueueConsumer: [com.example.muvkintours/com.example.muvkintours.MainActivity](this:0xb321a800,id:723,api:0,p:-1,c:238) setConsumerName: com.example.muvkintours/com.example.muvkintours.MainActivity
+06-15 13:59:09.330   238   238 I BufferQueueConsumer: [com.example.muvkintours/com.example.muvkintours.MainActivity](this:0xb321a800,id:723,api:0,p:-1,c:238) setDefaultBufferSize: width=1 height=1
+06-15 13:59:09.330   238   238 I SurfaceFlinger: id=723 createSurf (1x1),1 flag=404, NainActivit
+06-15 13:59:09.330  1133  1133 D PhoneStatusBar: setSystemUiVisibility vis=600 mask=ffffffff oldVal=0 newVal=600 diff=600
+06-15 13:59:09.330   238   238 I BufferQueueConsumer: [com.example.muvkintours/com.example.muvkintours.MainActivity](this:0xb321a800,id:723,api:0,p:-1,c:238) setDefaultBufferSize: width=540 height=960
+06-15 13:59:09.340   700  1533 D InputDispatcher: Focus entered window: 17661
+06-15 13:59:09.340   700   812 D PointerIcon: setMouseIconStyle1 pointerType: 1001 iconType:101 flag:0 pid:700 uid:1000
+06-15 13:59:09.340   700   812 D PointerIcon: setMouseCustomIcon IconType is same.101
+06-15 13:59:09.340 17661 17726 I OpenGLRenderer: Initialized EGL, version 1.4
+06-15 13:59:09.350 17661 17726 D Surface : Surface::connect(this=0xa9cb2000,api=1)
+06-15 13:59:09.350   238 15804 I BufferQueueProducer: [com.example.muvkintours/com.example.muvkintours.MainActivity](this:0xb321a800,id:723,api:1,p:17661,c:238) connect(P): api=1 producer=(17661:com.example.muvkintours) producerControlledByApp=true
+06-15 13:59:09.350 17661 17726 D mali_winsys: new_window_surface returns 0x3000
+06-15 13:59:09.350 17661 17661 D Surface : Surface::allocateBuffers(this=0xa9cb2000)
+06-15 13:59:09.350   238  1043 D BufferQueueProducer: [com.example.muvkintours/com.example.muvkintours.MainActivity](this:0xb321a800,id:723,api:1,p:17661,c:238) allocateBuffers: allocating from 0 buffers up to 4 buffers
+06-15 13:59:09.350   238  1043 I [MALI][Gralloc]: [+]hnd(0xb58a0820), client(30), share_fd(33), hnd->flags:4
+06-15 13:59:09.350   238  1043 D GraphicBuffer: alloc, handle(0xb58a0820) (w:540 h:960 s:544 f:0x1 u:0x000b00) err(0)
+06-15 13:59:09.350   238  1043 I [MALI][Gralloc]: [+]hnd(0xb58a0aa0), client(30), share_fd(57), hnd->flags:4
+06-15 13:59:09.350   238  1043 D GraphicBuffer: alloc, handle(0xb58a0aa0) (w:540 h:960 s:544 f:0x1 u:0x000b00) err(0)
+06-15 13:59:09.350   238  1043 I [MALI][Gralloc]: [+]hnd(0xb58a0e60), client(30), share_fd(60), hnd->flags:4
+06-15 13:59:09.350   238  1043 D GraphicBuffer: alloc, handle(0xb58a0e60) (w:540 h:960 s:544 f:0x1 u:0x000b00) err(0)
+06-15 13:59:09.350   238  1043 I [MALI][Gralloc]: [+]hnd(0xb58a1040), client(30), share_fd(69), hnd->flags:4
+06-15 13:59:09.350   238  1043 D GraphicBuffer: alloc, handle(0xb58a1040) (w:540 h:960 s:544 f:0x1 u:0x000b00) err(0)
+06-15 13:59:09.350   238  1043 D BufferQueueProducer: [com.example.muvkintours/com.example.muvkintours.MainActivity](this:0xb321a800,id:723,api:1,p:17661,c:238) allocateBuffers: allocating from 4 buffers up to 4 buffers
+06-15 13:59:09.370 17661 17661 D ScrollView:  onsize change changed
+06-15 13:59:09.400 17661 17726 D libGLESv1: DTS_GLAPI : DTS is not allowed for Package : com.example.muvkintours
+06-15 13:59:09.420 17661 17726 I [MALI][Gralloc]: [+]r_hnd(0xb2d42e60), client(44), share_fd(43)
+06-15 13:59:09.420 17661 17726 D GraphicBuffer: register, handle(0xb2d42e60) (w:540 h:960 s:544 f:0x1 u:0x000b00)
+06-15 13:59:09.450   700  9985 V WindowStateAnimator: Finishing drawing window Window{6a6556d u0 d0 p17661 com.example.muvkintours/com.example.muvkintours.MainActivity}: mDrawState=DRAW_PENDING
+06-15 13:59:09.450 17661 17661 D ViewRootImpl: MSG_RESIZED_REPORT: ci=Rect(0, 36 - 0, 0) vi=Rect(0, 36 - 0, 0) or=1
+06-15 13:59:09.460   700   812 D KnoxTimeoutHandler: notifyActivityDrawn [MsgParam] userId: 0 fullscreen is true showWhenlocked is false
+06-15 13:59:09.460   700   700 D KnoxTimeoutHandler: activityDrawn [MsgParam] userId: 0 fullscreen is true showWhenlocked is false
+06-15 13:59:09.460   700   812 I ActivityManager: Displayed com.example.muvkintours/.MainActivity: +694ms (total +890ms)
+06-15 13:59:09.460   700   700 I KnoxTimeoutHandler: SD activityfalse
+06-15 13:59:09.460   700   700 I KnoxTimeoutHandler: Fullscreen and mCurrent is not KNOX user. Hence hide keyguard
+06-15 13:59:09.460   700   812 I Timeline: Timeline: Activity_windows_visible id: ActivityRecord{ec544b5 u0 com.example.muvkintours/.MainActivity t15967} time:18676703
+06-15 13:59:09.460   700   812 D ViewRootImpl: #3 mView = null
+06-15 13:59:09.460  1133  1133 D PhoneStatusBar: setSystemUiVisibility vis=8600 mask=ffffffff oldVal=600 newVal=8600 diff=8000
+06-15 13:59:09.470   700  1504 D InputMethodManagerService: windowGainedFocus mCurrentFocusedUserId - 0 and mSecureKeypadEnabled-false
+06-15 13:59:09.480  3057  3057 D SamsungIME: onStartInputView: No inputType, No imeOption, isInputViewShown = true, isExtractViewShown = false, isShowInputRequested = true, isConfigChanged = false
+06-15 13:59:09.480 17661 17661 D TextView: setTypeface with style : 0
+06-15 13:59:09.480  3057  3057 D SamsungIME: onWindowShown
+06-15 13:59:09.490  3057  3057 D SamsungIME: onFinishInputView
+06-15 13:59:09.490  3057  3057 I ACDownloadManager: onFinishInput()
+06-15 13:59:09.490  3057  3057 E KeyboardInfoUtils: getInstance start
+06-15 13:59:09.490  3057  3057 E KeyboardInfoUtils: sendSIPInformation state:6  isAbstractKeyboardView : true
+06-15 13:59:09.500  3057  3057 D SamsungIME: onFinishInput
+06-15 13:59:09.500  3057  3057 D SamsungIME: IMPL finishInput
+06-15 13:59:09.500  3057  3057 I SamsungIME: [IMI] onStartInput - caller packageName : com.example.muvkintours
+06-15 13:59:09.500  3057  3057 D SKBD SamsungIME_SYNC: import DLM start onstart input
+06-15 13:59:09.500  3057  3057 D SKBD SamsungIME_SYNC: shouldImportDLM mIsImportDLM false
+06-15 13:59:09.500  3057 17743 E KeyboardInfoUtils: sending null keyboardInfo as SIP is closed
+06-15 13:59:09.500  3057  3057 D SamsungIME: onStartInputView requsted restarting value = false
+06-15 13:59:09.500  3057  3057 D SamsungIME: onStartInputView After call super -  restarting value = false
+06-15 13:59:09.500   238  1808 I SurfaceFlinger: id=722 Removed uest (8/9)
+06-15 13:59:09.500   700   812 D Surface : Surface::disconnect(this=0x91521100,api=2)
+06-15 13:59:09.500   238 15804 I SurfaceFlinger: id=722 Removed uest (-2/9)
+06-15 13:59:09.500   238   257 I BufferQueueProducer: [Starting com.example.muvkintours.test](this:0xb31ea000,id:722,api:2,p:-1,c:238) disconnect(P): api 2
+06-15 13:59:09.500  3057  3057 D SamsungIME: disable handwriting input icon : handwriting is not enabled or improper edit field
+06-15 13:59:09.500   238   257 I BufferQueueConsumer: [Starting com.example.muvkintours.test](this:0xb31ea000,id:722,api:2,p:-1,c:238) getReleasedBuffers: returning mask 0xffffffffffffffff
+06-15 13:59:09.500   700   812 D GraphicBuffer: unregister, handle(0x8bf1e780) (w:540 h:960 s:544 f:0x1 u:0x000933)
+06-15 13:59:09.500   238   238 I BufferQueueConsumer: [Starting com.example.muvkintours.test](this:0xb31ea000,id:722,api:2,p:-1,c:-1) disconnect(C)
+06-15 13:59:09.500   700   812 I [MALI][Gralloc]: [-]r_hnd(0x8bf1e780), client(315), share_fd(324)
+06-15 13:59:09.500   238   238 D GraphicBuffer: free, handle(0xb59ecb40) (w:540 h:960 s:544 f:0x1 u:0x000933)
+06-15 13:59:09.500   238   238 I [MALI][Gralloc]: [-]hnd(0xb59ecb40), client(30), share_fd(47)
+06-15 13:59:09.500  3057  3057 D SamsungIME: setIsEnableAddWord : false
+06-15 13:59:09.500   238  1043 I BufferQueue: [Starting com.example.muvkintours.test](this:0xb31ea000,id:722,api:2,p:-1,c:-1) ~BufferQueueCore
+06-15 13:59:09.510 17661 17726 I [MALI][Gralloc]: [+]r_hnd(0xb2d43040), client(44), share_fd(46)
+06-15 13:59:09.510 17661 17726 D GraphicBuffer: register, handle(0xb2d43040) (w:540 h:960 s:544 f:0x1 u:0x000b00)
+06-15 13:59:09.510   700  3049 V WindowStateAnimator: Finishing drawing window Window{6a6556d u0 d0 p17661 com.example.muvkintours/com.example.muvkintours.MainActivity}: mDrawState=HAS_DRAWN
+06-15 13:59:09.520  3057  3057 D SamsungIME: [startInputView] info.inputType = 131073 info.imeOptions = 1207959557
+06-15 13:59:09.520  3057  3057 I ACDownloadManager: onStartInput()
+06-15 13:59:09.520  3057  3057 I SamsungIME: Update SetupWizard State usc : 1 pss : false
+06-15 13:59:09.520 17661 17726 I [MALI][Gralloc]: [+]r_hnd(0xb2d43180), client(44), share_fd(47)
+06-15 13:59:09.520   700  9985 D SecContentProvider: query(), uri = 17 selection = isSettingsChangesAllowed
+06-15 13:59:09.520 17661 17726 D GraphicBuffer: register, handle(0xb2d43180) (w:540 h:960 s:544 f:0x1 u:0x000b00)
+06-15 13:59:09.530  1133  1512 D NetworkController.MobileSignalController(0/7): onSignalStrengthsChanged signalStrength=SignalStrength: 13 99 -13 -200 -13 -200 -1 99 2147483647 2147483647 2147483647 2147483647 2147483647 0x4 gsm|lte level=4
+06-15 13:59:09.530  1133  1512 D NetworkController.MobileSignalController(0/7): getMobileIconGroup(): 9
+06-15 13:59:09.530  3057  3057 I SamsungIME: Update SetupWizard State usc : 1 pss : false
+06-15 13:59:09.530  3057  3057 D SamsungIME: initSubLinguistic called in updateEngine
+06-15 13:59:09.540 17661 17661 I ViewInteraction: Performing 'type text(muvakacharles@gmail.com)' action on view (is descendant of a view matching view.getId() is <2131362310/com.example.muvkintours:id/userName> and view.getClass().getName() matches: a string ending with "TextInputEditText")
+06-15 13:59:09.540  3057  3057 I SKBD Xt994Wrapper: setDLMLoadFlag() SMT_DB_TYPE true
+06-15 13:59:09.540  3057  3057 I SKBD Xt994Wrapper: setDLMLoadFlag() SMT_DB_TYPE false
+06-15 13:59:09.540  3057  3057 I SamsungIME: XT9 Latin language init finished
+06-15 13:59:09.540  3057  3057 I SKBD Xt994Wrapper: setDLMLoadFlag() DLM_DB_TYPE true
+06-15 13:59:09.540   700  1359 D InputDispatcher: Inject motion (17661): action=0x0, eventTime=18676783000000
+06-15 13:59:09.540   700  1045 I InputDispatcher: Delivering touch to (1133): action: 0x4, toolType: 0
+06-15 13:59:09.540   700  1045 I InputDispatcher: Delivering touch to (17661): action: 0x0, toolType: 0
+06-15 13:59:09.550 17661 17661 D ViewRootImpl: ViewPostImeInputStage processPointer 0
+06-15 13:59:09.550  3057  3057 I SKBD Xt994Wrapper: setDLMLoadFlag() DLM_DB_TYPE false
+06-15 13:59:09.550  3057  3057 I SKBD Xt994Wrapper: setDLMLoadFlag() CDLM_DB_TYPE true
+06-15 13:59:09.550  3057  3057 I SKBD Xt994Wrapper: setDLMLoadFlag() CDLM_DB_TYPE false
+06-15 13:59:09.550  3057  3057 I SamsungIME: ET9CDLMInit : 2
+06-15 13:59:09.550  3057  3057 I SamsungIME: [IMI] isChangedMainValues - bRetVal : true
+06-15 13:59:09.550  3057  3057 D SamsungIME: [AbstractKeyboardView] onDetachedFromWindow.
+06-15 13:59:09.550  3057  3057 D SamsungIME: Magnification Enabled = false
+06-15 13:59:09.550  3057  3057 D SamsungIME: Dismiss ExpandCandiate
+06-15 13:59:09.550  3057  3057 D SamsungIME: Dismiss ExpandCandiate
+06-15 13:59:09.550  3057  3057 D SamsungIME: initSubLinguistic called in updateEngine
+06-15 13:59:09.550   700  1106 D lights  : lcd : 9
+06-15 13:59:09.560 17661 17661 I Timeline: Timeline: Activity_idle id: android.os.BinderProxy@1c8bc time:18676801
+06-15 13:59:09.560   700  1533 D ActivityTrigger: ActivityTrigger activityStopTrigger
+06-15 13:59:09.560   700  1533 D ActivityTrigger: ActivityTrigger activityStopTrigger
+06-15 13:59:09.560 17661 17726 I [MALI][Gralloc]: [+]r_hnd(0xb2d432c0), client(44), share_fd(48)
+06-15 13:59:09.560 17661 17726 D GraphicBuffer: register, handle(0xb2d432c0) (w:540 h:960 s:544 f:0x1 u:0x000b00)
+06-15 13:59:09.560  3057  3057 I SKBD Xt994Wrapper: setDLMLoadFlag() SMT_DB_TYPE true
+06-15 13:59:09.560  3057  3057 I SKBD Xt994Wrapper: setDLMLoadFlag() SMT_DB_TYPE false
+06-15 13:59:09.560  3057  3057 I SamsungIME: XT9 Latin language init finished
+06-15 13:59:09.560  3057  3057 I SKBD Xt994Wrapper: setDLMLoadFlag() DLM_DB_TYPE true
+06-15 13:59:09.570  3057  3057 I SKBD Xt994Wrapper: setDLMLoadFlag() DLM_DB_TYPE false
+06-15 13:59:09.570  3057  3057 I SKBD Xt994Wrapper: setDLMLoadFlag() CDLM_DB_TYPE true
+06-15 13:59:09.570  3057  3057 I SKBD Xt994Wrapper: setDLMLoadFlag() CDLM_DB_TYPE false
+06-15 13:59:09.570  3057  3057 I SamsungIME: ET9CDLMInit : 2
+06-15 13:59:09.570  1354  1354 D Launcher.HomeView: onStop
+06-15 13:59:09.570  1354  1354 D capture : ----destroy
+06-15 13:59:09.570  3057  3057 D ClipboardExManager: not enabled! from isShowing
+06-15 13:59:09.570  3057  3057 I SamsungIME: getCurrentKeyboard
+06-15 13:59:09.570  3057  3057 I SamsungIME: getTextKeyboard
+06-15 13:59:09.570   700  9986 D SecContentProvider: query(), uri = 17 selection = isSettingsChangesAllowed
+06-15 13:59:09.570  3057  3057 I SamsungIME: CarMode is off
+06-15 13:59:09.570   700  3049 D SecContentProvider: query(), uri = 17 selection = isSettingsChangesAllowed
+06-15 13:59:09.580  1354  1354 D Launcher: onTrimMemory. Level: 20
+06-15 13:59:09.580  3057  3057 D SamsungIME: mDisplayWidth is 540
+06-15 13:59:09.580  3057  3057 D SamsungIME: mDisplayHeight is 960
+06-15 13:59:09.580  3057  3057 D SamsungIME: isOrientationLandscape false
+06-15 13:59:09.580  3057  3057 D SamsungIME: mDisplayWidth is 540
+06-15 13:59:09.580  3057  3057 D SamsungIME: mDisplayHeight is 960
+06-15 13:59:09.580  3057  3057 D SamsungIME: isOrientationLandscape false
+06-15 13:59:09.580   700  9985 D InputDispatcher: Inject motion (17661): action=0x1, eventTime=18676826000000
+06-15 13:59:09.580   700  1045 I InputDispatcher: Delivering touch to (17661): action: 0x1, toolType: 1
+06-15 13:59:09.580 17661 17661 D ViewRootImpl: ViewPostImeInputStage processPointer 1
+06-15 13:59:09.590  1133  1133 D KnoxNotification: ----- inflateViews : modified publicViewLocal -----
+06-15 13:59:09.600  3057  3057 D SamsungIME: mIsUseStaticTouchRecognizedArea =  false
+06-15 13:59:09.600  3057  3057 D SamsungIME: Dismiss ExpandCandiate
+06-15 13:59:09.600  3057  3057 D SamsungIME: initSubLinguistic called in updateEngine
+06-15 13:59:09.600   700  1359 D SecContentProvider: query(), uri = 17 selection = isSettingsChangesAllowed
+06-15 13:59:09.600   700  9986 D SecContentProvider: query(), uri = 17 selection = isSettingsChangesAllowed
+06-15 13:59:09.600  3057  3057 I SKBD Xt994Wrapper: setDLMLoadFlag() SMT_DB_TYPE true
+06-15 13:59:09.600  3057  3057 I SKBD Xt994Wrapper: setDLMLoadFlag() SMT_DB_TYPE false
+06-15 13:59:09.600  3057  3057 I SamsungIME: XT9 Latin language init finished
+06-15 13:59:09.600  3057  3057 I SKBD Xt994Wrapper: setDLMLoadFlag() DLM_DB_TYPE true
+06-15 13:59:09.610  3057  3057 I SKBD Xt994Wrapper: setDLMLoadFlag() DLM_DB_TYPE false
+06-15 13:59:09.610  3057  3057 I SKBD Xt994Wrapper: setDLMLoadFlag() CDLM_DB_TYPE true
+06-15 13:59:09.610  3057  3057 I SKBD Xt994Wrapper: setDLMLoadFlag() CDLM_DB_TYPE false
+06-15 13:59:09.610  3057  3057 I SamsungIME: ET9CDLMInit : 2
+06-15 13:59:09.610  3057  3057 D SamsungIME: Skip dismiss ExpandCandidate. it will be post-invalidated later
+06-15 13:59:09.610  3057  3057 D SamsungIME: Dismiss ExpandCandiate
+06-15 13:59:09.610  3057  3057 D SamsungIME: startInputViewContinue : true true
+06-15 13:59:09.610  3057  3057 D SamsungIME: conditions for show dialog : true true true false
+06-15 13:59:09.610  3057  3057 D SamsungIME: showDlgMsgBox : true true true
+06-15 13:59:09.610  3057  3057 D SamsungIME: showDlgMsgBox inner condition : true true
+06-15 13:59:09.610  3057  3057 I SamsungIME: [IMI] startInputView - caller pid : 17661, caller uid : 10124
+06-15 13:59:09.610  3057 17752 D InputMethodFrameWorkUtils: InputMethodSubtype is found as local:en_GB
+06-15 13:59:09.620  3057 17752 D InputMethodFrameWorkUtils: InputMethodSubtype is set as local:en_GB
+06-15 13:59:09.620  1133  1133 D KnoxNotification: ----- inflateViews : modified KnoxViewLocal -----
+06-15 13:59:09.630   238   238 I BufferQueue: [unnamed-238-724](this:0xb321b400,id:724,api:0,p:-1,c:-1) BufferQueue core=(238:/system/bin/surfaceflinger)
+06-15 13:59:09.630   238   238 I BufferQueueConsumer: [unnamed-238-724](this:0xb321b400,id:724,api:0,p:-1,c:238) connect(C): consumer=(238:/system/bin/surfaceflinger) controlledByApp=false
+06-15 13:59:09.630   238   238 I BufferQueueConsumer: [unnamed-238-724](this:0xb321b400,id:724,api:0,p:-1,c:238) setConsumerName: unnamed-238-724
+06-15 13:59:09.630   238   238 I BufferQueueConsumer: [InputMethod](this:0xb321b400,id:724,api:0,p:-1,c:238) setConsumerName: InputMethod
+06-15 13:59:09.630   238   238 I BufferQueueConsumer: [InputMethod](this:0xb321b400,id:724,api:0,p:-1,c:238) setDefaultBufferSize: width=540 height=537
+06-15 13:59:09.630   238   238 I SurfaceFlinger: id=724 createSurf (540x537),1 flag=4, JnputMethod
+06-15 13:59:09.630  3057  7489 D Surface : Surface::connect(this=0x97cada00,api=1)
+06-15 13:59:09.630  1133  1133 I ApplicationPackageManager: load=android, bg=72-72, dr=72-72, forDefault=true
+06-15 13:59:09.630  1133  1133 I ApplicationPackageManager: scaled rate=0.762353, size=72, alpha=2, hold=26, target=72
+06-15 13:59:09.630   238  1043 I BufferQueueProducer: [InputMethod](this:0xb321b400,id:724,api:1,p:3057,c:238) connect(P): api=1 producer=(3057:com.sec.android.inputmethod) producerControlledByApp=true
+06-15 13:59:09.640  1133  1133 D NotificationGroupManager: onEntryAdded = -1|android|17040378|InputMethodManagerService_Noti|1000
+06-15 13:59:09.640  1133  1133 D NotificationGroupManager: Skip sending summary for entry = -1|android|17040378|InputMethodManagerService_Noti|1000
+06-15 13:59:09.640  3057  7489 D mali_winsys: new_window_surface returns 0x3000
+06-15 13:59:09.640  3057  3057 D Surface : Surface::allocateBuffers(this=0x97cada00)
+06-15 13:59:09.640   238   259 D BufferQueueProducer: [InputMethod](this:0xb321b400,id:724,api:1,p:3057,c:238) allocateBuffers: allocating from 0 buffers up to 4 buffers
+06-15 13:59:09.640   238   259 I [MALI][Gralloc]: [+]hnd(0xb59ec3c0), client(30), share_fd(47), hnd->flags:4
+06-15 13:59:09.640   238   259 D GraphicBuffer: alloc, handle(0xb59ec3c0) (w:540 h:537 s:544 f:0x1 u:0x000b00) err(0)
+06-15 13:59:09.640   238   259 I [MALI][Gralloc]: [+]hnd(0xb59ec320), client(30), share_fd(75), hnd->flags:4
+06-15 13:59:09.640   238   259 D GraphicBuffer: alloc, handle(0xb59ec320) (w:540 h:537 s:544 f:0x1 u:0x000b00) err(0)
+06-15 13:59:09.640   238   259 I [MALI][Gralloc]: [+]hnd(0xb58a12c0), client(30), share_fd(79), hnd->flags:4
+06-15 13:59:09.640   238   259 D GraphicBuffer: alloc, handle(0xb58a12c0) (w:540 h:537 s:544 f:0x1 u:0x000b00) err(0)
+06-15 13:59:09.640   238   259 I [MALI][Gralloc]: [+]hnd(0xb58a15e0), client(30), share_fd(80), hnd->flags:4
+06-15 13:59:09.640   238   259 D GraphicBuffer: alloc, handle(0xb58a15e0) (w:540 h:537 s:544 f:0x1 u:0x000b00) err(0)
+06-15 13:59:09.640   238   259 D BufferQueueProducer: [InputMethod](this:0xb321b400,id:724,api:1,p:3057,c:238) allocateBuffers: allocating from 4 buffers up to 4 buffers
+06-15 13:59:09.650  1133  1133 D PhoneStatusBar: setAreThereNotifications: N=6 any=true clearable=true
+06-15 13:59:09.650  1133  1133 D NotificationGroupManager: onEntryRemovedInternal = -1|android|17040378|InputMethodManagerService_Noti|1000
+06-15 13:59:09.650  1133  1133 D NotificationGroupManager: onEntryAdded = -1|android|17040378|InputMethodManagerService_Noti|1000
+06-15 13:59:09.650  1133  1133 D NotificationGroupManager: Skip sending summary for entry = -1|android|17040378|InputMethodManagerService_Noti|1000
+06-15 13:59:09.650  3057  3057 D SamsungIME: onViewClicked
+06-15 13:59:09.660  1133  1133 D PhoneStatusBar: setAreThereNotifications: N=6 any=true clearable=true
+06-15 13:59:09.660  3057  3057 E SamsungIME: <AbstractKeyboardView> - onDraw() called
+06-15 13:59:09.660  1133  1133 D NotificationStackScrollLayout:  scroll range should be extended : 461
+06-15 13:59:09.660  1133  1133 D NotificationStackScrollLayout:  scroll range should be extended : 461
+06-15 13:59:09.670  3057  3057 I SamsungIME: drawAllKey
+06-15 13:59:09.670  3057  3057 I SamsungIME: getKeySpecialLabel label:null
+06-15 13:59:09.670  1133  1133 D NotificationGroupManager: onEntryRemovedInternal = -1|android|17040378|InputMethodManagerService_Noti|1000
+06-15 13:59:09.670  3057  3057 I SamsungIME: getKeySpecialLabel label:null
+06-15 13:59:09.670  1133  1133 D NotificationGroupManager: onEntryAdded = -1|android|17040378|InputMethodManagerService_Noti|1000
+06-15 13:59:09.670  1133  1133 D NotificationGroupManager: Skip sending summary for entry = -1|android|17040378|InputMethodManagerService_Noti|1000
+06-15 13:59:09.670  3057  3057 I SamsungIME: getKeySpecialLabel label:null
+06-15 13:59:09.670  3057  3057 I SamsungIME: getKeySpecialLabel label:null
+06-15 13:59:09.670  3057  3057 I SamsungIME: getKeySpecialLabel label:null
+06-15 13:59:09.670  3057  3057 I SamsungIME: getKeySpecialLabel label:null
+06-15 13:59:09.670  3057  3057 I SamsungIME: getKeySpecialLabel label:null
+06-15 13:59:09.670  3057  3057 I SamsungIME: getKeySpecialLabel label:null
+06-15 13:59:09.680  3057  3057 I SamsungIME: getKeySpecialLabel label:null
+06-15 13:59:09.680  1133  1133 D PhoneStatusBar: setAreThereNotifications: N=6 any=true clearable=true
+06-15 13:59:09.680  1133  1133 D NotificationGroupManager: onEntryRemovedInternal = -1|android|17040378|InputMethodManagerService_Noti|1000
+06-15 13:59:09.680  1133  1133 D NotificationGroupManager: onEntryAdded = -1|android|17040378|InputMethodManagerService_Noti|1000
+06-15 13:59:09.680  3057  3057 I SamsungIME: getKeySpecialLabel label:null
+06-15 13:59:09.680  1133  1133 D NotificationGroupManager: Skip sending summary for entry = -1|android|17040378|InputMethodManagerService_Noti|1000
+06-15 13:59:09.680  3057  3057 I SamsungIME: getKeySpecialLabel label:null
+06-15 13:59:09.680  3057  3057 I SamsungIME: getKeySpecialLabel label:null
+06-15 13:59:09.680  3057  3057 I SamsungIME: getKeySpecialLabel label:null
+06-15 13:59:09.690  3057  3057 I SamsungIME: getKeySpecialLabel label:null
+06-15 13:59:09.690  3057  3066 I art     : Background sticky concurrent mark sweep GC freed 5347(481KB) AllocSpace objects, 16(320KB) LOS objects, 7% free, 13MB/14MB, paused 5.248ms total 23.692ms
+06-15 13:59:09.690  3057  3057 I SamsungIME: getKeySpecialLabel label:null
+06-15 13:59:09.690   238   238 I SurfaceFlinger: [Built-in Screen (type:0)] fps:35.918476,dur:1002.27,max:318.92,min:13.64
+06-15 13:59:09.690  3057  3057 I SamsungIME: getKeySpecialLabel label:null
+06-15 13:59:09.690  3057  3057 I SamsungIME: getKeySpecialLabel label:null
+06-15 13:59:09.690  3057  3057 I SamsungIME: getKeySpecialLabel label:null
+06-15 13:59:09.690  3057  3057 I SamsungIME: getKeySpecialLabel label:null
+06-15 13:59:09.690  3057  3057 I SamsungIME: getKeySpecialLabel label:null
+06-15 13:59:09.690  3057  3057 I SamsungIME: getKeySpecialLabel label:null
+06-15 13:59:09.690  3057  3057 I SamsungIME: getKeySpecialLabel label:null
+06-15 13:59:09.690  3057  3057 I SamsungIME: getKeySpecialLabel label:null
+06-15 13:59:09.690  1133  1133 D PhoneStatusBar: setAreThereNotifications: N=6 any=true clearable=true
+06-15 13:59:09.690  3057  3057 I SamsungIME: getKeySpecialLabel label:null
+06-15 13:59:09.690  1133  1133 D NotificationGroupManager: onEntryRemovedInternal = -1|android|17040378|InputMethodManagerService_Noti|1000
+06-15 13:59:09.690  1133  1133 D NotificationGroupManager: onEntryAdded = -1|android|17040378|InputMethodManagerService_Noti|1000
+06-15 13:59:09.690  1133  1133 D NotificationGroupManager: Skip sending summary for entry = -1|android|17040378|InputMethodManagerService_Noti|1000
+06-15 13:59:09.690  3057  3057 I SamsungIME: getKeySpecialLabel label:null
+06-15 13:59:09.700  3057  3057 I SamsungIME: getKeySpecialLabel label:null
+06-15 13:59:09.700  3057  3057 I SamsungIME: getKeySpecialLabel label:null
+06-15 13:59:09.700  3057  3057 I SamsungIME: getKeySpecialLabel label:null
+06-15 13:59:09.700  3057  3057 I SamsungIME: getKeySpecialLabel label:null
+06-15 13:59:09.700  3057  3057 I SamsungIME: getKeySpecialLabel label:null
+06-15 13:59:09.700  3057  3057 I SamsungIME: getKeySpecialLabel label:null
+06-15 13:59:09.700  3057  3057 I SamsungIME: getKeySpecialLabel label:null
+06-15 13:59:09.700  3057  3057 I SamsungIME: getKeySpecialLabel label:null
+06-15 13:59:09.700  3057  3057 I SamsungIME: getKeySpecialLabel label:null
+06-15 13:59:09.700  3057  3057 I SamsungIME: getKeySpecialLabel label:null
+06-15 13:59:09.700  3057  3057 I SamsungIME: getKeySpecialLabel label:null
+06-15 13:59:09.700  3057  3057 I SamsungIME: getKeySpecialLabel label:null
+06-15 13:59:09.700  1133  1133 D PhoneStatusBar: setAreThereNotifications: N=6 any=true clearable=true
+06-15 13:59:09.710  3057  3057 I SamsungIME: getKeySpecialLabel label:null
+06-15 13:59:09.710  1133  1133 D NotificationStackScrollLayout:  scroll range should be extended : 461
+06-15 13:59:09.710  3057  3057 D SamsungIME: disable handwriting input icon : handwriting is not enabled or improper edit field
+06-15 13:59:09.710  3057  3057 D SamsungIME: disable handwriting input icon : handwriting is not enabled or improper edit field
+06-15 13:59:09.710  3057  3057 D SamsungIME: disable handwriting input icon : handwriting is not enabled or improper edit field
+06-15 13:59:09.710   238   257 I BufferQueueProducer: [StatusBar](this:0xb36d2800,id:6,api:1,p:1133,c:238) queueBuffer: fps=23.06 dur=1040.64 max=475.48 min=10.78
+06-15 13:59:09.710  3057  3057 D SamsungIME: disable handwriting input icon : handwriting is not enabled or improper edit field
+06-15 13:59:09.720  3057  3057 I SamsungIME: getKeySpecialLabel label:null
+06-15 13:59:09.720  3057  3057 I SamsungIME: getKeySpecialLabel label:English(UK)
+06-15 13:59:09.720  3057  3057 I SamsungIME: getKeySpecialLabel label:null
+06-15 13:59:09.720  3057  7489 I [MALI][Gralloc]: [+]r_hnd(0xb43fa840), client(50), share_fd(51)
+06-15 13:59:09.720  3057  7489 D GraphicBuffer: register, handle(0xb43fa840) (w:540 h:537 s:544 f:0x1 u:0x000b00)
+06-15 13:59:09.730   700  6964 V WindowStateAnimator: Finishing drawing window Window{a0d2cc2 u0 d0 p3057 InputMethod}: mDrawState=DRAW_PENDING
+06-15 13:59:09.730  3057  3057 E SamsungIME: <AbstractKeyboardView> - onDraw() called
+06-15 13:59:09.730 17661 17661 D ViewRootImpl: MSG_RESIZED: ci=Rect(0, 36 - 0, 429) vi=Rect(0, 36 - 0, 429) or=1
+06-15 13:59:09.730  3057  7489 I [MALI][Gralloc]: [+]r_hnd(0xb43fa980), client(50), share_fd(52)
+06-15 13:59:09.730  3057  7489 D GraphicBuffer: register, handle(0xb43fa980) (w:540 h:537 s:544 f:0x1 u:0x000b00)
+06-15 13:59:09.750 17661 17661 D ScrollView:  onsize change changed
+06-15 13:59:09.770 10009 21448 I FontLog : Received query Noto Color Emoji Compat, URI content://com.google.android.gms.fonts [CONTEXT service_id=132 ]
+06-15 13:59:09.770 10009 21448 I FontLog : Query [emojicompat-emoji-font] resolved to {Noto Color Emoji Compat, wdth 100.0, wght 400, ital 0.0, bestEffort false} [CONTEXT service_id=132 ]
+06-15 13:59:09.770  3057  7489 I [MALI][Gralloc]: [+]r_hnd(0xb43fb2e0), client(50), share_fd(53)
+06-15 13:59:09.770  3057  7489 D GraphicBuffer: register, handle(0xb43fb2e0) (w:540 h:537 s:544 f:0x1 u:0x000b00)
+06-15 13:59:09.780 10009 21448 I FontLog : Fetch {Noto Color Emoji Compat, wdth 100.0, wght 400, ital 0.0, bestEffort false} end status Status{statusCode=SUCCESS, resolution=null} [CONTEXT service_id=132 ]
+06-15 13:59:09.790 10009 10492 I FontLog : Pulling font file for id = 100, cache size = 8 [CONTEXT service_id=132 ]
+06-15 13:59:09.800   700  1359 D PackageManager: getComponentMetadataForIconTray : com.example.muvkintours.MainActivity does not exist in mServices
+06-15 13:59:09.800   700  1359 D PackageManager: getComponentMetadataForIconTray : com.example.muvkintours.MainActivity does not exist in mProviders
+06-15 13:59:09.800   700  1359 D PackageManager: getComponentMetadataForIconTray : com.example.muvkintours.MainActivity does not exist in mReceivers
+06-15 13:59:09.800 10009 10393 I FontLog : Pulling font file for id = 100, cache size = 8 [CONTEXT service_id=132 ]
+06-15 13:59:09.810  1211  1211 I ApplicationPackageManager: load=com.example.muvkintours, bg=72-72, dr=72-72, forDefault=true
+06-15 13:59:09.810  1211  1211 I ApplicationPackageManager: scaled rate=0.816, size=72, alpha=6, hold=26, target=72
+06-15 13:59:09.830 17661 17661 D UiControllerImpl: Injecting string: "muvakacharles@gmail.com"
+06-15 13:59:09.830   700  1247 D InputDispatcher: Inject key (17661): action=0, eventTime=18677076000000
+06-15 13:59:09.830   700  1045 I InputDispatcher: Delivering key to (17661): action: 0x0 (0)
+06-15 13:59:09.840  3057  3057 D SamsungIME: Skip dismiss ExpandCandidate. it will be post-invalidated later
+06-15 13:59:09.840 17661 17661 D ViewRootImpl: ViewPostImeInputStage processKey 0
+06-15 13:59:09.850  3057  3057 D SamsungIME_UnifiedIME: AbstractCandidateLayout, getView position value is get view  0
+06-15 13:59:09.890  3057  3057 D SamsungIME_UnifiedIME: AbstractCandidateLayout, getView position value is get view  1
+06-15 13:59:09.890  3057  3057 D SamsungIME_UnifiedIME: AbstractCandidateLayout, getView position value is get view  2
+06-15 13:59:09.890   700  1375 D InputDispatcher: Inject key (17661): action=1, eventTime=18677137000000
+06-15 13:59:09.890   700  1045 I InputDispatcher: Delivering key to (17661): action: 0x1 (0)
+06-15 13:59:09.890  3057  7489 I [MALI][Gralloc]: [+]r_hnd(0x97c1b3c0), client(50), share_fd(54)
+06-15 13:59:09.890  3057  7489 D GraphicBuffer: register, handle(0x97c1b3c0) (w:540 h:537 s:544 f:0x1 u:0x000b00)
+06-15 13:59:09.900  3057  3057 D ClipboardExManager: not enabled! from isShowing
+06-15 13:59:09.900  3057  3057 D ClipboardExManager: not enabled! from isShowing
+06-15 13:59:09.900  3057  3057 D ClipboardExManager: not enabled! from isShowing
+06-15 13:59:09.920 17661 17661 D ViewRootImpl: ViewPostImeInputStage processKey 1
+06-15 13:59:09.930   700  3050 D InputDispatcher: Inject key (17661): action=0, eventTime=18677173000000
+06-15 13:59:09.930   700  1045 I InputDispatcher: Delivering key to (17661): action: 0x0 (0)
+06-15 13:59:09.930 17661 17661 D ViewRootImpl: ViewPostImeInputStage processKey 0
+06-15 13:59:09.940  3057  3057 D ClipboardExManager: not enabled! from isShowing
+06-15 13:59:09.940  3057  3057 D ClipboardExManager: not enabled! from isShowing
+06-15 13:59:09.940  3057  3057 D ClipboardExManager: not enabled! from isShowing
+06-15 13:59:09.940   700  6964 D InputDispatcher: Inject key (17661): action=1, eventTime=18677184000000
+06-15 13:59:09.940   700  1045 I InputDispatcher: Delivering key to (17661): action: 0x1 (0)
+06-15 13:59:09.970 17661 17661 D ViewRootImpl: ViewPostImeInputStage processKey 1
+06-15 13:59:09.970   700   714 D InputDispatcher: Inject key (17661): action=0, eventTime=18677211000000
+06-15 13:59:09.970   700  1045 I InputDispatcher: Delivering key to (17661): action: 0x0 (0)
+06-15 13:59:09.970 17661 17661 D ViewRootImpl: ViewPostImeInputStage processKey 0
+06-15 13:59:09.970  3057  3057 D ClipboardExManager: not enabled! from isShowing
+06-15 13:59:09.970  3057  3057 D ClipboardExManager: not enabled! from isShowing
+06-15 13:59:09.970  3057  3057 D ClipboardExManager: not enabled! from isShowing
+06-15 13:59:09.980   700  1547 D InputDispatcher: Inject key (17661): action=1, eventTime=18677219000000
+06-15 13:59:09.980   700  1045 I InputDispatcher: Delivering key to (17661): action: 0x1 (0)
+06-15 13:59:10.000 17661 17661 D ViewRootImpl: ViewPostImeInputStage processKey 1
+06-15 13:59:10.000   700  1504 D InputDispatcher: Inject key (17661): action=0, eventTime=18677247000000
+06-15 13:59:10.000   700  1045 I InputDispatcher: Delivering key to (17661): action: 0x0 (0)
+06-15 13:59:10.000 17661 17661 D ViewRootImpl: ViewPostImeInputStage processKey 0
+06-15 13:59:10.010  3057  3057 D ClipboardExManager: not enabled! from isShowing
+06-15 13:59:10.010  3057  3057 D ClipboardExManager: not enabled! from isShowing
+06-15 13:59:10.010  3057  3057 D ClipboardExManager: not enabled! from isShowing
+06-15 13:59:10.010   700  3050 D InputDispatcher: Inject key (17661): action=1, eventTime=18677257000000
+06-15 13:59:10.010   700  1045 I InputDispatcher: Delivering key to (17661): action: 0x1 (0)
+06-15 13:59:10.040 17661 17661 D ViewRootImpl: ViewPostImeInputStage processKey 1
+06-15 13:59:10.040   700  1552 D InputDispatcher: Inject key (17661): action=0, eventTime=18677289000000
+06-15 13:59:10.050   700  1045 I InputDispatcher: Delivering key to (17661): action: 0x0 (0)
+06-15 13:59:10.050 17661 17661 D ViewRootImpl: ViewPostImeInputStage processKey 0
+06-15 13:59:10.050  3057  3057 D ClipboardExManager: not enabled! from isShowing
+06-15 13:59:10.050  3057  3057 D ClipboardExManager: not enabled! from isShowing
+06-15 13:59:10.050  3057  3057 D ClipboardExManager: not enabled! from isShowing
+06-15 13:59:10.060   700  1533 D InputDispatcher: Inject key (17661): action=1, eventTime=18677301000000
+06-15 13:59:10.060   700  1045 I InputDispatcher: Delivering key to (17661): action: 0x1 (0)
+06-15 13:59:10.090 17661 17661 D ViewRootImpl: ViewPostImeInputStage processKey 1
+06-15 13:59:10.090   700  6629 D InputDispatcher: Inject key (17661): action=0, eventTime=18677334000000
+06-15 13:59:10.090   700  1045 I InputDispatcher: Delivering key to (17661): action: 0x0 (0)
+06-15 13:59:10.090 17661 17661 D ViewRootImpl: ViewPostImeInputStage processKey 0
+06-15 13:59:10.090  3057  3057 D ClipboardExManager: not enabled! from isShowing
+06-15 13:59:10.090  3057  3057 D ClipboardExManager: not enabled! from isShowing
+06-15 13:59:10.090  3057  3057 D ClipboardExManager: not enabled! from isShowing
+06-15 13:59:10.110   700  9985 D InputDispatcher: Inject key (17661): action=1, eventTime=18677351000000
+06-15 13:59:10.110   700  1045 I InputDispatcher: Delivering key to (17661): action: 0x1 (0)
+06-15 13:59:10.150 17661 17661 D ViewRootImpl: ViewPostImeInputStage processKey 1
+06-15 13:59:10.150   700  1552 D InputDispatcher: Inject key (17661): action=0, eventTime=18677397000000
+06-15 13:59:10.150   700  1045 I InputDispatcher: Delivering key to (17661): action: 0x0 (0)
+06-15 13:59:10.150 17661 17661 D ViewRootImpl: ViewPostImeInputStage processKey 0
+06-15 13:59:10.160  3057  3057 D ClipboardExManager: not enabled! from isShowing
+06-15 13:59:10.160  3057  3057 D ClipboardExManager: not enabled! from isShowing
+06-15 13:59:10.160  3057  3057 D ClipboardExManager: not enabled! from isShowing
+06-15 13:59:10.170   700  1026 D InputDispatcher: Inject key (17661): action=1, eventTime=18677418000000
+06-15 13:59:10.170   700  1045 I InputDispatcher: Delivering key to (17661): action: 0x1 (0)
+06-15 13:59:10.210 17661 17661 D ViewRootImpl: ViewPostImeInputStage processKey 1
+06-15 13:59:10.210   700   715 D InputDispatcher: Inject key (17661): action=0, eventTime=18677457000000
+06-15 13:59:10.210   700  1045 I InputDispatcher: Delivering key to (17661): action: 0x0 (0)
+06-15 13:59:10.210 17661 17661 D ViewRootImpl: ViewPostImeInputStage processKey 0
+06-15 13:59:10.220  3057  3057 D ClipboardExManager: not enabled! from isShowing
+06-15 13:59:10.220  3057  3057 D ClipboardExManager: not enabled! from isShowing
+06-15 13:59:10.220  3057  3057 D ClipboardExManager: not enabled! from isShowing
+06-15 13:59:10.220   700   714 D InputDispatcher: Inject key (17661): action=1, eventTime=18677468000000
+06-15 13:59:10.220   700  1045 I InputDispatcher: Delivering key to (17661): action: 0x1 (0)
+06-15 13:59:10.260 17661 17661 D ViewRootImpl: ViewPostImeInputStage processKey 1
+06-15 13:59:10.260   700  9986 D InputDispatcher: Inject key (17661): action=0, eventTime=18677504000000
+06-15 13:59:10.260   700  1045 I InputDispatcher: Delivering key to (17661): action: 0x0 (0)
+06-15 13:59:10.260 17661 17661 D ViewRootImpl: ViewPostImeInputStage processKey 0
+06-15 13:59:10.260  3057  3057 D ClipboardExManager: not enabled! from isShowing
+06-15 13:59:10.260  3057  3057 D ClipboardExManager: not enabled! from isShowing
+06-15 13:59:10.260  3057  3057 D ClipboardExManager: not enabled! from isShowing
+06-15 13:59:10.270   700  3049 D InputDispatcher: Inject key (17661): action=1, eventTime=18677518000000
+06-15 13:59:10.270   700  1045 I InputDispatcher: Delivering key to (17661): action: 0x1 (0)
+06-15 13:59:10.330 17661 17661 D ViewRootImpl: ViewPostImeInputStage processKey 1
+06-15 13:59:10.330   700  1547 D InputDispatcher: Inject key (17661): action=0, eventTime=18677579000000
+06-15 13:59:10.340   700  1045 I InputDispatcher: Delivering key to (17661): action: 0x0 (0)
+06-15 13:59:10.340 17661 17661 D ViewRootImpl: ViewPostImeInputStage processKey 0
+06-15 13:59:10.340  3057  3057 D ClipboardExManager: not enabled! from isShowing
+06-15 13:59:10.340  3057  3057 D ClipboardExManager: not enabled! from isShowing
+06-15 13:59:10.340  3057  3057 D ClipboardExManager: not enabled! from isShowing
+06-15 13:59:10.340   700  6629 D InputDispatcher: Inject key (17661): action=1, eventTime=18677586000000
+06-15 13:59:10.340   700  1045 I InputDispatcher: Delivering key to (17661): action: 0x1 (0)
+06-15 13:59:10.380 17661 17661 D ViewRootImpl: ViewPostImeInputStage processKey 1
+06-15 13:59:10.390   700  6964 D InputDispatcher: Inject key (17661): action=0, eventTime=18677629000000
+06-15 13:59:10.390   700  1045 I InputDispatcher: Delivering key to (17661): action: 0x0 (0)
+06-15 13:59:10.390 17661 17661 D ViewRootImpl: ViewPostImeInputStage processKey 0
+06-15 13:59:10.390  3057  3057 D ClipboardExManager: not enabled! from isShowing
+06-15 13:59:10.390  3057  3057 D ClipboardExManager: not enabled! from isShowing
+06-15 13:59:10.390  3057  3057 D ClipboardExManager: not enabled! from isShowing
+06-15 13:59:10.390   700  1359 D InputDispatcher: Inject key (17661): action=1, eventTime=18677637000000
+06-15 13:59:10.390   700  1045 I InputDispatcher: Delivering key to (17661): action: 0x1 (0)
+06-15 13:59:10.430 17661 17661 D ViewRootImpl: ViewPostImeInputStage processKey 1
+06-15 13:59:10.460   238  1043 I BufferQueueProducer: [com.example.muvkintours/com.example.muvkintours.MainActivity](this:0xb321a800,id:723,api:1,p:17661,c:238) queueBuffer: fps=34.74 dur=1007.55 max=99.12 min=4.39
+06-15 13:59:10.630  3057  3057 D SamsungIME: Skip dismiss ExpandCandidate. it will be post-invalidated later
+06-15 13:59:10.640  3057  3057 D SamsungIME_UnifiedIME: AbstractCandidateLayout, getView position value is get view  0
+06-15 13:59:10.680  3057  3057 D SamsungIME_UnifiedIME: AbstractCandidateLayout, getView position value is get view  1
+06-15 13:59:10.680  3057  3057 D SamsungIME_UnifiedIME: AbstractCandidateLayout, getView position value is get view  2
+06-15 13:59:10.690   238   238 I SurfaceFlinger: [Built-in Screen (type:0)] fps:42.794018,dur:1004.81,max:67.24,min:14.90
+06-15 13:59:10.700   700  1026 D InputDispatcher: Inject key (17661): action=0, eventTime=18677939000000
+06-15 13:59:10.700   700  1045 I InputDispatcher: Delivering key to (17661): action: 0x0 (0)
+06-15 13:59:10.700 17661 17661 D ViewRootImpl: ViewPostImeInputStage processKey 0
+06-15 13:59:10.700  3057  3057 D ClipboardExManager: not enabled! from isShowing
+06-15 13:59:10.700  3057  3057 D ClipboardExManager: not enabled! from isShowing
+06-15 13:59:10.700  3057  3057 D ClipboardExManager: not enabled! from isShowing
+06-15 13:59:10.710   700  1247 D InputDispatcher: Inject key (17661): action=1, eventTime=18677954000000
+06-15 13:59:10.710   700  1045 I InputDispatcher: Delivering key to (17661): action: 0x1 (0)
+06-15 13:59:10.750 17661 17661 D ViewRootImpl: ViewPostImeInputStage processKey 1
+06-15 13:59:10.760   700  1533 D InputDispatcher: Inject key (17661): action=0, eventTime=18677999000000
+06-15 13:59:10.760   700  1045 I InputDispatcher: Delivering key to (17661): action: 0x0 (0)
+06-15 13:59:10.760 17661 17661 D ViewRootImpl: ViewPostImeInputStage processKey 0
+06-15 13:59:10.760  3057  3057 D ClipboardExManager: not enabled! from isShowing
+06-15 13:59:10.760  3057  3057 D ClipboardExManager: not enabled! from isShowing
+06-15 13:59:10.760  3057  3057 D ClipboardExManager: not enabled! from isShowing
+06-15 13:59:10.780   700  9986 D InputDispatcher: Inject key (17661): action=1, eventTime=18678027000000
+06-15 13:59:10.790   700  1045 I InputDispatcher: Delivering key to (17661): action: 0x1 (0)
+06-15 13:59:10.830 17661 17661 D ViewRootImpl: ViewPostImeInputStage processKey 1
+06-15 13:59:10.840   700   715 D InputDispatcher: Inject key (17661): action=0, eventTime=18678080000000
+06-15 13:59:10.840   700  1045 I InputDispatcher: Delivering key to (17661): action: 0x0 (0)
+06-15 13:59:10.840 17661 17661 D ViewRootImpl: ViewPostImeInputStage processKey 0
+06-15 13:59:10.840   700  3049 D InputDispatcher: Inject key (17661): action=0, eventTime=18678087000000
+06-15 13:59:10.840   700  1045 I InputDispatcher: Delivering key to (17661): action: 0x0 (0)
+06-15 13:59:10.850   238  1043 I BufferQueueProducer: [InputMethod](this:0xb321b400,id:724,api:1,p:3057,c:238) queueBuffer: fps=6.25 dur=1119.92 max=685.79 min=4.98
+06-15 13:59:10.850 17661 17661 D ViewRootImpl: The input has been finished in ImeInputStage.
+06-15 13:59:10.860  3057  3057 D ClipboardExManager: not enabled! from isShowing
+06-15 13:59:10.860  3057  3057 D ClipboardExManager: not enabled! from isShowing
+06-15 13:59:10.860  3057  3057 D ClipboardExManager: not enabled! from isShowing
+06-15 13:59:10.870   700   715 D InputDispatcher: Inject key (17661): action=1, eventTime=18678111000000
+06-15 13:59:10.870   700  1045 I InputDispatcher: Delivering key to (17661): action: 0x1 (0)
+06-15 13:59:10.870  3057  3057 D SamsungIME: Dismiss ExpandCandiate
+06-15 13:59:10.870 17661 17661 D ViewRootImpl: ViewPostImeInputStage processKey 1
+06-15 13:59:10.870   700  1247 D InputDispatcher: Inject key (17661): action=1, eventTime=18678118000000
+06-15 13:59:10.870   700  1045 I InputDispatcher: Delivering key to (17661): action: 0x1 (0)
+06-15 13:59:10.880 17661 17661 D ViewRootImpl: ViewPostImeInputStage processKey 1
+06-15 13:59:10.890   700  6964 D InputDispatcher: Inject key (17661): action=0, eventTime=18678137000000
+06-15 13:59:10.890   700  1045 I InputDispatcher: Delivering key to (17661): action: 0x0 (0)
+06-15 13:59:10.890 17661 17661 D ViewRootImpl: ViewPostImeInputStage processKey 0
+06-15 13:59:10.900  3057  3057 D ClipboardExManager: not enabled! from isShowing
+06-15 13:59:10.900  3057  3057 D ClipboardExManager: not enabled! from isShowing
+06-15 13:59:10.900  3057  3057 D ClipboardExManager: not enabled! from isShowing
+06-15 13:59:10.910   700  1552 D InputDispatcher: Inject key (17661): action=1, eventTime=18678155000000
+06-15 13:59:10.910   700  1045 I InputDispatcher: Delivering key to (17661): action: 0x1 (0)
+06-15 13:59:10.940 17661 17661 D ViewRootImpl: ViewPostImeInputStage processKey 1
+06-15 13:59:10.940   700  1533 D InputDispatcher: Inject key (17661): action=0, eventTime=18678185000000
+06-15 13:59:10.940   700  1045 I InputDispatcher: Delivering key to (17661): action: 0x0 (0)
+06-15 13:59:10.940 17661 17661 D ViewRootImpl: ViewPostImeInputStage processKey 0
+06-15 13:59:10.950  3057  3057 D ClipboardExManager: not enabled! from isShowing
+06-15 13:59:10.950  3057  3057 D ClipboardExManager: not enabled! from isShowing
+06-15 13:59:10.950  3057  3057 D ClipboardExManager: not enabled! from isShowing
+06-15 13:59:10.960   700  1247 D InputDispatcher: Inject key (17661): action=1, eventTime=18678205000000
+06-15 13:59:10.960   700  1045 I InputDispatcher: Delivering key to (17661): action: 0x1 (0)
+06-15 13:59:10.990 17661 17661 D ViewRootImpl: ViewPostImeInputStage processKey 1
+06-15 13:59:10.990   700  1359 D InputDispatcher: Inject key (17661): action=0, eventTime=18678232000000
+06-15 13:59:10.990   700  1045 I InputDispatcher: Delivering key to (17661): action: 0x0 (0)
+06-15 13:59:10.990 17661 17661 D ViewRootImpl: ViewPostImeInputStage processKey 0
+06-15 13:59:10.990  3057  3057 D ClipboardExManager: not enabled! from isShowing
+06-15 13:59:10.990  3057  3057 D ClipboardExManager: not enabled! from isShowing
+06-15 13:59:10.990  3057  3057 D ClipboardExManager: not enabled! from isShowing
+06-15 13:59:11.010   700  1026 D InputDispatcher: Inject key (17661): action=1, eventTime=18678255000000
+06-15 13:59:11.010   700  1045 I InputDispatcher: Delivering key to (17661): action: 0x1 (0)
+06-15 13:59:11.050 17661 17661 D ViewRootImpl: ViewPostImeInputStage processKey 1
+06-15 13:59:11.050   700  9985 D InputDispatcher: Inject key (17661): action=0, eventTime=18678296000000
+06-15 13:59:11.050   700  1045 I InputDispatcher: Delivering key to (17661): action: 0x0 (0)
+06-15 13:59:11.050 17661 17661 D ViewRootImpl: ViewPostImeInputStage processKey 0
+06-15 13:59:11.060  3057  3057 D ClipboardExManager: not enabled! from isShowing
+06-15 13:59:11.060  3057  3057 D ClipboardExManager: not enabled! from isShowing
+06-15 13:59:11.060  3057  3057 D ClipboardExManager: not enabled! from isShowing
+06-15 13:59:11.060   700  1547 D InputDispatcher: Inject key (17661): action=1, eventTime=18678307000000
+06-15 13:59:11.060   700  1045 I InputDispatcher: Delivering key to (17661): action: 0x1 (0)
+06-15 13:59:11.090 17661 17661 D ViewRootImpl: ViewPostImeInputStage processKey 1
+06-15 13:59:11.100   700  1359 D InputDispatcher: Inject key (17661): action=0, eventTime=18678340000000
+06-15 13:59:11.100   700  1045 I InputDispatcher: Delivering key to (17661): action: 0x0 (0)
+06-15 13:59:11.100 17661 17661 D ViewRootImpl: ViewPostImeInputStage processKey 0
+06-15 13:59:11.100  3057  3057 D ClipboardExManager: not enabled! from isShowing
+06-15 13:59:11.100  3057  3057 D ClipboardExManager: not enabled! from isShowing
+06-15 13:59:11.100  3057  3057 D ClipboardExManager: not enabled! from isShowing
+06-15 13:59:11.110   700  1504 D InputDispatcher: Inject key (17661): action=1, eventTime=18678355000000
+06-15 13:59:11.110   700  1045 I InputDispatcher: Delivering key to (17661): action: 0x1 (0)
+06-15 13:59:11.140 17661 17661 D ViewRootImpl: ViewPostImeInputStage processKey 1
+06-15 13:59:11.140   700  9985 D InputDispatcher: Inject key (17661): action=0, eventTime=18678388000000
+06-15 13:59:11.140   700  1045 I InputDispatcher: Delivering key to (17661): action: 0x0 (0)
+06-15 13:59:11.150 17661 17661 D ViewRootImpl: The input has been finished in ImeInputStage.
+06-15 13:59:11.160  3057  3057 D ClipboardExManager: not enabled! from isShowing
+06-15 13:59:11.160  3057  3057 D ClipboardExManager: not enabled! from isShowing
+06-15 13:59:11.160  3057  3057 D ClipboardExManager: not enabled! from isShowing
+06-15 13:59:11.170   700   714 D InputDispatcher: Inject key (17661): action=1, eventTime=18678409000000
+06-15 13:59:11.170   700  1045 I InputDispatcher: Delivering key to (17661): action: 0x1 (0)
+06-15 13:59:11.170  3057  3057 D SamsungIME: Dismiss ExpandCandiate
+06-15 13:59:11.170 17661 17661 D ViewRootImpl: ViewPostImeInputStage processKey 1
+06-15 13:59:11.170   700  6629 D InputDispatcher: Inject key (17661): action=0, eventTime=18678415000000
+06-15 13:59:11.170   700  1045 I InputDispatcher: Delivering key to (17661): action: 0x0 (0)
+06-15 13:59:11.170 17661 17661 D ViewRootImpl: ViewPostImeInputStage processKey 0
+06-15 13:59:11.180  3057  3057 D ClipboardExManager: not enabled! from isShowing
+06-15 13:59:11.180  3057  3057 D ClipboardExManager: not enabled! from isShowing
+06-15 13:59:11.180  3057  3057 D ClipboardExManager: not enabled! from isShowing
+06-15 13:59:11.180   700   715 D InputDispatcher: Inject key (17661): action=1, eventTime=18678425000000
+06-15 13:59:11.180   700  1045 I InputDispatcher: Delivering key to (17661): action: 0x1 (0)
+06-15 13:59:11.200 17661 17661 D ViewRootImpl: ViewPostImeInputStage processKey 1
+06-15 13:59:11.200   700  1359 D InputDispatcher: Inject key (17661): action=0, eventTime=18678446000000
+06-15 13:59:11.200   700  1045 I InputDispatcher: Delivering key to (17661): action: 0x0 (0)
+06-15 13:59:11.200 17661 17661 D ViewRootImpl: ViewPostImeInputStage processKey 0
+06-15 13:59:11.210  3057  3057 D ClipboardExManager: not enabled! from isShowing
+06-15 13:59:11.210  3057  3057 D ClipboardExManager: not enabled! from isShowing
+06-15 13:59:11.210  3057  3057 D ClipboardExManager: not enabled! from isShowing
+06-15 13:59:11.210   700  1375 D InputDispatcher: Inject key (17661): action=1, eventTime=18678458000000
+06-15 13:59:11.210   700  1045 I InputDispatcher: Delivering key to (17661): action: 0x1 (0)
+06-15 13:59:11.240 17661 17661 D ViewRootImpl: ViewPostImeInputStage processKey 1
+06-15 13:59:11.240   700  1547 D InputDispatcher: Inject key (17661): action=0, eventTime=18678480000000
+06-15 13:59:11.240   700  1045 I InputDispatcher: Delivering key to (17661): action: 0x0 (0)
+06-15 13:59:11.240 17661 17661 D ViewRootImpl: ViewPostImeInputStage processKey 0
+06-15 13:59:11.240  3057  3057 D ClipboardExManager: not enabled! from isShowing
+06-15 13:59:11.240  3057  3057 D ClipboardExManager: not enabled! from isShowing
+06-15 13:59:11.240  3057  3057 D ClipboardExManager: not enabled! from isShowing
+06-15 13:59:11.250   700  6629 D InputDispatcher: Inject key (17661): action=1, eventTime=18678491000000
+06-15 13:59:11.250   700  1045 I InputDispatcher: Delivering key to (17661): action: 0x1 (0)
+06-15 13:59:11.270 17661 17661 D ViewRootImpl: ViewPostImeInputStage processKey 1
+06-15 13:59:11.280 17661 17661 I ViewInteraction: Performing 'type text(0768761611)' action on view (is descendant of a view matching view.getId() is <2131362311/com.example.muvkintours:id/userPhone> and view.getClass().getName() matches: a string ending with "TextInputEditText")
+06-15 13:59:11.280   700  1026 D InputDispatcher: Inject motion (17661): action=0x0, eventTime=18678521000000
+06-15 13:59:11.280   700  1045 I InputDispatcher: Delivering touch to (1133): action: 0x4, toolType: 0
+06-15 13:59:11.280   700  1045 I InputDispatcher: Delivering touch to (17661): action: 0x0, toolType: 0
+06-15 13:59:11.280 17661 17661 D ViewRootImpl: ViewPostImeInputStage processPointer 0
+06-15 13:59:11.320   700  6964 D InputDispatcher: Inject motion (17661): action=0x1, eventTime=18678563000000
+06-15 13:59:11.320   700  1045 I InputDispatcher: Delivering touch to (17661): action: 0x1, toolType: 1
+06-15 13:59:11.320 17661 17661 D ViewRootImpl: ViewPostImeInputStage processPointer 1
+06-15 13:59:11.340  3057  3057 D SamsungIME: onFinishInputView
+06-15 13:59:11.340  3057  3057 I ACDownloadManager: onFinishInput()
+06-15 13:59:11.340  3057  3057 E KeyboardInfoUtils: getInstance start
+06-15 13:59:11.340  3057  3057 E KeyboardInfoUtils: sendSIPInformation state:6  isAbstractKeyboardView : true
+06-15 13:59:11.340  3057  3057 D SamsungIME: onFinishInput
+06-15 13:59:11.340  3057  3057 D SamsungIME: IMPL finishInput
+06-15 13:59:11.340  3057  3057 I SamsungIME: [IMI] onStartInput - caller packageName : com.example.muvkintours
+06-15 13:59:11.340  3057  3057 D SKBD SamsungIME_SYNC: import DLM start onstart input
+06-15 13:59:11.340  3057  3057 D SKBD SamsungIME_SYNC: shouldImportDLM mIsImportDLM false
+06-15 13:59:11.340  3057  3057 D SamsungIME: onStartInputView requsted restarting value = false
+06-15 13:59:11.340  3057  3057 D SamsungIME: onStartInputView After call super -  restarting value = false
+06-15 13:59:11.340  3057  3057 D SamsungIME: disable handwriting input icon : handwriting is not enabled or improper edit field
+06-15 13:59:11.350  3057 17854 E KeyboardInfoUtils: sending null keyboardInfo as SIP is closed
+06-15 13:59:11.350  3057  3057 D SamsungIME: setIsEnableAddWord : false
+06-15 13:59:11.350  3057  3057 D SamsungIME: [startInputView] info.inputType = 129 info.imeOptions = 67108870
+06-15 13:59:11.350  3057  3057 I ACDownloadManager: onStartInput()
+06-15 13:59:11.360  3057  3057 I SamsungIME: Update SetupWizard State usc : 1 pss : false
+06-15 13:59:11.360   700  3049 D SecContentProvider: query(), uri = 17 selection = isSettingsChangesAllowed
+06-15 13:59:11.360  3057  3057 I SamsungIME: Update SetupWizard State usc : 1 pss : false
+06-15 13:59:11.360  3057  3057 D SamsungIME: initSubLinguistic called in updateEngine
+06-15 13:59:11.370  3057  3057 I SKBD Xt994Wrapper: setDLMLoadFlag() SMT_DB_TYPE true
+06-15 13:59:11.370  3057  3057 I SKBD Xt994Wrapper: setDLMLoadFlag() SMT_DB_TYPE false
+06-15 13:59:11.370  3057  3057 I SamsungIME: XT9 Latin language init finished
+06-15 13:59:11.370  3057  3057 I SKBD Xt994Wrapper: setDLMLoadFlag() DLM_DB_TYPE true
+06-15 13:59:11.370  3057  3057 I SKBD Xt994Wrapper: setDLMLoadFlag() DLM_DB_TYPE false
+06-15 13:59:11.370  3057  3057 I SKBD Xt994Wrapper: setDLMLoadFlag() CDLM_DB_TYPE true
+06-15 13:59:11.370  3057  3057 I SKBD Xt994Wrapper: setDLMLoadFlag() CDLM_DB_TYPE false
+06-15 13:59:11.370  3057  3057 I SamsungIME: ET9CDLMInit : 2
+06-15 13:59:11.370  3057  3057 I SamsungIME: [IMI] isChangedMainValues - bRetVal : true
+06-15 13:59:11.380  3057  3057 I SamsungIME: getDebugLevel  : 0x4f4c
+06-15 13:59:11.380  3057  3057 D skia    : ---- fAsset->read(0) returned 0
+06-15 13:59:11.400  3057  3057 I SamsungIME: KeybaordView init() : load resources
+06-15 13:59:11.400  3057  3057 I SamsungIME: getCurrentKeyboard
+06-15 13:59:11.400  3057  3057 I SamsungIME: getTextKeyboard
+06-15 13:59:11.400  3057  3057 I SamsungIME: CarMode is off
+06-15 13:59:11.410  3057  3057 D SamsungIME: mDisplayWidth is 540
+06-15 13:59:11.410  3057  3057 D SamsungIME: mDisplayHeight is 960
+06-15 13:59:11.410  3057  3057 D SamsungIME: isOrientationLandscape false
+06-15 13:59:11.410  3057  3057 D SamsungIME: mDisplayWidth is 540
+06-15 13:59:11.410  3057  3057 D SamsungIME: mDisplayHeight is 960
+06-15 13:59:11.410  3057  3057 D SamsungIME: isOrientationLandscape false
+06-15 13:59:11.420  3057  3057 D SamsungIME: mIsUseStaticTouchRecognizedArea =  false
+06-15 13:59:11.420  3057  3057 D SamsungIME: [AbstractKeyboardView] onDetachedFromWindow.
+06-15 13:59:11.420  3057  3057 D SamsungIME: Magnification Enabled = false
+06-15 13:59:11.420  3057  3057 D SamsungIME: Dismiss ExpandCandiate
+06-15 13:59:11.420   700  6964 D SecContentProvider: query(), uri = 17 selection = isSettingsChangesAllowed
+06-15 13:59:11.420  3057  3057 D SamsungIME: Dismiss ExpandCandiate
+06-15 13:59:11.420  3057  3057 D SamsungIME: initSubLinguistic called in updateEngine
+06-15 13:59:11.430   700   714 D SecContentProvider: query(), uri = 17 selection = isSettingsChangesAllowed
+06-15 13:59:11.430  3057  3057 I SKBD Xt994Wrapper: setDLMLoadFlag() SMT_DB_TYPE true
+06-15 13:59:11.430  3057  3057 I SKBD Xt994Wrapper: setDLMLoadFlag() SMT_DB_TYPE false
+06-15 13:59:11.430  3057  3057 I SamsungIME: XT9 Latin language init finished
+06-15 13:59:11.430  3057  3057 I SKBD Xt994Wrapper: setDLMLoadFlag() DLM_DB_TYPE true
+06-15 13:59:11.430  3057  3057 I SKBD Xt994Wrapper: setDLMLoadFlag() DLM_DB_TYPE false
+06-15 13:59:11.430  3057  3057 I SKBD Xt994Wrapper: setDLMLoadFlag() CDLM_DB_TYPE true
+06-15 13:59:11.430  3057  3057 I SKBD Xt994Wrapper: setDLMLoadFlag() CDLM_DB_TYPE false
+06-15 13:59:11.440  3057  3057 I SamsungIME: ET9CDLMInit : 2
+06-15 13:59:11.440  3057  3057 D ClipboardExManager: not enabled! from isShowing
+06-15 13:59:11.440  3057  3057 I SamsungIME: getCurrentKeyboard
+06-15 13:59:11.440  3057  3057 I SamsungIME: getTextKeyboard
+06-15 13:59:11.440   700  9985 D SecContentProvider: query(), uri = 17 selection = isSettingsChangesAllowed
+06-15 13:59:11.440  3057  3057 I SamsungIME: CarMode is off
+06-15 13:59:11.440  3057  3057 E SamsungIME: get previous
+06-15 13:59:11.440  3057  3057 D SamsungIME: mIsUseStaticTouchRecognizedArea =  false
+06-15 13:59:11.440   700  1533 D SecContentProvider: query(), uri = 17 selection = isSettingsChangesAllowed
+06-15 13:59:11.450  3057  3057 D SamsungIME: Dismiss ExpandCandiate
+06-15 13:59:11.450  3057  3057 D SamsungIME: initSubLinguistic called in updateEngine
+06-15 13:59:11.450   700  1547 D SecContentProvider: query(), uri = 17 selection = isSettingsChangesAllowed
+06-15 13:59:11.450   700  3050 D SecContentProvider: query(), uri = 17 selection = isSettingsChangesAllowed
+06-15 13:59:11.460  3057  3057 I SKBD Xt994Wrapper: setDLMLoadFlag() SMT_DB_TYPE true
+06-15 13:59:11.460  3057  3057 I SKBD Xt994Wrapper: setDLMLoadFlag() SMT_DB_TYPE false
+06-15 13:59:11.460  3057  3057 I SamsungIME: XT9 Latin language init finished
+06-15 13:59:11.460  3057  3057 I SKBD Xt994Wrapper: setDLMLoadFlag() DLM_DB_TYPE true
+06-15 13:59:11.460  3057  3057 I SKBD Xt994Wrapper: setDLMLoadFlag() DLM_DB_TYPE false
+06-15 13:59:11.460  3057  3057 I SKBD Xt994Wrapper: setDLMLoadFlag() CDLM_DB_TYPE true
+06-15 13:59:11.460  3057  3057 I SKBD Xt994Wrapper: setDLMLoadFlag() CDLM_DB_TYPE false
+06-15 13:59:11.460  3057  3057 I SamsungIME: ET9CDLMInit : 2
+06-15 13:59:11.470  3057  3057 D SamsungIME: Dismiss ExpandCandiate
+06-15 13:59:11.470   238  1808 I BufferQueueProducer: [com.example.muvkintours/com.example.muvkintours.MainActivity](this:0xb321a800,id:723,api:1,p:17661,c:238) queueBuffer: fps=35.74 dur=1007.28 max=110.52 min=7.34
+06-15 13:59:11.470  3057  3057 D SamsungIME: startInputViewContinue : true true
+06-15 13:59:11.470  3057  3057 D SamsungIME: conditions for show dialog : true false true false
+06-15 13:59:11.470  3057  3057 D SamsungIME: showDlgMsgBox : true true true
+06-15 13:59:11.470  3057  3057 D SamsungIME: showDlgMsgBox inner condition : true true
+06-15 13:59:11.470  3057  3057 I SamsungIME: [IMI] startInputView - caller pid : 17661, caller uid : 10124
+06-15 13:59:11.470  1479  1479 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+06-15 13:59:11.480  3057 17860 D InputMethodFrameWorkUtils: InputMethodSubtype is found as local:en_GB
+06-15 13:59:11.480  3057 17860 D InputMethodFrameWorkUtils: InputMethodSubtype is set as local:en_GB
+06-15 13:59:11.480  3057  3057 D SamsungIME: onViewClicked
+06-15 13:59:11.490  1133  1133 D NotificationGroupManager: onEntryRemovedInternal = -1|android|17040378|InputMethodManagerService_Noti|1000
+06-15 13:59:11.490  1133  1133 D NotificationGroupManager: onEntryAdded = -1|android|17040378|InputMethodManagerService_Noti|1000
+06-15 13:59:11.490  1133  1133 D NotificationGroupManager: Skip sending summary for entry = -1|android|17040378|InputMethodManagerService_Noti|1000
+06-15 13:59:11.490  1479  1479 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=48
+06-15 13:59:11.500 17661 17661 D ViewRootImpl: MSG_RESIZED: ci=Rect(0, 36 - 0, 375) vi=Rect(0, 36 - 0, 375) or=1
+06-15 13:59:11.500  3057  3057 E SamsungIME: <AbstractKeyboardView> - onDraw() called
+06-15 13:59:11.500  1133  1133 D PhoneStatusBar: setAreThereNotifications: N=6 any=true clearable=true
+06-15 13:59:11.500  3057  3057 I SamsungIME: drawAllKey
+06-15 13:59:11.500  3057  3057 I SamsungIME: getKeySpecialLabel label:null
+06-15 13:59:11.500  3057  3057 I SamsungIME: getKeySpecialLabel label:null
+06-15 13:59:11.500  3057  3057 I SamsungIME: getKeySpecialLabel label:null
+06-15 13:59:11.500  1133  1133 D NotificationStackScrollLayout:  scroll range should be extended : 461
+06-15 13:59:11.500  3057  3057 I SamsungIME: getKeySpecialLabel label:null
+06-15 13:59:11.510  3057  3057 I SamsungIME: getKeySpecialLabel label:null
+06-15 13:59:11.510  3057  3057 I SamsungIME: getKeySpecialLabel label:null
+06-15 13:59:11.510  3057  3057 I SamsungIME: getKeySpecialLabel label:null
+06-15 13:59:11.510  3057  3057 I SamsungIME: getKeySpecialLabel label:null
+06-15 13:59:11.510  3057  3057 I SamsungIME: getKeySpecialLabel label:null
+06-15 13:59:11.510  3057  3057 I SamsungIME: getKeySpecialLabel label:null
+06-15 13:59:11.510  3057  3057 I SamsungIME: getKeySpecialLabel label:null
+06-15 13:59:11.510  3057  3057 I SamsungIME: getKeySpecialLabel label:null
+06-15 13:59:11.510  3057  3057 I SamsungIME: getKeySpecialLabel label:null
+06-15 13:59:11.510  3057  3057 I SamsungIME: getKeySpecialLabel label:null
+06-15 13:59:11.510  3057  3057 I SamsungIME: getKeySpecialLabel label:null
+06-15 13:59:11.510  3057  3057 I SamsungIME: getKeySpecialLabel label:null
+06-15 13:59:11.510  3057  3057 I SamsungIME: getKeySpecialLabel label:null
+06-15 13:59:11.520  3057  3057 I SamsungIME: getKeySpecialLabel label:null
+06-15 13:59:11.520   238  1808 I BufferQueueProducer: [StatusBar](this:0xb36d2800,id:6,api:1,p:1133,c:238) queueBuffer: fps=3.32 dur=1805.03 max=899.76 min=13.41
+06-15 13:59:11.520  3057  3057 I SamsungIME: getKeySpecialLabel label:null
+06-15 13:59:11.520  1133  1133 D NotificationGroupManager: onEntryRemovedInternal = -1|android|17040378|InputMethodManagerService_Noti|1000
+06-15 13:59:11.520  1133  1133 D NotificationGroupManager: onEntryAdded = -1|android|17040378|InputMethodManagerService_Noti|1000
+06-15 13:59:11.520  1133  1133 D NotificationGroupManager: Skip sending summary for entry = -1|android|17040378|InputMethodManagerService_Noti|1000
+06-15 13:59:11.520  3057  3057 I SamsungIME: getKeySpecialLabel label:null
+06-15 13:59:11.520  3057  3057 I SamsungIME: getKeySpecialLabel label:null
+06-15 13:59:11.520  3057  3057 I SamsungIME: getKeySpecialLabel label:null
+06-15 13:59:11.520  3057  3057 I SamsungIME: getKeySpecialLabel label:null
+06-15 13:59:11.520  3057  3057 I SamsungIME: getKeySpecialLabel label:null
+06-15 13:59:11.520  3057  3057 I SamsungIME: getKeySpecialLabel label:null
+06-15 13:59:11.520  3057  3057 I SamsungIME: getKeySpecialLabel label:null
+06-15 13:59:11.520  3057  3057 I SamsungIME: getKeySpecialLabel label:null
+06-15 13:59:11.520  3057  3057 I SamsungIME: getKeySpecialLabel label:null
+06-15 13:59:11.530  3057  3057 I SamsungIME: getKeySpecialLabel label:null
+06-15 13:59:11.530  3057  3057 I SamsungIME: getKeySpecialLabel label:null
+06-15 13:59:11.530  3057  3057 I SamsungIME: getKeySpecialLabel label:null
+06-15 13:59:11.530  3057  3057 I SamsungIME: getKeySpecialLabel label:null
+06-15 13:59:11.530  3057  3057 I SamsungIME: getKeySpecialLabel label:null
+06-15 13:59:11.530  3057  3057 I SamsungIME: getKeySpecialLabel label:null
+06-15 13:59:11.530  3057  3057 I SamsungIME: getKeySpecialLabel label:null
+06-15 13:59:11.530  3057  3057 I SamsungIME: getKeySpecialLabel label:null
+06-15 13:59:11.540  3057  3057 I SamsungIME: getKeySpecialLabel label:null
+06-15 13:59:11.540  1133  1133 D PhoneStatusBar: setAreThereNotifications: N=6 any=true clearable=true
+06-15 13:59:11.540 17661 17661 D ScrollView:  onsize change changed
+06-15 13:59:11.540  3057  3057 I SamsungIME: getKeySpecialLabel label:null
+06-15 13:59:11.540  1133  1133 D NotificationStackScrollLayout:  scroll range should be extended : 461
+06-15 13:59:11.540  3057  3057 D SamsungIME: disable handwriting input icon : handwriting is not enabled or improper edit field
+06-15 13:59:11.540  3057  3057 D SamsungIME: disable handwriting input icon : handwriting is not enabled or improper edit field
+06-15 13:59:11.540  3057  3057 D SamsungIME: disable handwriting input icon : handwriting is not enabled or improper edit field
+06-15 13:59:11.550  3057  3057 D SamsungIME: disable handwriting input icon : handwriting is not enabled or improper edit field
+06-15 13:59:11.560  3057  3057 I SamsungIME: getKeySpecialLabel label:null
+06-15 13:59:11.560  3057  3057 I SamsungIME: getKeySpecialLabel label:English(UK)
+06-15 13:59:11.560  3057  3057 I SamsungIME: getKeySpecialLabel label:null
+06-15 13:59:11.570   700  1108 W System.err: remove failed: ENOENT (No such file or directory) : /data/system/recent_tasks/15967_task.xml.bak
+06-15 13:59:11.570  3057  3057 E SamsungIME: <AbstractKeyboardView> - onDraw() called
+06-15 13:59:11.570  3057  3057 D SamsungIME: Dismiss ExpandCandiate
+06-15 13:59:11.620 17661 17661 D UiControllerImpl: Injecting string: "0768761611"
+06-15 13:59:11.620   700   714 D InputDispatcher: Inject key (17661): action=0, eventTime=18678860000000
+06-15 13:59:11.620   700  1045 I InputDispatcher: Delivering key to (17661): action: 0x0 (0)
+06-15 13:59:11.620 17661 17661 D ViewRootImpl: ViewPostImeInputStage processKey 0
+06-15 13:59:11.620  3057  3057 D ClipboardExManager: not enabled! from isShowing
+06-15 13:59:11.620  3057  3057 D ClipboardExManager: not enabled! from isShowing
+06-15 13:59:11.620  3057  3057 D ClipboardExManager: not enabled! from isShowing
+06-15 13:59:11.630   700  1552 D InputDispatcher: Inject key (17661): action=1, eventTime=18678875000000
+06-15 13:59:11.630   700  1045 I InputDispatcher: Delivering key to (17661): action: 0x1 (0)
+06-15 13:59:11.630  3057  3057 D SamsungIME: Dismiss ExpandCandiate
+06-15 13:59:11.630 17661 17661 D ViewRootImpl: ViewPostImeInputStage processKey 1
+06-15 13:59:11.630   700  6629 D InputDispatcher: Inject key (17661): action=0, eventTime=18678878000000
+06-15 13:59:11.630   700  1045 I InputDispatcher: Delivering key to (17661): action: 0x0 (0)
+06-15 13:59:11.640 17661 17661 D ViewRootImpl: ViewPostImeInputStage processKey 0
+06-15 13:59:11.640  3057  3057 D ClipboardExManager: not enabled! from isShowing
+06-15 13:59:11.640  3057  3057 D ClipboardExManager: not enabled! from isShowing
+06-15 13:59:11.640  3057  3057 D ClipboardExManager: not enabled! from isShowing
+06-15 13:59:11.650   700  1504 D InputDispatcher: Inject key (17661): action=1, eventTime=18678891000000
+06-15 13:59:11.650   700  1045 I InputDispatcher: Delivering key to (17661): action: 0x1 (0)
+06-15 13:59:11.650  3057  3057 D SamsungIME: Dismiss ExpandCandiate
+06-15 13:59:11.650 17661 17661 D ViewRootImpl: ViewPostImeInputStage processKey 1
+06-15 13:59:11.650   700  1026 D InputDispatcher: Inject key (17661): action=0, eventTime=18678894000000
+06-15 13:59:11.650   700  1045 I InputDispatcher: Delivering key to (17661): action: 0x0 (0)
+06-15 13:59:11.650 17661 17661 D ViewRootImpl: ViewPostImeInputStage processKey 0
+06-15 13:59:11.660  3057  3057 D ClipboardExManager: not enabled! from isShowing
+06-15 13:59:11.660  3057  3057 D ClipboardExManager: not enabled! from isShowing
+06-15 13:59:11.660  3057  3057 D ClipboardExManager: not enabled! from isShowing
+06-15 13:59:11.660   700  9986 D InputDispatcher: Inject key (17661): action=1, eventTime=18678908000000
+06-15 13:59:11.660   700  1045 I InputDispatcher: Delivering key to (17661): action: 0x1 (0)
+06-15 13:59:11.670  3057  3057 D SamsungIME: Dismiss ExpandCandiate
+06-15 13:59:11.670 17661 17661 D ViewRootImpl: ViewPostImeInputStage processKey 1
+06-15 13:59:11.670   700  9985 D InputDispatcher: Inject key (17661): action=0, eventTime=18678914000000
+06-15 13:59:11.670   700  1045 I InputDispatcher: Delivering key to (17661): action: 0x0 (0)
+06-15 13:59:11.670 17661 17661 D ViewRootImpl: ViewPostImeInputStage processKey 0
+06-15 13:59:11.680  3057  3057 D ClipboardExManager: not enabled! from isShowing
+06-15 13:59:11.680  3057  3057 D ClipboardExManager: not enabled! from isShowing
+06-15 13:59:11.680  3057  3057 D ClipboardExManager: not enabled! from isShowing
+06-15 13:59:11.680   700  3050 D InputDispatcher: Inject key (17661): action=1, eventTime=18678925000000
+06-15 13:59:11.680   700  1045 I InputDispatcher: Delivering key to (17661): action: 0x1 (0)
+06-15 13:59:11.680  3057  3057 D SamsungIME: Dismiss ExpandCandiate
+06-15 13:59:11.680 17661 17661 D ViewRootImpl: ViewPostImeInputStage processKey 1
+06-15 13:59:11.690   700   714 D InputDispatcher: Inject key (17661): action=0, eventTime=18678930000000
+06-15 13:59:11.690   700  1045 I InputDispatcher: Delivering key to (17661): action: 0x0 (0)
+06-15 13:59:11.690 17661 17661 D ViewRootImpl: ViewPostImeInputStage processKey 0
+06-15 13:59:11.690  3057  3057 D ClipboardExManager: not enabled! from isShowing
+06-15 13:59:11.690  3057  3057 D ClipboardExManager: not enabled! from isShowing
+06-15 13:59:11.690  3057  3057 D ClipboardExManager: not enabled! from isShowing
+06-15 13:59:11.700   238   238 I SurfaceFlinger: [Built-in Screen (type:0)] fps:31.880793,dur:1003.74,max:117.19,min:15.85
+06-15 13:59:11.700   700   715 D InputDispatcher: Inject key (17661): action=1, eventTime=18678942000000
+06-15 13:59:11.700   700  1045 I InputDispatcher: Delivering key to (17661): action: 0x1 (0)
+06-15 13:59:11.700  3057  3057 D SamsungIME: Dismiss ExpandCandiate
+06-15 13:59:11.700 17661 17661 D ViewRootImpl: ViewPostImeInputStage processKey 1
+06-15 13:59:11.700   700  1247 D InputDispatcher: Inject key (17661): action=0, eventTime=18678946000000
+06-15 13:59:11.700   700  1045 I InputDispatcher: Delivering key to (17661): action: 0x0 (0)
+06-15 13:59:11.700 17661 17661 D ViewRootImpl: ViewPostImeInputStage processKey 0
+06-15 13:59:11.710  3057  3057 D ClipboardExManager: not enabled! from isShowing
+06-15 13:59:11.710  3057  3057 D ClipboardExManager: not enabled! from isShowing
+06-15 13:59:11.710  3057  3057 D ClipboardExManager: not enabled! from isShowing
+06-15 13:59:11.710   700  1504 D InputDispatcher: Inject key (17661): action=1, eventTime=18678959000000
+06-15 13:59:11.720   700  1045 I InputDispatcher: Delivering key to (17661): action: 0x1 (0)
+06-15 13:59:11.720  3057  3057 D SamsungIME: Dismiss ExpandCandiate
+06-15 13:59:11.720 17661 17661 D ViewRootImpl: ViewPostImeInputStage processKey 1
+06-15 13:59:11.720   700  1375 D InputDispatcher: Inject key (17661): action=0, eventTime=18678962000000
+06-15 13:59:11.720   700  1045 I InputDispatcher: Delivering key to (17661): action: 0x0 (0)
+06-15 13:59:11.720 17661 17661 D ViewRootImpl: ViewPostImeInputStage processKey 0
+06-15 13:59:11.730  3057  3057 D ClipboardExManager: not enabled! from isShowing
+06-15 13:59:11.730  3057  3057 D ClipboardExManager: not enabled! from isShowing
+06-15 13:59:11.730  3057  3057 D ClipboardExManager: not enabled! from isShowing
+06-15 13:59:11.730  3057  3057 D SamsungIME: Dismiss ExpandCandiate
+06-15 13:59:11.740   700  9986 D InputDispatcher: Inject key (17661): action=1, eventTime=18678986000000
+06-15 13:59:11.740   700  1045 I InputDispatcher: Delivering key to (17661): action: 0x1 (0)
+06-15 13:59:11.740 17661 17661 D ViewRootImpl: ViewPostImeInputStage processKey 1
+06-15 13:59:11.740   700  1547 D InputDispatcher: Inject key (17661): action=0, eventTime=18678988000000
+06-15 13:59:11.750   700  1045 I InputDispatcher: Delivering key to (17661): action: 0x0 (0)
+06-15 13:59:11.750 17661 17661 D ViewRootImpl: ViewPostImeInputStage processKey 0
+06-15 13:59:11.750  3057  3057 D ClipboardExManager: not enabled! from isShowing
+06-15 13:59:11.750  3057  3057 D ClipboardExManager: not enabled! from isShowing
+06-15 13:59:11.750  3057  3057 D ClipboardExManager: not enabled! from isShowing
+06-15 13:59:11.760   700  3050 D InputDispatcher: Inject key (17661): action=1, eventTime=18679009000000
+06-15 13:59:11.770   700  1045 I InputDispatcher: Delivering key to (17661): action: 0x1 (0)
+06-15 13:59:11.770  3057  3057 D SamsungIME: Dismiss ExpandCandiate
+06-15 13:59:11.770 17661 17661 D ViewRootImpl: ViewPostImeInputStage processKey 1
+06-15 13:59:11.770   700  3049 D InputDispatcher: Inject key (17661): action=0, eventTime=18679014000000
+06-15 13:59:11.770   700  1045 I InputDispatcher: Delivering key to (17661): action: 0x0 (0)
+06-15 13:59:11.770 17661 17661 D ViewRootImpl: ViewPostImeInputStage processKey 0
+06-15 13:59:11.780  3057  3057 D ClipboardExManager: not enabled! from isShowing
+06-15 13:59:11.780  3057  3057 D ClipboardExManager: not enabled! from isShowing
+06-15 13:59:11.780  3057  3057 D ClipboardExManager: not enabled! from isShowing
+06-15 13:59:11.780   700   715 D InputDispatcher: Inject key (17661): action=1, eventTime=18679028000000
+06-15 13:59:11.780   700  1045 I InputDispatcher: Delivering key to (17661): action: 0x1 (0)
+06-15 13:59:11.790  3057  3057 D SamsungIME: Dismiss ExpandCandiate
+06-15 13:59:11.790 17661 17661 D ViewRootImpl: ViewPostImeInputStage processKey 1
+06-15 13:59:11.790   700  6629 D InputDispatcher: Inject key (17661): action=0, eventTime=18679032000000
+06-15 13:59:11.790   700  1045 I InputDispatcher: Delivering key to (17661): action: 0x0 (0)
+06-15 13:59:11.790 17661 17661 D ViewRootImpl: ViewPostImeInputStage processKey 0
+06-15 13:59:11.800  3057  3057 D ClipboardExManager: not enabled! from isShowing
+06-15 13:59:11.800  3057  3057 D ClipboardExManager: not enabled! from isShowing
+06-15 13:59:11.800  3057  3057 D ClipboardExManager: not enabled! from isShowing
+06-15 13:59:11.800   700  1504 D InputDispatcher: Inject key (17661): action=1, eventTime=18679044000000
+06-15 13:59:11.800   700  1045 I InputDispatcher: Delivering key to (17661): action: 0x1 (0)
+06-15 13:59:11.800  3057  3057 D SamsungIME: Dismiss ExpandCandiate
+06-15 13:59:11.800 17661 17661 D ViewRootImpl: ViewPostImeInputStage processKey 1
+06-15 13:59:11.810 17661 17691 I Timeline: Timeline: Activity_launch_request id:com.example.muvkintours.test time:18679051
+06-15 13:59:11.820   700  6964 D ActivityTrigger: ActivityTrigger activityPauseTrigger
+06-15 13:59:11.820 17661 17661 D LifecycleMonitor: Lifecycle status change: com.example.muvkintours.MainActivity@fa69100 in: PAUSED
+06-15 13:59:11.820 17661 17661 V ActivityScenario: Update currentActivityStage to PAUSED, currentActivity=com.example.muvkintours.MainActivity@fa69100
+06-15 13:59:11.820   700  6964 D InputDispatcher: Focused application set to: xxxx
+06-15 13:59:11.820   700  6964 D InputDispatcher: Focus left window: 17661
+06-15 13:59:11.820   700   812 D PointerIcon: setMouseIconStyle1 pointerType: 1001 iconType:101 flag:0 pid:700 uid:1000
+06-15 13:59:11.820   700   812 D PointerIcon: setMouseCustomIcon IconType is same.101
+06-15 13:59:11.840   238  1043 I SurfaceFlinger: EventThread Client Pid (17699) created
+06-15 13:59:11.850 17699 17699 D ViewRootImpl: #1 mView = com.android.internal.policy.PhoneWindow$DecorView{d34a444 I.E...... R.....ID 0,0-0,0}
+06-15 13:59:11.850   238  1808 I SurfaceFlinger: EventThread Client Pid (17699) created
+06-15 13:59:11.850 17699 17862 D OpenGLRenderer: Use EGL_SWAP_BEHAVIOR_PRESERVED: false
+06-15 13:59:11.850   238  1043 I SurfaceFlinger: [SF client] NEW(0xb0c026e0) for (700:system_server)
+06-15 13:59:11.860   700  3050 D ActivityManager: post active user change for 0 fullscreen true isFloatingActivity() false isHomeActivity() false
+06-15 13:59:11.860   700  3050 D KnoxTimeoutHandler: postActiveUserChange [MsgParam] userId: 0 fullscreen is true showWhenlocked is false
+06-15 13:59:11.860   700   700 D KnoxTimeoutHandler: handleActiveUserChange [MsgParam] userId: 0 fullscreen is true showWhenlocked is false
+06-15 13:59:11.860   700   700 I KnoxTimeoutHandler: Shared devices show user statefalse
+06-15 13:59:11.860 17661 17682 V FA      : Activity paused, time: 26101553
+06-15 13:59:11.860 17661 17661 D LifecycleMonitor: Lifecycle status change: com.example.muvkintours.MainActivity@fa69100 in: STOPPED
+06-15 13:59:11.860 17661 17661 V ActivityScenario: Update currentActivityStage to STOPPED, currentActivity=com.example.muvkintours.MainActivity@fa69100
+06-15 13:59:11.870 17661 17661 D LifecycleMonitor: Lifecycle status change: com.example.muvkintours.MainActivity@fa69100 in: DESTROYED
+06-15 13:59:11.870 17661 17661 V ActivityScenario: Update currentActivityStage to DESTROYED, currentActivity=null
+06-15 13:59:11.870 17661 17691 I Timeline: Timeline: Activity_launch_request id:com.example.muvkintours.test time:18679112
+06-15 13:59:11.870 15981 17694 V FA-SVC  : Logging event: origin=auto,name=user_engagement(_e),params=Bundle[{ga_event_origin(_o)=auto, engagement_time_msec(_et)=2570, ga_screen_class(_sc)=MainActivity, ga_screen_id(_si)=-907750571717166455}]
+06-15 13:59:11.870 17661 17726 D Surface : Surface::disconnect(this=0xa9cb2000,api=1)
+06-15 13:59:11.870 17661 17726 D GraphicBuffer: unregister, handle(0xb2d432c0) (w:540 h:960 s:544 f:0x1 u:0x000b00)
+06-15 13:59:11.870 17661 17726 I [MALI][Gralloc]: [-]r_hnd(0xb2d432c0), client(44), share_fd(48)
+06-15 13:59:11.870 17661 17726 D GraphicBuffer: unregister, handle(0xb2d43180) (w:540 h:960 s:544 f:0x1 u:0x000b00)
+06-15 13:59:11.870   238   238 I BufferQueue: [unnamed-238-725](this:0xb36d1c00,id:725,api:0,p:-1,c:-1) BufferQueue core=(238:/system/bin/surfaceflinger)
+06-15 13:59:11.870   238   238 I BufferQueueConsumer: [unnamed-238-725](this:0xb36d1c00,id:725,api:0,p:-1,c:238) connect(C): consumer=(238:/system/bin/surfaceflinger) controlledByApp=false
+06-15 13:59:11.870   238   238 I BufferQueueConsumer: [unnamed-238-725](this:0xb36d1c00,id:725,api:0,p:-1,c:238) setConsumerName: unnamed-238-725
+06-15 13:59:11.870 17661 17726 I [MALI][Gralloc]: [-]r_hnd(0xb2d43180), client(44), share_fd(47)
+06-15 13:59:11.870   238   238 I BufferQueueConsumer: [com.example.muvkintours.test/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity](this:0xb36d1c00,id:725,api:0,p:-1,c:238) setConsumerName: com.example.muvkintours.test/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity
+06-15 13:59:11.870 17661 17726 D GraphicBuffer: unregister, handle(0xb2d43040) (w:540 h:960 s:544 f:0x1 u:0x000b00)
+06-15 13:59:11.870   238   238 I BufferQueueConsumer: [com.example.muvkintours.test/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity](this:0xb36d1c00,id:725,api:0,p:-1,c:238) setDefaultBufferSize: width=1 height=1
+06-15 13:59:11.870   238   238 I SurfaceFlinger: id=725 createSurf (1x1),1 flag=404, Jnstrumenta
+06-15 13:59:11.870 17661 17726 I [MALI][Gralloc]: [-]r_hnd(0xb2d43040), client(44), share_fd(46)
+06-15 13:59:11.870 17661 17726 D GraphicBuffer: unregister, handle(0xb2d42e60) (w:540 h:960 s:544 f:0x1 u:0x000b00)
+06-15 13:59:11.870 17661 17726 I [MALI][Gralloc]: [-]r_hnd(0xb2d42e60), client(44), share_fd(43)
+06-15 13:59:11.870   238  1043 I BufferQueueProducer: [com.example.muvkintours/com.example.muvkintours.MainActivity](this:0xb321a800,id:723,api:1,p:-1,c:238) disconnect(P): api 1
+06-15 13:59:11.870   238  1043 I BufferQueueConsumer: [com.example.muvkintours/com.example.muvkintours.MainActivity](this:0xb321a800,id:723,api:1,p:-1,c:238) getReleasedBuffers: returning mask 0xffffffffffffffff
+06-15 13:59:11.870   238  1043 D GraphicBuffer: free, handle(0xb58a0820) (w:540 h:960 s:544 f:0x1 u:0x000b00)
+06-15 13:59:11.870   238  1043 I [MALI][Gralloc]: [-]hnd(0xb58a0820), client(30), share_fd(33)
+06-15 13:59:11.880   238  1043 D GraphicBuffer: free, handle(0xb58a0e60) (w:540 h:960 s:544 f:0x1 u:0x000b00)
+06-15 13:59:11.880   238  1043 I [MALI][Gralloc]: [-]hnd(0xb58a0e60), client(30), share_fd(60)
+06-15 13:59:11.880   238  1043 D GraphicBuffer: free, handle(0xb58a1040) (w:540 h:960 s:544 f:0x1 u:0x000b00)
+06-15 13:59:11.880   238  1043 I [MALI][Gralloc]: [-]hnd(0xb58a1040), client(30), share_fd(69)
+06-15 13:59:11.880 17661 17661 D ViewRootImpl: #3 mView = null
+06-15 13:59:11.880  1133  1133 D PhoneStatusBar: setSystemUiVisibility vis=8000 mask=ffffffff oldVal=8600 newVal=8000 diff=600
+06-15 13:59:11.880   238   238 I BufferQueueConsumer: [com.example.muvkintours.test/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity](this:0xb36d1c00,id:725,api:0,p:-1,c:238) setDefaultBufferSize: width=540 height=960
+06-15 13:59:11.880   700  6964 D InputDispatcher: Focus entered window: 17699
+06-15 13:59:11.890   700   812 D PointerIcon: setMouseIconStyle1 pointerType: 1001 iconType:101 flag:0 pid:700 uid:1000
+06-15 13:59:11.890   700   812 D PointerIcon: setMouseCustomIcon IconType is same.101
+06-15 13:59:11.890   700  1375 D ActivityTrigger: ActivityTrigger activityPauseTrigger
+06-15 13:59:11.890 17699 17862 I OpenGLRenderer: Initialized EGL, version 1.4
+06-15 13:59:11.890   700  1375 D InputDispatcher: Focused application set to: xxxx
+06-15 13:59:11.890   700  1375 D InputDispatcher: Focus left window: 17699
+06-15 13:59:11.890   700   812 D PointerIcon: setMouseIconStyle1 pointerType: 1001 iconType:101 flag:0 pid:700 uid:1000
+06-15 13:59:11.890   700   812 D PointerIcon: setMouseCustomIcon IconType is same.101
+06-15 13:59:11.900 15981 17694 V FA-SVC  : Upload scheduled in approximately ms: 2828843
+06-15 13:59:11.900 15981 17694 V FA-SVC  : Unscheduling upload
+06-15 13:59:11.900 17699 17862 D Surface : Surface::connect(this=0xae237b00,api=1)
+06-15 13:59:11.900   238   257 I BufferQueueProducer: [com.example.muvkintours.test/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity](this:0xb36d1c00,id:725,api:1,p:17699,c:238) connect(P): api=1 producer=(17699:com.example.muvkintours.test) producerControlledByApp=true
+06-15 13:59:11.900 17699 17862 D mali_winsys: new_window_surface returns 0x3000
+06-15 13:59:11.900 17699 17699 D Surface : Surface::allocateBuffers(this=0xae237b00)
+06-15 13:59:11.900   238  1043 D BufferQueueProducer: [com.example.muvkintours.test/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity](this:0xb36d1c00,id:725,api:1,p:17699,c:238) allocateBuffers: allocating from 0 buffers up to 4 buffers
+06-15 13:59:11.900   238  1043 I [MALI][Gralloc]: [+]hnd(0xb58a1040), client(30), share_fd(35), hnd->flags:4
+06-15 13:59:11.900   238  1043 D GraphicBuffer: alloc, handle(0xb58a1040) (w:540 h:960 s:544 f:0x1 u:0x000b00) err(0)
+06-15 13:59:11.900 15981 17694 V FA-SVC  : Scheduling upload, millis: 2828843
+06-15 13:59:11.900   238  1043 I [MALI][Gralloc]: [+]hnd(0xb58a0e60), client(30), share_fd(36), hnd->flags:4
+06-15 13:59:11.900   238  1043 D GraphicBuffer: alloc, handle(0xb58a0e60) (w:540 h:960 s:544 f:0x1 u:0x000b00) err(0)
+06-15 13:59:11.900   238  1043 I [MALI][Gralloc]: [+]hnd(0xb58a0820), client(30), share_fd(60), hnd->flags:4
+06-15 13:59:11.900   238  1043 D GraphicBuffer: alloc, handle(0xb58a0820) (w:540 h:960 s:544 f:0x1 u:0x000b00) err(0)
+06-15 13:59:11.900 15981 17694 V FA-SVC  : Background event processing time, ms: 39
+06-15 13:59:11.900   238  1043 I [MALI][Gralloc]: [+]hnd(0xb58a05a0), client(30), share_fd(69), hnd->flags:4
+06-15 13:59:11.900   238  1043 D GraphicBuffer: alloc, handle(0xb58a05a0) (w:540 h:960 s:544 f:0x1 u:0x000b00) err(0)
+06-15 13:59:11.900   238  1043 D BufferQueueProducer: [com.example.muvkintours.test/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity](this:0xb36d1c00,id:725,api:1,p:17699,c:238) allocateBuffers: allocating from 4 buffers up to 4 buffers
+06-15 13:59:11.910 17699 17699 D ViewRootImpl: MSG_RESIZED_REPORT: ci=Rect(0, 36 - 0, 0) vi=Rect(0, 36 - 0, 0) or=1
+06-15 13:59:11.910   700  1375 D InputMethodManagerService: windowGainedFocus mCurrentFocusedUserId - 0 and mSecureKeypadEnabled-false
+06-15 13:59:11.920  3057  3057 D SamsungIME: onFinishInputView
+06-15 13:59:11.920  3057  3057 I ACDownloadManager: onFinishInput()
+06-15 13:59:11.920  3057  3057 E KeyboardInfoUtils: getInstance start
+06-15 13:59:11.920  3057  3057 E KeyboardInfoUtils: sendSIPInformation state:6  isAbstractKeyboardView : true
+06-15 13:59:11.920   700   700 W CoverManager: getCoverState : This device is not supported cover
+06-15 13:59:11.920  3057  3057 D SamsungIME: onWindowHidden
+06-15 13:59:11.920  3057  3057 D SamsungIME: setIsEnableAddWord : true
+06-15 13:59:11.920  1133  1133 D NotificationGroupManager: onEntryRemovedInternal = -1|android|17040378|InputMethodManagerService_Noti|1000
+06-15 13:59:11.920  1133  1133 D NotificationGroupManager: onEntryAdded = -1|android|17040378|InputMethodManagerService_Noti|1000
+06-15 13:59:11.920  1133  1133 D NotificationGroupManager: Skip sending summary for entry = -1|android|17040378|InputMethodManagerService_Noti|1000
+06-15 13:59:11.920  3057 17873 E KeyboardInfoUtils: sending null keyboardInfo as SIP is closed
+06-15 13:59:11.930 17699 17862 D libGLESv1: DTS_GLAPI : DTS is not allowed for Package : com.example.muvkintours.test
+06-15 13:59:11.930  3057  7489 D Surface : Surface::disconnect(this=0x97cada00,api=1)
+06-15 13:59:11.930  3057  7489 D GraphicBuffer: unregister, handle(0x97c1b3c0) (w:540 h:537 s:544 f:0x1 u:0x000b00)
+06-15 13:59:11.930  3057  7489 I [MALI][Gralloc]: [-]r_hnd(0x97c1b3c0), client(50), share_fd(54)
+06-15 13:59:11.930  3057  7489 D GraphicBuffer: unregister, handle(0xb43fb2e0) (w:540 h:537 s:544 f:0x1 u:0x000b00)
+06-15 13:59:11.940  3057  7489 I [MALI][Gralloc]: [-]r_hnd(0xb43fb2e0), client(50), share_fd(53)
+06-15 13:59:11.940  3057  7489 D GraphicBuffer: unregister, handle(0xb43fa980) (w:540 h:537 s:544 f:0x1 u:0x000b00)
+06-15 13:59:11.940  3057  7489 I [MALI][Gralloc]: [-]r_hnd(0xb43fa980), client(50), share_fd(52)
+06-15 13:59:11.940  3057  7489 D GraphicBuffer: unregister, handle(0xb43fa840) (w:540 h:537 s:544 f:0x1 u:0x000b00)
+06-15 13:59:11.940  3057  7489 I [MALI][Gralloc]: [-]r_hnd(0xb43fa840), client(50), share_fd(51)
+06-15 13:59:11.940 17699 17862 I [MALI][Gralloc]: [+]r_hnd(0xae59d140), client(39), share_fd(38)
+06-15 13:59:11.940 17699 17862 D GraphicBuffer: register, handle(0xae59d140) (w:540 h:960 s:544 f:0x1 u:0x000b00)
+06-15 13:59:11.940   238   259 I BufferQueueProducer: [InputMethod](this:0xb321b400,id:724,api:1,p:-1,c:238) disconnect(P): api 1
+06-15 13:59:11.940   238   259 I BufferQueueConsumer: [InputMethod](this:0xb321b400,id:724,api:1,p:-1,c:238) getReleasedBuffers: returning mask 0xffffffffffffffff
+06-15 13:59:11.940   238   259 D GraphicBuffer: free, handle(0xb59ec3c0) (w:540 h:537 s:544 f:0x1 u:0x000b00)
+06-15 13:59:11.940   238   259 I [MALI][Gralloc]: [-]hnd(0xb59ec3c0), client(30), share_fd(47)
+06-15 13:59:11.940  1133  1133 D PhoneStatusBar: setAreThereNotifications: N=6 any=true clearable=true
+06-15 13:59:11.940   238   259 D GraphicBuffer: free, handle(0xb59ec320) (w:540 h:537 s:544 f:0x1 u:0x000b00)
+06-15 13:59:11.940   238   259 I [MALI][Gralloc]: [-]hnd(0xb59ec320), client(30), share_fd(75)
+06-15 13:59:11.940   238   259 D GraphicBuffer: free, handle(0xb58a15e0) (w:540 h:537 s:544 f:0x1 u:0x000b00)
+06-15 13:59:11.940   238   259 I [MALI][Gralloc]: [-]hnd(0xb58a15e0), client(30), share_fd(80)
+06-15 13:59:11.940  1133  1133 D NotificationStackScrollLayout:  scroll range should be extended : 461
+06-15 13:59:11.950  1133  1133 D NotificationGroupManager: onEntryRemovedInternal = -1|android|17040378|InputMethodManagerService_Noti|1000
+06-15 13:59:11.950  1133  1133 D NotificationGroupManager: Skip sending summary for entry = -1|android|17040378|InputMethodManagerService_Noti|1000
+06-15 13:59:11.950  3057  3057 V SamsungIME: onTrimMemory Level = 20
+06-15 13:59:11.950  3057  3057 D SamsungIME: onFinishInput
+06-15 13:59:11.950  3057  3057 D SamsungIME: IMPL finishInput
+06-15 13:59:11.950  3057  3057 I SamsungIME: [IMI] onStartInput - caller packageName : com.example.muvkintours.test
+06-15 13:59:11.950  3057  3057 D SamsungIME: onStartInput: No inputType, No imeOption, isInputViewShown = false, isExtractViewShown = false, isShowInputRequested = false, isConfigChanged = false, mIsFirstStartInput = false
+06-15 13:59:11.960  1133  1133 D PhoneStatusBar: removeNotification key=-1|android|17040378|InputMethodManagerService_Noti|1000 old=StatusBarNotification(pkg=android user=UserHandle{-1} id=17040378 tag=InputMethodManagerService_Noti score=-20 key=-1|android|17040378|InputMethodManagerService_Noti|1000: Notification(pri=-2 contentView=android/0x10900a7 vibrate=null sound=null defaults=0x0 flags=0x1002 color=0x00000000 category=sys appGroupKey=ongoing vis=PRIVATE secFlags=0x0 secPriority=0))
+06-15 13:59:11.960  1133  1133 D PhoneStatusBar: setAreThereNotifications: N=5 any=true clearable=true
+06-15 13:59:11.960 17699 17862 V RenderScript: 0x9dc2d000 Launching thread(s), CPUs 4
+06-15 13:59:11.960   238 15804 I SurfaceFlinger: id=724 Removed JnputMethod (7/10)
+06-15 13:59:11.960   238  1043 I SurfaceFlinger: id=724 Removed JnputMethod (-2/10)
+06-15 13:59:11.970  1133  1133 D NotificationStackScrollLayout:  scroll range should be extended : 461
+06-15 13:59:11.970   700  6964 V WindowStateAnimator: Finishing drawing window Window{b3ff238 u0 d0 p17699 com.example.muvkintours.test/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity}: mDrawState=DRAW_PENDING
+06-15 13:59:11.970   700   812 D KnoxTimeoutHandler: notifyActivityDrawn [MsgParam] userId: 0 fullscreen is true showWhenlocked is false
+06-15 13:59:11.980   700   700 D KnoxTimeoutHandler: activityDrawn [MsgParam] userId: 0 fullscreen is true showWhenlocked is false
+06-15 13:59:11.980   700   700 I KnoxTimeoutHandler: SD activityfalse
+06-15 13:59:11.980   700   700 I KnoxTimeoutHandler: Fullscreen and mCurrent is not KNOX user. Hence hide keyguard
+06-15 13:59:11.980   238   238 I BufferQueueConsumer: [InputMethod](this:0xb321b400,id:724,api:1,p:-1,c:-1) disconnect(C)
+06-15 13:59:11.980   238   238 D GraphicBuffer: free, handle(0xb58a12c0) (w:540 h:537 s:544 f:0x1 u:0x000b00)
+06-15 13:59:11.980   238   238 I [MALI][Gralloc]: [-]hnd(0xb58a12c0), client(30), share_fd(79)
+06-15 13:59:11.980   238   238 I BufferQueue: [InputMethod](this:0xb321b400,id:724,api:1,p:-1,c:-1) ~BufferQueueCore
+06-15 13:59:11.980 17661 17691 I TestRunner: finished: typeEditTextInputs(com.example.muvkintours.MainActivityInstrumentedTest)

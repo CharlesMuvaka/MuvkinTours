@@ -1,23 +1,27 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/moringa/AndroidStudioProjects/MuvkinTours/app/src/main/AndroidManifest.xml:2:1-53:12
-INJECTED from /home/moringa/AndroidStudioProjects/MuvkinTours/app/src/main/AndroidManifest.xml:2:1-53:12
-INJECTED from /home/moringa/AndroidStudioProjects/MuvkinTours/app/src/main/AndroidManifest.xml:2:1-53:12
-INJECTED from /home/moringa/AndroidStudioProjects/MuvkinTours/app/src/main/AndroidManifest.xml:2:1-53:12
+ADDED from /home/moringa/AndroidStudioProjects/MuvkinTours/app/src/main/AndroidManifest.xml:2:1-59:12
+INJECTED from /home/moringa/AndroidStudioProjects/MuvkinTours/app/src/main/AndroidManifest.xml:2:1-59:12
+INJECTED from /home/moringa/AndroidStudioProjects/MuvkinTours/app/src/main/AndroidManifest.xml:2:1-59:12
+INJECTED from /home/moringa/AndroidStudioProjects/MuvkinTours/app/src/main/AndroidManifest.xml:2:1-59:12
 MERGED from [androidx.databinding:viewbinding:7.2.0] /home/moringa/.gradle/caches/transforms-3/d2706a7c8358ad184058c33ca4ef3de0/transformed/viewbinding-7.2.0/AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.material:material:1.6.1] /home/moringa/.gradle/caches/transforms-3/23804fc5ebf6fbd304b3ec15f3681af1/transformed/material-1.6.1/AndroidManifest.xml:17:1-26:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /home/moringa/.gradle/caches/transforms-3/9060cd22b8c6f38aa4a77681318da8bd/transformed/constraintlayout-2.1.4/AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat:1.4.2] /home/moringa/.gradle/caches/transforms-3/4dc15de62292e36508d8a9b925442778/transformed/appcompat-1.4.2/AndroidManifest.xml:17:1-24:12
+MERGED from [com.firebaseui:firebase-ui-database:7.1.1] /home/moringa/.gradle/caches/transforms-3/b640f2f4051f2ed8e25fd7be3be5f13a/transformed/firebase-ui-database-7.1.1/AndroidManifest.xml:2:1-13:12
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/moringa/.gradle/caches/transforms-3/6779a32c236653913a44c68353e0dba7/transformed/viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.recyclerview:recyclerview:1.2.1] /home/moringa/.gradle/caches/transforms-3/317cab756e388cf7c6f07e6a5d05ed24/transformed/recyclerview-1.2.1/AndroidManifest.xml:17:1-24:12
 MERGED from [com.squareup.picasso:picasso:2.71828] /home/moringa/.gradle/caches/transforms-3/4d6de74c72bbf8c78e750aea34b3e9af/transformed/picasso-2.71828/AndroidManifest.xml:2:1-14:12
 MERGED from [com.google.firebase:firebase-database:20.0.5] /home/moringa/.gradle/caches/transforms-3/f968e7fe978a8944d51e976ae60cf201/transformed/firebase-database-20.0.5/AndroidManifest.xml:15:1-38:12
 MERGED from [com.google.firebase:firebase-analytics:21.0.0] /home/moringa/.gradle/caches/transforms-3/7babbed96da545f756625e80e1e2cfc1/transformed/firebase-analytics-21.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-auth:21.0.5] /home/moringa/.gradle/caches/transforms-3/6f141595851db8403bbe938209d5903d/transformed/firebase-auth-21.0.5/AndroidManifest.xml:17:1-73:12
 MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0] /home/moringa/.gradle/caches/transforms-3/2c1ea7fac43648dfec1ef4cff71b7632/transformed/firebase-appcheck-interop-16.0.0/AndroidManifest.xml:15:1-26:12
 MERGED from [com.google.firebase:firebase-database-collection:18.0.1] /home/moringa/.gradle/caches/transforms-3/78eda7c7564c51b09084a40df13d5543/transformed/firebase-database-collection-18.0.1/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] /home/moringa/.gradle/caches/transforms-3/0e10ce266ad6a315e66daf84307f84dd/transformed/play-services-auth-api-phone-17.4.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /home/moringa/.gradle/caches/transforms-3/0275bff94d22d6de63169c86939c9f36/transformed/play-services-safetynet-17.0.0/AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.gms:play-services-base:18.0.1] /home/moringa/.gradle/caches/transforms-3/0e6f522ad209f5e182b9c0b3dea1b6cb/transformed/play-services-base-18.0.1/AndroidManifest.xml:16:1-24:12
-MERGED from [com.google.firebase:firebase-auth-interop:19.0.2] /home/moringa/.gradle/caches/transforms-3/2f4dcd80d0c1213385fec6ae2a20e32b/transformed/firebase-auth-interop-19.0.2/AndroidManifest.xml:2:1-10:12
 MERGED from [com.google.android.gms:play-services-measurement-api:21.0.0] /home/moringa/.gradle/caches/transforms-3/ed0d3f51556350dc4da86a17f0d1e196/transformed/play-services-measurement-api-21.0.0/AndroidManifest.xml:17:1-37:12
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /home/moringa/.gradle/caches/transforms-3/cf7cbb8af9ac9717c73fdd9ec29e82c7/transformed/firebase-auth-interop-20.0.0/AndroidManifest.xml:2:1-10:12
 MERGED from [com.google.firebase:firebase-installations:17.0.1] /home/moringa/.gradle/caches/transforms-3/3eb9072f55796a3363cd6d851b686456/transformed/firebase-installations-17.0.1/AndroidManifest.xml:2:1-24:12
 MERGED from [com.google.firebase:firebase-common:20.1.1] /home/moringa/.gradle/caches/transforms-3/ec3d5d1fdc0ec38bd2906c73fbed579f/transformed/firebase-common-20.1.1/AndroidManifest.xml:15:1-40:12
 MERGED from [com.google.firebase:firebase-installations-interop:17.0.1] /home/moringa/.gradle/caches/transforms-3/bd7980ab072435721ed47c0969187a7c/transformed/firebase-installations-interop-17.0.1/AndroidManifest.xml:15:1-23:12
@@ -31,28 +35,37 @@ MERGED from [com.google.android.gms:play-services-measurement-base:21.0.0] /home
 MERGED from [com.google.android.gms:play-services-stats:17.0.2] /home/moringa/.gradle/caches/transforms-3/892942f1775f3166eddf829c8c63e91c/transformed/play-services-stats-17.0.2/AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /home/moringa/.gradle/caches/transforms-3/d3279b3a648b77a00c94e42a337e8938/transformed/firebase-measurement-connector-19.0.0/AndroidManifest.xml:17:1-25:12
 MERGED from [com.google.android.gms:play-services-basement:18.0.0] /home/moringa/.gradle/caches/transforms-3/5d6e3e56e8652026d5bdc8686f18a0e6/transformed/play-services-basement-18.0.0/AndroidManifest.xml:16:1-26:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/moringa/.gradle/caches/transforms-3/6bdc2b776454cc6012bb40f608fbe17d/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.fragment:fragment:1.3.6] /home/moringa/.gradle/caches/transforms-3/e2be0df05b5089f6726dffdf94e4e9d2/transformed/fragment-1.3.6/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.activity:activity:1.2.4] /home/moringa/.gradle/caches/transforms-3/eeb12aadb7f4897cb4b17bf06648c2e5/transformed/activity-1.2.4/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.appcompat:appcompat-resources:1.4.2] /home/moringa/.gradle/caches/transforms-3/edcabe9e0e657922f855a8c26d312145/transformed/appcompat-resources-1.4.2/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] /home/moringa/.gradle/caches/transforms-3/ad37f5aa60f4596413bc413df7f16f00/transformed/emoji2-views-helper-1.0.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.emoji2:emoji2:1.0.0] /home/moringa/.gradle/caches/transforms-3/9c10419946c063b9dccf6ca0f94f1c83/transformed/emoji2-1.0.0/AndroidManifest.xml:17:1-37:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/moringa/.gradle/caches/transforms-3/f8dbffd02170f97c760f040d8e552433/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /home/moringa/.gradle/caches/transforms-3/ea637c16f9b9790521d5d924ad21f044/transformed/drawerlayout-1.1.1/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/moringa/.gradle/caches/transforms-3/d75e62f5bb57ee73b3fb94a0188b65f3/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /home/moringa/.gradle/caches/transforms-3/baa787cc66b77231fc55132a501a2180/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.transition:transition:1.2.0] /home/moringa/.gradle/caches/transforms-3/b716a946ea4018efc2b1ad957a2dde96/transformed/transition-1.2.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/moringa/.gradle/caches/transforms-3/dc1df074d13499c1c4d86e06f0cfee81/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/moringa/.gradle/caches/transforms-3/a595ecb9c3572cea60b7ebf294e54fa6/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.browser:browser:1.4.0] /home/moringa/.gradle/caches/transforms-3/9da0c36d9d4a59881a8706337e726eaf/transformed/browser-1.4.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.viewpager:viewpager:1.0.0] /home/moringa/.gradle/caches/transforms-3/0322f3d568afa9494b32ff09c1ad6a22/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/moringa/.gradle/caches/transforms-3/f1887818c0fc4aa1fe1823432da2bb70/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.loader:loader:1.0.0] /home/moringa/.gradle/caches/transforms-3/888b262693f8f8fafc114136ff3c0556/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/moringa/.gradle/caches/transforms-3/e8c09435b36547c1594881701ed92c34/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.customview:customview:1.1.0] /home/moringa/.gradle/caches/transforms-3/29cc496ad78aedbd04f4262e66615c76/transformed/customview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.media:media:1.0.0] /home/moringa/.gradle/caches/transforms-3/3ed643e87b2fb1cc3efaff626109b58e/transformed/media-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/moringa/.gradle/caches/transforms-3/7a02692c41ee34b18475848c5b3d0af7/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/moringa/.gradle/caches/transforms-3/0c9566db4ee8481bb3d336cb41ec2f6d/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.core:core:1.7.0] /home/moringa/.gradle/caches/transforms-3/503affcca2bf1d66493cf2ffd93b77cc/transformed/core-1.7.0/AndroidManifest.xml:17:1-26:12
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/moringa/.gradle/caches/transforms-3/a5e3309a47e90943f40f649ddcd84091/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /home/moringa/.gradle/caches/transforms-3/424c2ebd3f90afd7a4dc433fd5b22bd2/transformed/lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.savedstate:savedstate:1.1.0] /home/moringa/.gradle/caches/transforms-3/3602fd8c250cb4156c235c582448ee42/transformed/savedstate-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.firebaseui:firebase-ui-common:7.1.1] /home/moringa/.gradle/caches/transforms-3/4fb7c16514d1b29d89ba6f13b9b870c1/transformed/firebase-ui-common-7.1.1/AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /home/moringa/.gradle/caches/transforms-3/3b11d204f7c9e3fb544ed5e32403604d/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.cardview:cardview:1.0.0] /home/moringa/.gradle/caches/transforms-3/a1cd285b89f9cd2a8160aa040f394acb/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.firebase:firebase-components:17.0.0] /home/moringa/.gradle/caches/transforms-3/b00288ac3f3fa1b28c8a3770602f5a84/transformed/firebase-components-17.0.0/AndroidManifest.xml:15:1-23:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/moringa/.gradle/caches/transforms-3/deca2ef09eea99cc0fcf14ca9bb4497d/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/moringa/.gradle/caches/transforms-3/bbf4b1eb1e29b2ccfd8c72a6628e8340/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
 MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /home/moringa/.gradle/caches/transforms-3/4d3f5543a59ac0e586b3333b2fead6aa/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:17:1-37:12
 MERGED from [androidx.startup:startup-runtime:1.0.0] /home/moringa/.gradle/caches/transforms-3/9cbad161ec879862661714b5f817b257/transformed/startup-runtime-1.0.0/AndroidManifest.xml:17:1-33:12
@@ -63,33 +76,36 @@ MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] /home/moringa/.gradle/c
 MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/moringa/.gradle/caches/transforms-3/cdc4adfdf73d9365a870dedc1277a80c/transformed/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] /home/moringa/.gradle/caches/transforms-3/ba67af30cb21ff6c49150fd240658e55/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.documentfile:documentfile:1.0.0] /home/moringa/.gradle/caches/transforms-3/1c3698a71489deca451270c4fcfaee8a/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/moringa/.gradle/caches/transforms-3/deca2ef09eea99cc0fcf14ca9bb4497d/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] /home/moringa/.gradle/caches/transforms-3/7789ee002d0fbba34921bda99c4c769a/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] /home/moringa/.gradle/caches/transforms-3/e0f4fe9d7bd27feec69332738d5a41f9/transformed/annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [com.android.support:exifinterface:27.1.0] /home/moringa/.gradle/caches/transforms-3/dabc74118bf44c08e8a6d89b11c970e8/transformed/exifinterface-27.1.0/AndroidManifest.xml:17:1-22:12
-INJECTED from /home/moringa/AndroidStudioProjects/MuvkinTours/app/src/main/AndroidManifest.xml:2:1-53:12
-INJECTED from /home/moringa/AndroidStudioProjects/MuvkinTours/app/src/main/AndroidManifest.xml:2:1-53:12
-INJECTED from /home/moringa/AndroidStudioProjects/MuvkinTours/app/src/main/AndroidManifest.xml:2:1-53:12
+INJECTED from /home/moringa/AndroidStudioProjects/MuvkinTours/app/src/main/AndroidManifest.xml:2:1-59:12
+INJECTED from /home/moringa/AndroidStudioProjects/MuvkinTours/app/src/main/AndroidManifest.xml:2:1-59:12
+INJECTED from /home/moringa/AndroidStudioProjects/MuvkinTours/app/src/main/AndroidManifest.xml:2:1-59:12
 	package
 		ADDED from /home/moringa/AndroidStudioProjects/MuvkinTours/app/src/main/AndroidManifest.xml:4:5-38
 		INJECTED from /home/moringa/AndroidStudioProjects/MuvkinTours/app/src/main/AndroidManifest.xml
 		INJECTED from /home/moringa/AndroidStudioProjects/MuvkinTours/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /home/moringa/AndroidStudioProjects/MuvkinTours/app/src/main/AndroidManifest.xml
-		ADDED from /home/moringa/AndroidStudioProjects/MuvkinTours/app/src/main/AndroidManifest.xml:2:1-53:12
+		ADDED from /home/moringa/AndroidStudioProjects/MuvkinTours/app/src/main/AndroidManifest.xml:2:1-59:12
 		INJECTED from /home/moringa/AndroidStudioProjects/MuvkinTours/app/src/main/AndroidManifest.xml
 	xmlns:tools
 		ADDED from /home/moringa/AndroidStudioProjects/MuvkinTours/app/src/main/AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from /home/moringa/AndroidStudioProjects/MuvkinTours/app/src/main/AndroidManifest.xml
-		ADDED from /home/moringa/AndroidStudioProjects/MuvkinTours/app/src/main/AndroidManifest.xml:2:1-53:12
+		ADDED from /home/moringa/AndroidStudioProjects/MuvkinTours/app/src/main/AndroidManifest.xml:2:1-59:12
 		INJECTED from /home/moringa/AndroidStudioProjects/MuvkinTours/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /home/moringa/AndroidStudioProjects/MuvkinTours/app/src/main/AndroidManifest.xml:2:11-69
 uses-permission#android.permission.INTERNET
 ADDED from /home/moringa/AndroidStudioProjects/MuvkinTours/app/src/main/AndroidManifest.xml:6:5-67
+MERGED from [com.firebaseui:firebase-ui-database:7.1.1] /home/moringa/.gradle/caches/transforms-3/b640f2f4051f2ed8e25fd7be3be5f13a/transformed/firebase-ui-database-7.1.1/AndroidManifest.xml:11:5-67
+MERGED from [com.firebaseui:firebase-ui-database:7.1.1] /home/moringa/.gradle/caches/transforms-3/b640f2f4051f2ed8e25fd7be3be5f13a/transformed/firebase-ui-database-7.1.1/AndroidManifest.xml:11:5-67
 MERGED from [com.google.firebase:firebase-database:20.0.5] /home/moringa/.gradle/caches/transforms-3/f968e7fe978a8944d51e976ae60cf201/transformed/firebase-database-20.0.5/AndroidManifest.xml:26:5-67
 MERGED from [com.google.firebase:firebase-database:20.0.5] /home/moringa/.gradle/caches/transforms-3/f968e7fe978a8944d51e976ae60cf201/transformed/firebase-database-20.0.5/AndroidManifest.xml:26:5-67
+MERGED from [com.google.firebase:firebase-auth:21.0.5] /home/moringa/.gradle/caches/transforms-3/6f141595851db8403bbe938209d5903d/transformed/firebase-auth-21.0.5/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-auth:21.0.5] /home/moringa/.gradle/caches/transforms-3/6f141595851db8403bbe938209d5903d/transformed/firebase-auth-21.0.5/AndroidManifest.xml:23:5-67
 MERGED from [com.google.android.gms:play-services-measurement-api:21.0.0] /home/moringa/.gradle/caches/transforms-3/ed0d3f51556350dc4da86a17f0d1e196/transformed/play-services-measurement-api-21.0.0/AndroidManifest.xml:22:5-67
 MERGED from [com.google.android.gms:play-services-measurement-api:21.0.0] /home/moringa/.gradle/caches/transforms-3/ed0d3f51556350dc4da86a17f0d1e196/transformed/play-services-measurement-api-21.0.0/AndroidManifest.xml:22:5-67
 MERGED from [com.google.firebase:firebase-installations:17.0.1] /home/moringa/.gradle/caches/transforms-3/3eb9072f55796a3363cd6d851b686456/transformed/firebase-installations-17.0.1/AndroidManifest.xml:11:5-67
@@ -103,7 +119,7 @@ MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.0.0] /h
 	android:name
 		ADDED from /home/moringa/AndroidStudioProjects/MuvkinTours/app/src/main/AndroidManifest.xml:6:22-64
 application
-ADDED from /home/moringa/AndroidStudioProjects/MuvkinTours/app/src/main/AndroidManifest.xml:8:5-51:19
+ADDED from /home/moringa/AndroidStudioProjects/MuvkinTours/app/src/main/AndroidManifest.xml:8:5-57:19
 MERGED from [com.google.android.material:material:1.6.1] /home/moringa/.gradle/caches/transforms-3/23804fc5ebf6fbd304b3ec15f3681af1/transformed/material-1.6.1/AndroidManifest.xml:24:5-20
 MERGED from [com.google.android.material:material:1.6.1] /home/moringa/.gradle/caches/transforms-3/23804fc5ebf6fbd304b3ec15f3681af1/transformed/material-1.6.1/AndroidManifest.xml:24:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /home/moringa/.gradle/caches/transforms-3/9060cd22b8c6f38aa4a77681318da8bd/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
@@ -114,14 +130,18 @@ MERGED from [com.google.firebase:firebase-database:20.0.5] /home/moringa/.gradle
 MERGED from [com.google.firebase:firebase-database:20.0.5] /home/moringa/.gradle/caches/transforms-3/f968e7fe978a8944d51e976ae60cf201/transformed/firebase-database-20.0.5/AndroidManifest.xml:28:5-36:19
 MERGED from [com.google.firebase:firebase-analytics:21.0.0] /home/moringa/.gradle/caches/transforms-3/7babbed96da545f756625e80e1e2cfc1/transformed/firebase-analytics-21.0.0/AndroidManifest.xml:7:5-20
 MERGED from [com.google.firebase:firebase-analytics:21.0.0] /home/moringa/.gradle/caches/transforms-3/7babbed96da545f756625e80e1e2cfc1/transformed/firebase-analytics-21.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-auth:21.0.5] /home/moringa/.gradle/caches/transforms-3/6f141595851db8403bbe938209d5903d/transformed/firebase-auth-21.0.5/AndroidManifest.xml:26:5-71:19
+MERGED from [com.google.firebase:firebase-auth:21.0.5] /home/moringa/.gradle/caches/transforms-3/6f141595851db8403bbe938209d5903d/transformed/firebase-auth-21.0.5/AndroidManifest.xml:26:5-71:19
 MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0] /home/moringa/.gradle/caches/transforms-3/2c1ea7fac43648dfec1ef4cff71b7632/transformed/firebase-appcheck-interop-16.0.0/AndroidManifest.xml:24:5-20
 MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0] /home/moringa/.gradle/caches/transforms-3/2c1ea7fac43648dfec1ef4cff71b7632/transformed/firebase-appcheck-interop-16.0.0/AndroidManifest.xml:24:5-20
+MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /home/moringa/.gradle/caches/transforms-3/0275bff94d22d6de63169c86939c9f36/transformed/play-services-safetynet-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /home/moringa/.gradle/caches/transforms-3/0275bff94d22d6de63169c86939c9f36/transformed/play-services-safetynet-17.0.0/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.gms:play-services-base:18.0.1] /home/moringa/.gradle/caches/transforms-3/0e6f522ad209f5e182b9c0b3dea1b6cb/transformed/play-services-base-18.0.1/AndroidManifest.xml:19:5-23:19
 MERGED from [com.google.android.gms:play-services-base:18.0.1] /home/moringa/.gradle/caches/transforms-3/0e6f522ad209f5e182b9c0b3dea1b6cb/transformed/play-services-base-18.0.1/AndroidManifest.xml:19:5-23:19
-MERGED from [com.google.firebase:firebase-auth-interop:19.0.2] /home/moringa/.gradle/caches/transforms-3/2f4dcd80d0c1213385fec6ae2a20e32b/transformed/firebase-auth-interop-19.0.2/AndroidManifest.xml:7:5-8:19
-MERGED from [com.google.firebase:firebase-auth-interop:19.0.2] /home/moringa/.gradle/caches/transforms-3/2f4dcd80d0c1213385fec6ae2a20e32b/transformed/firebase-auth-interop-19.0.2/AndroidManifest.xml:7:5-8:19
 MERGED from [com.google.android.gms:play-services-measurement-api:21.0.0] /home/moringa/.gradle/caches/transforms-3/ed0d3f51556350dc4da86a17f0d1e196/transformed/play-services-measurement-api-21.0.0/AndroidManifest.xml:27:5-35:19
 MERGED from [com.google.android.gms:play-services-measurement-api:21.0.0] /home/moringa/.gradle/caches/transforms-3/ed0d3f51556350dc4da86a17f0d1e196/transformed/play-services-measurement-api-21.0.0/AndroidManifest.xml:27:5-35:19
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /home/moringa/.gradle/caches/transforms-3/cf7cbb8af9ac9717c73fdd9ec29e82c7/transformed/firebase-auth-interop-20.0.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /home/moringa/.gradle/caches/transforms-3/cf7cbb8af9ac9717c73fdd9ec29e82c7/transformed/firebase-auth-interop-20.0.0/AndroidManifest.xml:7:5-8:19
 MERGED from [com.google.firebase:firebase-installations:17.0.1] /home/moringa/.gradle/caches/transforms-3/3eb9072f55796a3363cd6d851b686456/transformed/firebase-installations-17.0.1/AndroidManifest.xml:14:5-22:19
 MERGED from [com.google.firebase:firebase-installations:17.0.1] /home/moringa/.gradle/caches/transforms-3/3eb9072f55796a3363cd6d851b686456/transformed/firebase-installations-17.0.1/AndroidManifest.xml:14:5-22:19
 MERGED from [com.google.firebase:firebase-common:20.1.1] /home/moringa/.gradle/caches/transforms-3/ec3d5d1fdc0ec38bd2906c73fbed579f/transformed/firebase-common-20.1.1/AndroidManifest.xml:25:5-38:19
@@ -174,56 +194,62 @@ MERGED from [androidx.startup:startup-runtime:1.0.0] /home/moringa/.gradle/cache
 		ADDED from /home/moringa/AndroidStudioProjects/MuvkinTours/app/src/main/AndroidManifest.xml:16:9-49
 	android:dataExtractionRules
 		ADDED from /home/moringa/AndroidStudioProjects/MuvkinTours/app/src/main/AndroidManifest.xml:10:9-65
-activity#com.example.muvkintours.MealDetailActivity
-ADDED from /home/moringa/AndroidStudioProjects/MuvkinTours/app/src/main/AndroidManifest.xml:18:9-25:20
+activity#com.example.muvkintours.FirebaseMealActivity
+ADDED from /home/moringa/AndroidStudioProjects/MuvkinTours/app/src/main/AndroidManifest.xml:18:9-24:20
 	android:exported
 		ADDED from /home/moringa/AndroidStudioProjects/MuvkinTours/app/src/main/AndroidManifest.xml:20:13-37
 	android:name
-		ADDED from /home/moringa/AndroidStudioProjects/MuvkinTours/app/src/main/AndroidManifest.xml:19:13-47
+		ADDED from /home/moringa/AndroidStudioProjects/MuvkinTours/app/src/main/AndroidManifest.xml:19:13-49
 meta-data#android.support.PARENT_ACTIVITY
-ADDED from /home/moringa/AndroidStudioProjects/MuvkinTours/app/src/main/AndroidManifest.xml:21:13-23:48
+ADDED from /home/moringa/AndroidStudioProjects/MuvkinTours/app/src/main/AndroidManifest.xml:21:13-23:49
 	android:value
 		ADDED from /home/moringa/AndroidStudioProjects/MuvkinTours/app/src/main/AndroidManifest.xml:23:17-46
 	android:name
 		ADDED from /home/moringa/AndroidStudioProjects/MuvkinTours/app/src/main/AndroidManifest.xml:22:17-63
+activity#com.example.muvkintours.MealDetailActivity
+ADDED from /home/moringa/AndroidStudioProjects/MuvkinTours/app/src/main/AndroidManifest.xml:25:9-31:20
+	android:exported
+		ADDED from /home/moringa/AndroidStudioProjects/MuvkinTours/app/src/main/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from /home/moringa/AndroidStudioProjects/MuvkinTours/app/src/main/AndroidManifest.xml:26:13-47
 activity#com.example.muvkintours.MealActivity
-ADDED from /home/moringa/AndroidStudioProjects/MuvkinTours/app/src/main/AndroidManifest.xml:26:9-32:20
+ADDED from /home/moringa/AndroidStudioProjects/MuvkinTours/app/src/main/AndroidManifest.xml:32:9-38:20
 	android:exported
-		ADDED from /home/moringa/AndroidStudioProjects/MuvkinTours/app/src/main/AndroidManifest.xml:28:13-37
+		ADDED from /home/moringa/AndroidStudioProjects/MuvkinTours/app/src/main/AndroidManifest.xml:34:13-37
 	android:name
-		ADDED from /home/moringa/AndroidStudioProjects/MuvkinTours/app/src/main/AndroidManifest.xml:27:13-41
+		ADDED from /home/moringa/AndroidStudioProjects/MuvkinTours/app/src/main/AndroidManifest.xml:33:13-41
 activity#com.example.muvkintours.MainActivity
-ADDED from /home/moringa/AndroidStudioProjects/MuvkinTours/app/src/main/AndroidManifest.xml:33:9-42:20
+ADDED from /home/moringa/AndroidStudioProjects/MuvkinTours/app/src/main/AndroidManifest.xml:39:9-48:20
 	android:exported
-		ADDED from /home/moringa/AndroidStudioProjects/MuvkinTours/app/src/main/AndroidManifest.xml:35:13-36
+		ADDED from /home/moringa/AndroidStudioProjects/MuvkinTours/app/src/main/AndroidManifest.xml:41:13-36
 	android:theme
-		ADDED from /home/moringa/AndroidStudioProjects/MuvkinTours/app/src/main/AndroidManifest.xml:36:13-48
+		ADDED from /home/moringa/AndroidStudioProjects/MuvkinTours/app/src/main/AndroidManifest.xml:42:13-48
 	android:name
-		ADDED from /home/moringa/AndroidStudioProjects/MuvkinTours/app/src/main/AndroidManifest.xml:34:13-41
+		ADDED from /home/moringa/AndroidStudioProjects/MuvkinTours/app/src/main/AndroidManifest.xml:40:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /home/moringa/AndroidStudioProjects/MuvkinTours/app/src/main/AndroidManifest.xml:37:13-41:29
+ADDED from /home/moringa/AndroidStudioProjects/MuvkinTours/app/src/main/AndroidManifest.xml:43:13-47:29
 action#android.intent.action.MAIN
-ADDED from /home/moringa/AndroidStudioProjects/MuvkinTours/app/src/main/AndroidManifest.xml:38:17-69
+ADDED from /home/moringa/AndroidStudioProjects/MuvkinTours/app/src/main/AndroidManifest.xml:44:17-69
 	android:name
-		ADDED from /home/moringa/AndroidStudioProjects/MuvkinTours/app/src/main/AndroidManifest.xml:38:25-66
+		ADDED from /home/moringa/AndroidStudioProjects/MuvkinTours/app/src/main/AndroidManifest.xml:44:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /home/moringa/AndroidStudioProjects/MuvkinTours/app/src/main/AndroidManifest.xml:40:17-77
+ADDED from /home/moringa/AndroidStudioProjects/MuvkinTours/app/src/main/AndroidManifest.xml:46:17-77
 	android:name
-		ADDED from /home/moringa/AndroidStudioProjects/MuvkinTours/app/src/main/AndroidManifest.xml:40:27-74
+		ADDED from /home/moringa/AndroidStudioProjects/MuvkinTours/app/src/main/AndroidManifest.xml:46:27-74
 activity#com.example.muvkintours.SignUpActivity
-ADDED from /home/moringa/AndroidStudioProjects/MuvkinTours/app/src/main/AndroidManifest.xml:43:9-46:51
+ADDED from /home/moringa/AndroidStudioProjects/MuvkinTours/app/src/main/AndroidManifest.xml:49:9-52:51
 	android:exported
-		ADDED from /home/moringa/AndroidStudioProjects/MuvkinTours/app/src/main/AndroidManifest.xml:45:13-37
+		ADDED from /home/moringa/AndroidStudioProjects/MuvkinTours/app/src/main/AndroidManifest.xml:51:13-37
 	android:theme
-		ADDED from /home/moringa/AndroidStudioProjects/MuvkinTours/app/src/main/AndroidManifest.xml:46:13-48
+		ADDED from /home/moringa/AndroidStudioProjects/MuvkinTours/app/src/main/AndroidManifest.xml:52:13-48
 	android:name
-		ADDED from /home/moringa/AndroidStudioProjects/MuvkinTours/app/src/main/AndroidManifest.xml:44:13-43
+		ADDED from /home/moringa/AndroidStudioProjects/MuvkinTours/app/src/main/AndroidManifest.xml:50:13-43
 meta-data#preloaded_fonts
-ADDED from /home/moringa/AndroidStudioProjects/MuvkinTours/app/src/main/AndroidManifest.xml:48:9-50:57
+ADDED from /home/moringa/AndroidStudioProjects/MuvkinTours/app/src/main/AndroidManifest.xml:54:9-56:57
 	android:resource
-		ADDED from /home/moringa/AndroidStudioProjects/MuvkinTours/app/src/main/AndroidManifest.xml:50:13-54
+		ADDED from /home/moringa/AndroidStudioProjects/MuvkinTours/app/src/main/AndroidManifest.xml:56:13-54
 	android:name
-		ADDED from /home/moringa/AndroidStudioProjects/MuvkinTours/app/src/main/AndroidManifest.xml:49:13-43
+		ADDED from /home/moringa/AndroidStudioProjects/MuvkinTours/app/src/main/AndroidManifest.xml:55:13-43
 uses-sdk
 INJECTED from /home/moringa/AndroidStudioProjects/MuvkinTours/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /home/moringa/AndroidStudioProjects/MuvkinTours/app/src/main/AndroidManifest.xml
@@ -236,6 +262,8 @@ MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /home/moringa/.gr
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /home/moringa/.gradle/caches/transforms-3/9060cd22b8c6f38aa4a77681318da8bd/transformed/constraintlayout-2.1.4/AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.appcompat:appcompat:1.4.2] /home/moringa/.gradle/caches/transforms-3/4dc15de62292e36508d8a9b925442778/transformed/appcompat-1.4.2/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.appcompat:appcompat:1.4.2] /home/moringa/.gradle/caches/transforms-3/4dc15de62292e36508d8a9b925442778/transformed/appcompat-1.4.2/AndroidManifest.xml:20:5-22:41
+MERGED from [com.firebaseui:firebase-ui-database:7.1.1] /home/moringa/.gradle/caches/transforms-3/b640f2f4051f2ed8e25fd7be3be5f13a/transformed/firebase-ui-database-7.1.1/AndroidManifest.xml:7:5-9:41
+MERGED from [com.firebaseui:firebase-ui-database:7.1.1] /home/moringa/.gradle/caches/transforms-3/b640f2f4051f2ed8e25fd7be3be5f13a/transformed/firebase-ui-database-7.1.1/AndroidManifest.xml:7:5-9:41
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/moringa/.gradle/caches/transforms-3/6779a32c236653913a44c68353e0dba7/transformed/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/moringa/.gradle/caches/transforms-3/6779a32c236653913a44c68353e0dba7/transformed/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.recyclerview:recyclerview:1.2.1] /home/moringa/.gradle/caches/transforms-3/317cab756e388cf7c6f07e6a5d05ed24/transformed/recyclerview-1.2.1/AndroidManifest.xml:20:5-22:41
@@ -246,16 +274,22 @@ MERGED from [com.google.firebase:firebase-database:20.0.5] /home/moringa/.gradle
 MERGED from [com.google.firebase:firebase-database:20.0.5] /home/moringa/.gradle/caches/transforms-3/f968e7fe978a8944d51e976ae60cf201/transformed/firebase-database-20.0.5/AndroidManifest.xml:19:5-21:41
 MERGED from [com.google.firebase:firebase-analytics:21.0.0] /home/moringa/.gradle/caches/transforms-3/7babbed96da545f756625e80e1e2cfc1/transformed/firebase-analytics-21.0.0/AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-analytics:21.0.0] /home/moringa/.gradle/caches/transforms-3/7babbed96da545f756625e80e1e2cfc1/transformed/firebase-analytics-21.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth:21.0.5] /home/moringa/.gradle/caches/transforms-3/6f141595851db8403bbe938209d5903d/transformed/firebase-auth-21.0.5/AndroidManifest.xml:21:5-44
+MERGED from [com.google.firebase:firebase-auth:21.0.5] /home/moringa/.gradle/caches/transforms-3/6f141595851db8403bbe938209d5903d/transformed/firebase-auth-21.0.5/AndroidManifest.xml:21:5-44
 MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0] /home/moringa/.gradle/caches/transforms-3/2c1ea7fac43648dfec1ef4cff71b7632/transformed/firebase-appcheck-interop-16.0.0/AndroidManifest.xml:19:5-21:41
 MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0] /home/moringa/.gradle/caches/transforms-3/2c1ea7fac43648dfec1ef4cff71b7632/transformed/firebase-appcheck-interop-16.0.0/AndroidManifest.xml:19:5-21:41
 MERGED from [com.google.firebase:firebase-database-collection:18.0.1] /home/moringa/.gradle/caches/transforms-3/78eda7c7564c51b09084a40df13d5543/transformed/firebase-database-collection-18.0.1/AndroidManifest.xml:5:5-7:41
 MERGED from [com.google.firebase:firebase-database-collection:18.0.1] /home/moringa/.gradle/caches/transforms-3/78eda7c7564c51b09084a40df13d5543/transformed/firebase-database-collection-18.0.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] /home/moringa/.gradle/caches/transforms-3/0e10ce266ad6a315e66daf84307f84dd/transformed/play-services-auth-api-phone-17.4.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] /home/moringa/.gradle/caches/transforms-3/0e10ce266ad6a315e66daf84307f84dd/transformed/play-services-auth-api-phone-17.4.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /home/moringa/.gradle/caches/transforms-3/0275bff94d22d6de63169c86939c9f36/transformed/play-services-safetynet-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /home/moringa/.gradle/caches/transforms-3/0275bff94d22d6de63169c86939c9f36/transformed/play-services-safetynet-17.0.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-base:18.0.1] /home/moringa/.gradle/caches/transforms-3/0e6f522ad209f5e182b9c0b3dea1b6cb/transformed/play-services-base-18.0.1/AndroidManifest.xml:18:5-43
 MERGED from [com.google.android.gms:play-services-base:18.0.1] /home/moringa/.gradle/caches/transforms-3/0e6f522ad209f5e182b9c0b3dea1b6cb/transformed/play-services-base-18.0.1/AndroidManifest.xml:18:5-43
-MERGED from [com.google.firebase:firebase-auth-interop:19.0.2] /home/moringa/.gradle/caches/transforms-3/2f4dcd80d0c1213385fec6ae2a20e32b/transformed/firebase-auth-interop-19.0.2/AndroidManifest.xml:5:5-44
-MERGED from [com.google.firebase:firebase-auth-interop:19.0.2] /home/moringa/.gradle/caches/transforms-3/2f4dcd80d0c1213385fec6ae2a20e32b/transformed/firebase-auth-interop-19.0.2/AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-measurement-api:21.0.0] /home/moringa/.gradle/caches/transforms-3/ed0d3f51556350dc4da86a17f0d1e196/transformed/play-services-measurement-api-21.0.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-measurement-api:21.0.0] /home/moringa/.gradle/caches/transforms-3/ed0d3f51556350dc4da86a17f0d1e196/transformed/play-services-measurement-api-21.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /home/moringa/.gradle/caches/transforms-3/cf7cbb8af9ac9717c73fdd9ec29e82c7/transformed/firebase-auth-interop-20.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /home/moringa/.gradle/caches/transforms-3/cf7cbb8af9ac9717c73fdd9ec29e82c7/transformed/firebase-auth-interop-20.0.0/AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-installations:17.0.1] /home/moringa/.gradle/caches/transforms-3/3eb9072f55796a3363cd6d851b686456/transformed/firebase-installations-17.0.1/AndroidManifest.xml:6:5-8:41
 MERGED from [com.google.firebase:firebase-installations:17.0.1] /home/moringa/.gradle/caches/transforms-3/3eb9072f55796a3363cd6d851b686456/transformed/firebase-installations-17.0.1/AndroidManifest.xml:6:5-8:41
 MERGED from [com.google.firebase:firebase-common:20.1.1] /home/moringa/.gradle/caches/transforms-3/ec3d5d1fdc0ec38bd2906c73fbed579f/transformed/firebase-common-20.1.1/AndroidManifest.xml:20:5-22:41
@@ -282,6 +316,8 @@ MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /home/mo
 MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /home/moringa/.gradle/caches/transforms-3/d3279b3a648b77a00c94e42a337e8938/transformed/firebase-measurement-connector-19.0.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-basement:18.0.0] /home/moringa/.gradle/caches/transforms-3/5d6e3e56e8652026d5bdc8686f18a0e6/transformed/play-services-basement-18.0.0/AndroidManifest.xml:18:5-43
 MERGED from [com.google.android.gms:play-services-basement:18.0.0] /home/moringa/.gradle/caches/transforms-3/5d6e3e56e8652026d5bdc8686f18a0e6/transformed/play-services-basement-18.0.0/AndroidManifest.xml:18:5-43
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/moringa/.gradle/caches/transforms-3/6bdc2b776454cc6012bb40f608fbe17d/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/moringa/.gradle/caches/transforms-3/6bdc2b776454cc6012bb40f608fbe17d/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.fragment:fragment:1.3.6] /home/moringa/.gradle/caches/transforms-3/e2be0df05b5089f6726dffdf94e4e9d2/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.fragment:fragment:1.3.6] /home/moringa/.gradle/caches/transforms-3/e2be0df05b5089f6726dffdf94e4e9d2/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.activity:activity:1.2.4] /home/moringa/.gradle/caches/transforms-3/eeb12aadb7f4897cb4b17bf06648c2e5/transformed/activity-1.2.4/AndroidManifest.xml:20:5-22:41
@@ -292,6 +328,8 @@ MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] /home/moringa/.gradle/ca
 MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] /home/moringa/.gradle/caches/transforms-3/ad37f5aa60f4596413bc413df7f16f00/transformed/emoji2-views-helper-1.0.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.emoji2:emoji2:1.0.0] /home/moringa/.gradle/caches/transforms-3/9c10419946c063b9dccf6ca0f94f1c83/transformed/emoji2-1.0.0/AndroidManifest.xml:21:5-23:41
 MERGED from [androidx.emoji2:emoji2:1.0.0] /home/moringa/.gradle/caches/transforms-3/9c10419946c063b9dccf6ca0f94f1c83/transformed/emoji2-1.0.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/moringa/.gradle/caches/transforms-3/f8dbffd02170f97c760f040d8e552433/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/moringa/.gradle/caches/transforms-3/f8dbffd02170f97c760f040d8e552433/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /home/moringa/.gradle/caches/transforms-3/ea637c16f9b9790521d5d924ad21f044/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /home/moringa/.gradle/caches/transforms-3/ea637c16f9b9790521d5d924ad21f044/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/moringa/.gradle/caches/transforms-3/d75e62f5bb57ee73b3fb94a0188b65f3/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
@@ -304,14 +342,24 @@ MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/moring
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/moringa/.gradle/caches/transforms-3/dc1df074d13499c1c4d86e06f0cfee81/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/moringa/.gradle/caches/transforms-3/a595ecb9c3572cea60b7ebf294e54fa6/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/moringa/.gradle/caches/transforms-3/a595ecb9c3572cea60b7ebf294e54fa6/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.browser:browser:1.4.0] /home/moringa/.gradle/caches/transforms-3/9da0c36d9d4a59881a8706337e726eaf/transformed/browser-1.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.browser:browser:1.4.0] /home/moringa/.gradle/caches/transforms-3/9da0c36d9d4a59881a8706337e726eaf/transformed/browser-1.4.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.viewpager:viewpager:1.0.0] /home/moringa/.gradle/caches/transforms-3/0322f3d568afa9494b32ff09c1ad6a22/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.viewpager:viewpager:1.0.0] /home/moringa/.gradle/caches/transforms-3/0322f3d568afa9494b32ff09c1ad6a22/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/moringa/.gradle/caches/transforms-3/f1887818c0fc4aa1fe1823432da2bb70/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/moringa/.gradle/caches/transforms-3/f1887818c0fc4aa1fe1823432da2bb70/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.loader:loader:1.0.0] /home/moringa/.gradle/caches/transforms-3/888b262693f8f8fafc114136ff3c0556/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.loader:loader:1.0.0] /home/moringa/.gradle/caches/transforms-3/888b262693f8f8fafc114136ff3c0556/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/moringa/.gradle/caches/transforms-3/e8c09435b36547c1594881701ed92c34/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/moringa/.gradle/caches/transforms-3/e8c09435b36547c1594881701ed92c34/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.customview:customview:1.1.0] /home/moringa/.gradle/caches/transforms-3/29cc496ad78aedbd04f4262e66615c76/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.customview:customview:1.1.0] /home/moringa/.gradle/caches/transforms-3/29cc496ad78aedbd04f4262e66615c76/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.0.0] /home/moringa/.gradle/caches/transforms-3/3ed643e87b2fb1cc3efaff626109b58e/transformed/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /home/moringa/.gradle/caches/transforms-3/3ed643e87b2fb1cc3efaff626109b58e/transformed/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/moringa/.gradle/caches/transforms-3/7a02692c41ee34b18475848c5b3d0af7/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/moringa/.gradle/caches/transforms-3/7a02692c41ee34b18475848c5b3d0af7/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/moringa/.gradle/caches/transforms-3/0c9566db4ee8481bb3d336cb41ec2f6d/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/moringa/.gradle/caches/transforms-3/0c9566db4ee8481bb3d336cb41ec2f6d/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.core:core:1.7.0] /home/moringa/.gradle/caches/transforms-3/503affcca2bf1d66493cf2ffd93b77cc/transformed/core-1.7.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.core:core:1.7.0] /home/moringa/.gradle/caches/transforms-3/503affcca2bf1d66493cf2ffd93b77cc/transformed/core-1.7.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/moringa/.gradle/caches/transforms-3/a5e3309a47e90943f40f649ddcd84091/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
@@ -320,12 +368,16 @@ MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /home/mori
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /home/moringa/.gradle/caches/transforms-3/424c2ebd3f90afd7a4dc433fd5b22bd2/transformed/lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.savedstate:savedstate:1.1.0] /home/moringa/.gradle/caches/transforms-3/3602fd8c250cb4156c235c582448ee42/transformed/savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.savedstate:savedstate:1.1.0] /home/moringa/.gradle/caches/transforms-3/3602fd8c250cb4156c235c582448ee42/transformed/savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.firebaseui:firebase-ui-common:7.1.1] /home/moringa/.gradle/caches/transforms-3/4fb7c16514d1b29d89ba6f13b9b870c1/transformed/firebase-ui-common-7.1.1/AndroidManifest.xml:7:5-9:41
+MERGED from [com.firebaseui:firebase-ui-common:7.1.1] /home/moringa/.gradle/caches/transforms-3/4fb7c16514d1b29d89ba6f13b9b870c1/transformed/firebase-ui-common-7.1.1/AndroidManifest.xml:7:5-9:41
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /home/moringa/.gradle/caches/transforms-3/3b11d204f7c9e3fb544ed5e32403604d/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /home/moringa/.gradle/caches/transforms-3/3b11d204f7c9e3fb544ed5e32403604d/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.cardview:cardview:1.0.0] /home/moringa/.gradle/caches/transforms-3/a1cd285b89f9cd2a8160aa040f394acb/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.cardview:cardview:1.0.0] /home/moringa/.gradle/caches/transforms-3/a1cd285b89f9cd2a8160aa040f394acb/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-components:17.0.0] /home/moringa/.gradle/caches/transforms-3/b00288ac3f3fa1b28c8a3770602f5a84/transformed/firebase-components-17.0.0/AndroidManifest.xml:19:5-21:41
 MERGED from [com.google.firebase:firebase-components:17.0.0] /home/moringa/.gradle/caches/transforms-3/b00288ac3f3fa1b28c8a3770602f5a84/transformed/firebase-components-17.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/moringa/.gradle/caches/transforms-3/deca2ef09eea99cc0fcf14ca9bb4497d/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/moringa/.gradle/caches/transforms-3/deca2ef09eea99cc0fcf14ca9bb4497d/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/moringa/.gradle/caches/transforms-3/bbf4b1eb1e29b2ccfd8c72a6628e8340/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/moringa/.gradle/caches/transforms-3/bbf4b1eb1e29b2ccfd8c72a6628e8340/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /home/moringa/.gradle/caches/transforms-3/4d3f5543a59ac0e586b3333b2fead6aa/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:21:5-23:41
@@ -346,8 +398,6 @@ MERGED from [androidx.interpolator:interpolator:1.0.0] /home/moringa/.gradle/cac
 MERGED from [androidx.interpolator:interpolator:1.0.0] /home/moringa/.gradle/caches/transforms-3/ba67af30cb21ff6c49150fd240658e55/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.documentfile:documentfile:1.0.0] /home/moringa/.gradle/caches/transforms-3/1c3698a71489deca451270c4fcfaee8a/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.documentfile:documentfile:1.0.0] /home/moringa/.gradle/caches/transforms-3/1c3698a71489deca451270c4fcfaee8a/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/moringa/.gradle/caches/transforms-3/deca2ef09eea99cc0fcf14ca9bb4497d/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/moringa/.gradle/caches/transforms-3/deca2ef09eea99cc0fcf14ca9bb4497d/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.print:print:1.0.0] /home/moringa/.gradle/caches/transforms-3/7789ee002d0fbba34921bda99c4c769a/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.print:print:1.0.0] /home/moringa/.gradle/caches/transforms-3/7789ee002d0fbba34921bda99c4c769a/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] /home/moringa/.gradle/caches/transforms-3/e0f4fe9d7bd27feec69332738d5a41f9/transformed/annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
@@ -374,6 +424,8 @@ ADDED from [com.squareup.picasso:picasso:2.71828] /home/moringa/.gradle/caches/t
 		ADDED from [com.squareup.picasso:picasso:2.71828] /home/moringa/.gradle/caches/transforms-3/4d6de74c72bbf8c78e750aea34b3e9af/transformed/picasso-2.71828/AndroidManifest.xml:9:13-64
 uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from [com.google.firebase:firebase-database:20.0.5] /home/moringa/.gradle/caches/transforms-3/f968e7fe978a8944d51e976ae60cf201/transformed/firebase-database-20.0.5/AndroidManifest.xml:25:5-79
+MERGED from [com.google.firebase:firebase-auth:21.0.5] /home/moringa/.gradle/caches/transforms-3/6f141595851db8403bbe938209d5903d/transformed/firebase-auth-21.0.5/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-auth:21.0.5] /home/moringa/.gradle/caches/transforms-3/6f141595851db8403bbe938209d5903d/transformed/firebase-auth-21.0.5/AndroidManifest.xml:24:5-79
 MERGED from [com.google.android.gms:play-services-measurement-api:21.0.0] /home/moringa/.gradle/caches/transforms-3/ed0d3f51556350dc4da86a17f0d1e196/transformed/play-services-measurement-api-21.0.0/AndroidManifest.xml:23:5-79
 MERGED from [com.google.android.gms:play-services-measurement-api:21.0.0] /home/moringa/.gradle/caches/transforms-3/ed0d3f51556350dc4da86a17f0d1e196/transformed/play-services-measurement-api-21.0.0/AndroidManifest.xml:23:5-79
 MERGED from [com.google.firebase:firebase-installations:17.0.1] /home/moringa/.gradle/caches/transforms-3/3eb9072f55796a3363cd6d851b686456/transformed/firebase-installations-17.0.1/AndroidManifest.xml:10:5-79
@@ -388,6 +440,8 @@ MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.0.0] /h
 		ADDED from [com.google.firebase:firebase-database:20.0.5] /home/moringa/.gradle/caches/transforms-3/f968e7fe978a8944d51e976ae60cf201/transformed/firebase-database-20.0.5/AndroidManifest.xml:25:22-76
 service#com.google.firebase.components.ComponentDiscoveryService
 ADDED from [com.google.firebase:firebase-database:20.0.5] /home/moringa/.gradle/caches/transforms-3/f968e7fe978a8944d51e976ae60cf201/transformed/firebase-database-20.0.5/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-auth:21.0.5] /home/moringa/.gradle/caches/transforms-3/6f141595851db8403bbe938209d5903d/transformed/firebase-auth-21.0.5/AndroidManifest.xml:64:9-70:19
+MERGED from [com.google.firebase:firebase-auth:21.0.5] /home/moringa/.gradle/caches/transforms-3/6f141595851db8403bbe938209d5903d/transformed/firebase-auth-21.0.5/AndroidManifest.xml:64:9-70:19
 MERGED from [com.google.android.gms:play-services-measurement-api:21.0.0] /home/moringa/.gradle/caches/transforms-3/ed0d3f51556350dc4da86a17f0d1e196/transformed/play-services-measurement-api-21.0.0/AndroidManifest.xml:28:9-34:19
 MERGED from [com.google.android.gms:play-services-measurement-api:21.0.0] /home/moringa/.gradle/caches/transforms-3/ed0d3f51556350dc4da86a17f0d1e196/transformed/play-services-measurement-api-21.0.0/AndroidManifest.xml:28:9-34:19
 MERGED from [com.google.firebase:firebase-installations:17.0.1] /home/moringa/.gradle/caches/transforms-3/3eb9072f55796a3363cd6d851b686456/transformed/firebase-installations-17.0.1/AndroidManifest.xml:15:9-21:19
@@ -408,6 +462,60 @@ ADDED from [com.google.firebase:firebase-database:20.0.5] /home/moringa/.gradle/
 		ADDED from [com.google.firebase:firebase-database:20.0.5] /home/moringa/.gradle/caches/transforms-3/f968e7fe978a8944d51e976ae60cf201/transformed/firebase-database-20.0.5/AndroidManifest.xml:34:17-82
 	android:name
 		ADDED from [com.google.firebase:firebase-database:20.0.5] /home/moringa/.gradle/caches/transforms-3/f968e7fe978a8944d51e976ae60cf201/transformed/firebase-database-20.0.5/AndroidManifest.xml:33:17-109
+activity#com.google.firebase.auth.internal.GenericIdpActivity
+ADDED from [com.google.firebase:firebase-auth:21.0.5] /home/moringa/.gradle/caches/transforms-3/6f141595851db8403bbe938209d5903d/transformed/firebase-auth-21.0.5/AndroidManifest.xml:27:9-44:20
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:21.0.5] /home/moringa/.gradle/caches/transforms-3/6f141595851db8403bbe938209d5903d/transformed/firebase-auth-21.0.5/AndroidManifest.xml:29:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:21.0.5] /home/moringa/.gradle/caches/transforms-3/6f141595851db8403bbe938209d5903d/transformed/firebase-auth-21.0.5/AndroidManifest.xml:31:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:21.0.5] /home/moringa/.gradle/caches/transforms-3/6f141595851db8403bbe938209d5903d/transformed/firebase-auth-21.0.5/AndroidManifest.xml:30:13-36
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:21.0.5] /home/moringa/.gradle/caches/transforms-3/6f141595851db8403bbe938209d5903d/transformed/firebase-auth-21.0.5/AndroidManifest.xml:32:13-72
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:21.0.5] /home/moringa/.gradle/caches/transforms-3/6f141595851db8403bbe938209d5903d/transformed/firebase-auth-21.0.5/AndroidManifest.xml:28:13-80
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:firebase.auth+data:path:/+data:scheme:genericidp
+ADDED from [com.google.firebase:firebase-auth:21.0.5] /home/moringa/.gradle/caches/transforms-3/6f141595851db8403bbe938209d5903d/transformed/firebase-auth-21.0.5/AndroidManifest.xml:33:13-43:29
+action#android.intent.action.VIEW
+ADDED from [com.google.firebase:firebase-auth:21.0.5] /home/moringa/.gradle/caches/transforms-3/6f141595851db8403bbe938209d5903d/transformed/firebase-auth-21.0.5/AndroidManifest.xml:34:17-69
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:21.0.5] /home/moringa/.gradle/caches/transforms-3/6f141595851db8403bbe938209d5903d/transformed/firebase-auth-21.0.5/AndroidManifest.xml:34:25-66
+category#android.intent.category.DEFAULT
+ADDED from [com.google.firebase:firebase-auth:21.0.5] /home/moringa/.gradle/caches/transforms-3/6f141595851db8403bbe938209d5903d/transformed/firebase-auth-21.0.5/AndroidManifest.xml:36:17-76
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:21.0.5] /home/moringa/.gradle/caches/transforms-3/6f141595851db8403bbe938209d5903d/transformed/firebase-auth-21.0.5/AndroidManifest.xml:36:27-73
+category#android.intent.category.BROWSABLE
+ADDED from [com.google.firebase:firebase-auth:21.0.5] /home/moringa/.gradle/caches/transforms-3/6f141595851db8403bbe938209d5903d/transformed/firebase-auth-21.0.5/AndroidManifest.xml:37:17-78
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:21.0.5] /home/moringa/.gradle/caches/transforms-3/6f141595851db8403bbe938209d5903d/transformed/firebase-auth-21.0.5/AndroidManifest.xml:37:27-75
+data
+ADDED from [com.google.firebase:firebase-auth:21.0.5] /home/moringa/.gradle/caches/transforms-3/6f141595851db8403bbe938209d5903d/transformed/firebase-auth-21.0.5/AndroidManifest.xml:39:17-42:51
+	android:path
+		ADDED from [com.google.firebase:firebase-auth:21.0.5] /home/moringa/.gradle/caches/transforms-3/6f141595851db8403bbe938209d5903d/transformed/firebase-auth-21.0.5/AndroidManifest.xml:41:21-37
+	android:host
+		ADDED from [com.google.firebase:firebase-auth:21.0.5] /home/moringa/.gradle/caches/transforms-3/6f141595851db8403bbe938209d5903d/transformed/firebase-auth-21.0.5/AndroidManifest.xml:40:21-49
+	android:scheme
+		ADDED from [com.google.firebase:firebase-auth:21.0.5] /home/moringa/.gradle/caches/transforms-3/6f141595851db8403bbe938209d5903d/transformed/firebase-auth-21.0.5/AndroidManifest.xml:42:21-48
+activity#com.google.firebase.auth.internal.RecaptchaActivity
+ADDED from [com.google.firebase:firebase-auth:21.0.5] /home/moringa/.gradle/caches/transforms-3/6f141595851db8403bbe938209d5903d/transformed/firebase-auth-21.0.5/AndroidManifest.xml:45:9-62:20
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:21.0.5] /home/moringa/.gradle/caches/transforms-3/6f141595851db8403bbe938209d5903d/transformed/firebase-auth-21.0.5/AndroidManifest.xml:47:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:21.0.5] /home/moringa/.gradle/caches/transforms-3/6f141595851db8403bbe938209d5903d/transformed/firebase-auth-21.0.5/AndroidManifest.xml:49:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:21.0.5] /home/moringa/.gradle/caches/transforms-3/6f141595851db8403bbe938209d5903d/transformed/firebase-auth-21.0.5/AndroidManifest.xml:48:13-36
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:21.0.5] /home/moringa/.gradle/caches/transforms-3/6f141595851db8403bbe938209d5903d/transformed/firebase-auth-21.0.5/AndroidManifest.xml:50:13-72
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:21.0.5] /home/moringa/.gradle/caches/transforms-3/6f141595851db8403bbe938209d5903d/transformed/firebase-auth-21.0.5/AndroidManifest.xml:46:13-79
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:firebase.auth+data:path:/+data:scheme:recaptcha
+ADDED from [com.google.firebase:firebase-auth:21.0.5] /home/moringa/.gradle/caches/transforms-3/6f141595851db8403bbe938209d5903d/transformed/firebase-auth-21.0.5/AndroidManifest.xml:51:13-61:29
+meta-data#com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar
+ADDED from [com.google.firebase:firebase-auth:21.0.5] /home/moringa/.gradle/caches/transforms-3/6f141595851db8403bbe938209d5903d/transformed/firebase-auth-21.0.5/AndroidManifest.xml:67:13-69:85
+	android:value
+		ADDED from [com.google.firebase:firebase-auth:21.0.5] /home/moringa/.gradle/caches/transforms-3/6f141595851db8403bbe938209d5903d/transformed/firebase-auth-21.0.5/AndroidManifest.xml:69:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:21.0.5] /home/moringa/.gradle/caches/transforms-3/6f141595851db8403bbe938209d5903d/transformed/firebase-auth-21.0.5/AndroidManifest.xml:68:17-109
 activity#com.google.android.gms.common.api.GoogleApiActivity
 ADDED from [com.google.android.gms:play-services-base:18.0.1] /home/moringa/.gradle/caches/transforms-3/0e6f522ad209f5e182b9c0b3dea1b6cb/transformed/play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
 	android:exported

@@ -15,6 +15,7 @@
         android:background="@drawable/layout"
         android:id="@+id/mealImage"
         android:src="@drawable/samosa"
+        android:layout_marginStart="8dp"
         android:adjustViewBounds="true"
         app:shapeAppearanceOverlay="@style/radius"
         app:layout_constraintStart_toStartOf="parent"
@@ -60,7 +61,7 @@
         app:layout_constraintRight_toLeftOf="@id/price"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/mealImage"
-        app:layout_constraintBottom_toBottomOf="parent"/>
+        app:layout_constraintBottom_toTopOf="@id/readMore"/>
 
     <TextView
         android:id="@+id/price"
@@ -69,9 +70,33 @@
         android:layout_margin="8dp"
         android:text="Ksh. 350/="
         android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/save"
         app:layout_constraintLeft_toRightOf="@+id/rating"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/mealImage" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/readMore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/splash3"
+        android:text="Read More"
+        android:layout_marginStart="8dp"
+        app:layout_constraintRight_toLeftOf="@id/save"
+       app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/rating"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/splash3"
+        android:layout_marginEnd="8dp"
+        android:text="Save"
+        app:layout_constraintLeft_toRightOf="@id/readMore"
+        app:layout_constraintTop_toBottomOf="@id/price"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.muvkintours.app-mergeDebugResources-27:/values-w360dp-port-v13/values-w360dp-port-v13.xml",
+            "outputFile": "com.example.muvkintours.app-mergeDebugResources-29:/values-w360dp-port-v13/values-w360dp-port-v13.xml",
             "map": [
                 {
                     "source": "/home/moringa/.gradle/caches/transforms-3/23804fc5ebf6fbd304b3ec15f3681af1/transformed/material-1.6.1/res/values-w360dp-port-v13/values-w360dp-port-v13.xml",

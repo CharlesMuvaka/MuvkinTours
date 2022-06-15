@@ -13,6 +13,7 @@ import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.example.muvkintours.R;
+import com.google.android.material.button.MaterialButton;
 import com.google.android.material.imageview.ShapeableImageView;
 import java.lang.NullPointerException;
 import java.lang.Override;
@@ -32,6 +33,9 @@ public final class FragmentMealBinding implements ViewBinding {
   public final TextView desc;
 
   @NonNull
+  public final MaterialButton fragSave;
+
+  @NonNull
   public final ShapeableImageView image;
 
   @NonNull
@@ -44,12 +48,14 @@ public final class FragmentMealBinding implements ViewBinding {
   public final RatingBar rate;
 
   private FragmentMealBinding(@NonNull ScrollView rootView, @NonNull TextView category,
-      @NonNull ConstraintLayout cont1, @NonNull TextView desc, @NonNull ShapeableImageView image,
-      @NonNull TextView ingNum, @NonNull TextView name, @NonNull RatingBar rate) {
+      @NonNull ConstraintLayout cont1, @NonNull TextView desc, @NonNull MaterialButton fragSave,
+      @NonNull ShapeableImageView image, @NonNull TextView ingNum, @NonNull TextView name,
+      @NonNull RatingBar rate) {
     this.rootView = rootView;
     this.category = category;
     this.cont1 = cont1;
     this.desc = desc;
+    this.fragSave = fragSave;
     this.image = image;
     this.ingNum = ingNum;
     this.name = name;
@@ -101,6 +107,12 @@ public final class FragmentMealBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.fragSave;
+      MaterialButton fragSave = ViewBindings.findChildViewById(rootView, id);
+      if (fragSave == null) {
+        break missingId;
+      }
+
       id = R.id.image;
       ShapeableImageView image = ViewBindings.findChildViewById(rootView, id);
       if (image == null) {
@@ -125,8 +137,8 @@ public final class FragmentMealBinding implements ViewBinding {
         break missingId;
       }
 
-      return new FragmentMealBinding((ScrollView) rootView, category, cont1, desc, image, ingNum,
-          name, rate);
+      return new FragmentMealBinding((ScrollView) rootView, category, cont1, desc, fragSave, image,
+          ingNum, name, rate);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

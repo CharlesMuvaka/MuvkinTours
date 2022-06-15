@@ -4,6 +4,7 @@ package com.example.muvkintours.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.CheckBox;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -29,6 +30,9 @@ public final class ActivityMainBinding implements ViewBinding {
   public final MaterialButton btnSign;
 
   @NonNull
+  public final CheckBox checkBox;
+
+  @NonNull
   public final ShapeableImageView logImage;
 
   @NonNull
@@ -38,26 +42,28 @@ public final class ActivityMainBinding implements ViewBinding {
   public final TextView logWelcome;
 
   @NonNull
-  public final TextInputLayout userName;
+  public final TextView quest;
 
   @NonNull
-  public final TextInputLayout userPassword;
+  public final TextInputLayout userName;
 
   @NonNull
   public final TextInputLayout userPhone;
 
   private ActivityMainBinding(@NonNull ConstraintLayout rootView, @NonNull MaterialButton btnLogin,
-      @NonNull MaterialButton btnSign, @NonNull ShapeableImageView logImage,
-      @NonNull TextView logSlogan, @NonNull TextView logWelcome, @NonNull TextInputLayout userName,
-      @NonNull TextInputLayout userPassword, @NonNull TextInputLayout userPhone) {
+      @NonNull MaterialButton btnSign, @NonNull CheckBox checkBox,
+      @NonNull ShapeableImageView logImage, @NonNull TextView logSlogan,
+      @NonNull TextView logWelcome, @NonNull TextView quest, @NonNull TextInputLayout userName,
+      @NonNull TextInputLayout userPhone) {
     this.rootView = rootView;
     this.btnLogin = btnLogin;
     this.btnSign = btnSign;
+    this.checkBox = checkBox;
     this.logImage = logImage;
     this.logSlogan = logSlogan;
     this.logWelcome = logWelcome;
+    this.quest = quest;
     this.userName = userName;
-    this.userPassword = userPassword;
     this.userPhone = userPhone;
   }
 
@@ -100,6 +106,12 @@ public final class ActivityMainBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.checkBox;
+      CheckBox checkBox = ViewBindings.findChildViewById(rootView, id);
+      if (checkBox == null) {
+        break missingId;
+      }
+
       id = R.id.logImage;
       ShapeableImageView logImage = ViewBindings.findChildViewById(rootView, id);
       if (logImage == null) {
@@ -118,15 +130,15 @@ public final class ActivityMainBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.userName;
-      TextInputLayout userName = ViewBindings.findChildViewById(rootView, id);
-      if (userName == null) {
+      id = R.id.quest;
+      TextView quest = ViewBindings.findChildViewById(rootView, id);
+      if (quest == null) {
         break missingId;
       }
 
-      id = R.id.userPassword;
-      TextInputLayout userPassword = ViewBindings.findChildViewById(rootView, id);
-      if (userPassword == null) {
+      id = R.id.userName;
+      TextInputLayout userName = ViewBindings.findChildViewById(rootView, id);
+      if (userName == null) {
         break missingId;
       }
 
@@ -136,8 +148,8 @@ public final class ActivityMainBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityMainBinding((ConstraintLayout) rootView, btnLogin, btnSign, logImage,
-          logSlogan, logWelcome, userName, userPassword, userPhone);
+      return new ActivityMainBinding((ConstraintLayout) rootView, btnLogin, btnSign, checkBox,
+          logImage, logSlogan, logWelcome, quest, userName, userPhone);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
