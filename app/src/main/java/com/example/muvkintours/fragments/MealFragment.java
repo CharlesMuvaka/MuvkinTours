@@ -7,16 +7,19 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import com.example.muvkintours.databinding.FragmentMealBinding;
-import com.example.muvkintours.models.Category;
-import com.squareup.picasso.Picasso;
+import android.widget.Toast;
 
-import org.parceler.Parcels;
+import com.example.muvkintours.databinding.FragmentMealBinding;
+import com.example.muvkintours.mealApi.Constants;
+import com.example.muvkintours.models.Meals;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+import com.squareup.picasso.Picasso;
 
 
 public class MealFragment extends Fragment {
     FragmentMealBinding mealBinding;
-    Category category;
+    Meals category;
 
 
 
@@ -26,10 +29,10 @@ public class MealFragment extends Fragment {
     }
 
 
-    public static MealFragment newInstance(Category category) {
+    public static MealFragment newInstance(Meals category) {
         MealFragment fragment = new MealFragment();
         Bundle args = new Bundle();
-        args.putParcelable("category", Parcels.wrap(category));
+        args.putSerializable("category", category);
         fragment.setArguments(args);
         return fragment;
     }
@@ -38,7 +41,8 @@ public class MealFragment extends Fragment {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         if (getArguments() != null) {
-            category = Parcels.unwrap(getArguments().getParcelable("category"));
+            category = (Meals) getArguments().getSerializable("category");
+
         }
     }
 
@@ -50,11 +54,23 @@ public class MealFragment extends Fragment {
         mealBinding = FragmentMealBinding.inflate(inflater, container, false);
         View v = mealBinding.getRoot();
 
-        Picasso.get().load(category.getStrCategoryThumb()).into(mealBinding.image);
+        Picasso.get().load(category.getStrMealThumb()).into(mealBinding.image);
         mealBinding.name.setText(category.getStrCategory());
-        mealBinding.desc.setText(category.getStrCategoryDescription());
-        mealBinding.ingNum.setText("IngredientId: " +category.getIdCategory());
+        mealBinding.desc.setText(category.getStrInstructions());
+        mealBinding.ingNum.setText("IngredientId: " +category.getIdMeal());
+
+        mealBinding.fragSave.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                DatabaseReference ref = FirebaseDatabase.getInstance().getReference();
+
+                ref.child(Constants.CATEGORIES).child(category.getIdMeal()).setValue(category);
+                Toast.makeText(getContext(), "Successfully Saved", Toast.LENGTH_SHORT).show();
+            }
+        });
 
         return v;
     }
+
+
 }
