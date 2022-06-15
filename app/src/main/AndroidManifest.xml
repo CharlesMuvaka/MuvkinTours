@@ -16,19 +16,25 @@
         android:theme="@style/Theme.MuvkinTours"
         tools:targetApi="31">
         <activity
-            android:name=".MealDetailActivity"
+            android:name=".FirebaseMealActivity"
             android:exported="false" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".MealActivity"/>
-
+                android:value=".MealActivity" />
+        </activity>
+        <activity
+            android:name=".MealDetailActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MealActivity" />
         </activity>
         <activity
             android:name=".MealActivity"
             android:exported="false">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".MainActivity"/>
+                android:value=".MainActivity" />
         </activity>
         <activity
             android:name=".MainActivity"
