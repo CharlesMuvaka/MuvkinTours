@@ -5,6 +5,8 @@ import static org.junit.Assert.*;
 import android.widget.Button;
 import android.widget.TextView;
 
+import com.google.android.material.button.MaterialButton;
+
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -24,9 +26,17 @@ public class MealActivityTest {
     public void getParagraphText_ReturnsString(){
 
         TextView order = act.findViewById(R.id.mealText);
-        String text = "WELCOMEnull, click on the category to read more...";
+        String text = "WELCOME, null";
 
         assertEquals(text, order.getText());
+    }
+
+    @Test
+    public void checkButtonText(){
+        MaterialButton btn = act.findViewById(R.id.showSavedMeals);
+        String text = "Show saved Meals";
+
+        assertEquals(text,btn.getText() );
     }
 
 
