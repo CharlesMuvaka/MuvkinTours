@@ -27,7 +27,7 @@ public class MainActivityInstrumentedTest {
         onView(allOf(
                 isDescendantOfA(withId(R.id.userName)),
                 withClassName(endsWith("TextInputEditText"))
-        )).perform(typeText("Charles Muvaka"));
+        )).perform(typeText("muvakacharles@gmail.com"));
 
         onView(allOf(isDescendantOfA(withId(R.id.userPhone)),withClassName(endsWith("TextInputEditText")))).perform(typeText("0768761611"));
 
