@@ -36,6 +36,21 @@ public class SignUpActivityInstrumentedTest {
                 withClassName(endsWith("TextInputEditText"))
         )).perform(typeText("0711223344"));
 
+        onView(allOf(
+                isDescendantOfA(withId(R.id.userTicket)),
+                withClassName(endsWith("TextInputEditText"))
+        )).perform(typeText("muvakacharles@gmail.com"));
+
+        onView(allOf(
+                isDescendantOfA(withId(R.id.userSeat)),
+                withClassName(endsWith("TextInputEditText"))
+        )).perform(typeText("muvakacharles"));
+
+        onView(allOf(
+                isDescendantOfA(withId(R.id.userCoach)),
+                withClassName(endsWith("TextInputEditText"))
+        )).perform(typeText("muvakacharles"));
+
         try {
             Thread.sleep(1000);
         } catch (InterruptedException e) {
