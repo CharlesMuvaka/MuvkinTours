@@ -25,20 +25,32 @@ public class MealActivityInstrumentedTest {
 
     @Test
     public void checkTextViewVisibility() {
-        onView(withId(R.id.mealText)).check(matches(withEffectiveVisibility(ViewMatchers.Visibility.GONE)));
+        onView(withId(R.id.mealText)).check(matches(withEffectiveVisibility(ViewMatchers.Visibility.VISIBLE)));
     }
 
     @Test
     public void checkRecyclerViewVisibility() {
-        onView(withId(R.id.recView)).check(matches(withEffectiveVisibility(ViewMatchers.Visibility.GONE)));
+        onView(withId(R.id.recView)).check(matches(withEffectiveVisibility(ViewMatchers.Visibility.VISIBLE)));
 
     }
 
     @Test
     public void checkProgressBarVisibility() {
 
-        onView(withId(R.id.progressBar)).check(matches(withEffectiveVisibility(ViewMatchers.Visibility.VISIBLE)));
+        onView(withId(R.id.progressBar)).check(matches(withEffectiveVisibility(ViewMatchers.Visibility.GONE)));
 
+    }
+
+    @Test
+    public void checkButtonVisibility() {
+
+        onView(withId(R.id.showSavedMeals)).check(matches(withEffectiveVisibility(ViewMatchers.Visibility.VISIBLE)));
+
+    }
+
+    @Test
+    public void clickShowMeals(){
+        onView(withId(R.id.showSavedMeals)).perform(click());
     }
 
 }
